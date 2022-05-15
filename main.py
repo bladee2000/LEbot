@@ -1,125 +1,148 @@
 import requests
-from ast import literal_eval
+import time
+import asyncio
+from functools import partial
 from bs4 import BeautifulSoup
-from urllib import parse
-import json
+import bot
+import session
 
-# document_srl(게시물 고유번호)를 받아 게시판(mid)을 리턴
-# 국외 게시판 : fboard
-# 국내 게시판 : kboard
-# 워크룸 : workroom
-# .... 기타등등
-def get_mid(document_srl):
-    document_srl = str(document_srl)
-    header = {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
-
-    }
-    r = requests.get(url=f"https://hiphople.com/{document_srl}", headers=header)
-    soup = BeautifulSoup(r.text, 'html.parser')
-    return soup.find('div', {'id':"aplosboard"}).attrs['mid']
-
-class create_post_session:
-    with requests.Session() as s:
-        def __init__(self):
-            self.csrf_token = ""
-            with open('secret.json',encoding='UTF-8') as f:
-                secret = json.load(f)
-            self.__my_id = secret['id']
-            self.__my_pw = secret['pw']
-            self.my_nickname = secret['nickname']
-
-        # 1. HiphopLE 처음 GET 시 PHPSESSID, rx_sesskey1, rx_sesskey2, rx_uatype 발급받음(쿠키로)
-        # 2. 그 후 동일 세션에서 로그인시 csrf-token 발급
-        # 세션에 이미 쿠키 존재시 기존에 발급받은 self.csrf_token 리턴
-        def login(self):
-            if self.csrf_token:
-                print("쿠키값이 이미 존재합니다..")
-                return self.csrf_token
-            else:
-                pass
-
-            url = 'https://hiphople.com/'
-
-            useragent_header = {
+useragent_header = {
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
             }
-            self.s.get(url=url,headers=useragent_header)
-            print(self.s.cookies.get_dict())
 
-            #login_cookie = getindex.cookies.get_dict()
-            login_header = {
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
-                "content-type":"application/x-www-form-urlencoded; charset=UTF-8",
-                "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                "accept-encoding":"gzip, deflate, br",
-                "accept-language":"ko-KR,ko;q=0.9",
-                "cache-control":"max-age=0",
-                "sec-ch-ua":'" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
-                "sec-ch-ua-platform":'"Windows"',
-                "sec-ch-ua-mobile":"?0",
-                "sec-fetch-dest":"document",
-                "sec-fetch-mode":"navigate",
-                "sec-fetch-site":"same-origin",
-                "sec-fetch-user":"?1",
-                "upgrade-insecure-requests":"1",
-                "referer":"https://hiphople.com/"
+tasks = []
+error_count = 0
+sus_count = 0
+all_comment_doc_count = 0
+mid = "workroom" # 필터링할 게시판
 
-            }
-            #print(login_header)
-            #print(login_cookie)
+# 워크룸 한페이당 게시물 30개
+async def get_page(i):
+    global useragent_header,mid
+    print(f'{i}번째 페이지 시작...')
+
+    url = f"https://hiphople.com/{mid}?page={i}"
+
+    r = partial(requests.get, url=url,headers=useragent_header)
+    a = await loop.run_in_executor(None, r)
+    soup = BeautifulSoup(a.text,"html.parser")
+
+    soup = soup.select("#flagList > table > tbody > tr:not(.notice) > td.title")
+
+    await document_filter(soup)
 
 
 
-            login_data = f'error_return_url=%2F&mid=main&ruleset=%40login&act=procMemberLogin&success_return_url=%2F&user_id={self.__my_id}&password={self.__my_pw}'
+    print(f'{i}번째 페이지 완료')
 
-            postlogin = self.s.post(url=url,data=login_data,headers=login_header)
-            #print(postlogin.headers)
+# 댓글이 있는 게시물을 걸러냄 -> comment_filter로 보냄
+async def document_filter(soup):
+    global all_comment_doc_count
+    for x in range(0,len(soup)):
+        comment = BeautifulSoup(str(soup[x]),"html.parser")
+        if comment.find_all("a",attrs={"title":"댓글"}):
+            all_comment_doc_count += 1
+            document_srl = comment.find("a")["href"]
+            document_srl = document_srl.replace(f'/{mid}/','')
+            document_srl = document_srl[:document_srl.find("?")]
 
-            gettokenhtml = postlogin.text
-            csrf_token = gettokenhtml[297:313]
-            print("token 발급완료..  token : " + csrf_token)
+            await make_comment_list("https://hiphople.com"+comment.find("a")["href"],document_srl)
 
-            self.csrf_token = csrf_token
-            return csrf_token
+            #await asyncio.sleep(0.05)
+            #time.sleep(0.05)
 
-        # document_srl 만 들어올시 게시물에 댓글
-        # document_srl 와 parent_srl 이 같이 들어오면 대댓글
-        # document_srl : 게시물번호
-        # comment : 내용
-        # parent_srl : 댓글번호
-        # mid : 게시판(선택)
-        def comment_write(self,document_srl,comment,parent_srl="",mid=None):
-            csrf_token = self.login()
-            print(self.s.cookies.get_dict())
+# 필요한거
+# 댓글번호(parent_srl), 댓글내용, 댓글작성자
 
-            if mid == None:
-                mid = get_mid(document_srl)
-            comment_data = {
-                "_filter":"insert_comment",
-                "error_return_url":f"/{str(document_srl)}",
-                "member_nickname": self.my_nickname,
-                "mid":str(mid),
-                "document_srl":str(document_srl),
-                "parent_srl":str(parent_srl),
-                "use_html":"Y",
-                "content": str(comment), #댓글 내용
-                "_rx_csrf_token": str(csrf_token),
-                "module":"board",
-                "act":"procBoardInsertComment",
-                "_rx_ajax_compat":"XMLRPC"
-                    }
-            comment_data = parse.urlencode(comment_data)
-            comment_header = {
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
-                "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-                # "x-csrf-token":f"{csrf_token}",
-                "accept": "application/json, text/javascript, */*; q=0.01",
-                "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"'
-            }
-            post_comment = self.s.post(url='https://hiphople.com/', data=comment_data, headers=comment_header)
-            print(literal_eval(post_comment.text)["message"])
-            return literal_eval(post_comment.text)
+# 댓글 리스트 만들어서 comment_filter 로 보냄
+async def make_comment_list(url, document_srl):
+    global useragent_header,error_count, sus_count
+
+    par_t = partial(requests.get, url=url,headers=useragent_header)
+    res = await loop.run_in_executor(None, par_t)
+
+    if res.status_code == 429: # 429(너무 많은 요청)일때 재시도
+        print("error... 재시도")
+        error_count += 1
+        #await asyncio.sleep(0.1)
+        time.sleep(0.05)
+        await make_comment_list(url)
+    if res.status_code == 200:
+        comments_list = BeautifulSoup(res.text,"html.parser")
+        comments_list = comments_list.select('#comment > ul > li')
+
+        await comment_filter(comments_list,document_srl,url)
 
 
+        sus_count += 1
 
+# 댓글 내용을 필터링함
+# 댓글 맨 앞에 "!" 가 있으면 명령어로 인식
+# 명령어 부분만 슬라이싱해서 bot.filter으로 보내고
+# bot.filter에서 명령어 실행후 출력값을 받음
+# s.comment_write 으로 댓글작성
+async def comment_filter(comments_list, document_srl,url):
+    for x in range(len(comments_list)):
+        comment = BeautifulSoup(str(comments_list[x]), "html.parser")
+
+        comment_text = comment.select('.comment-body > div ')
+        if len(comment_text) == 2:
+            comment_text = comment.select('.comment-body > div:nth-child(2)')
+        comment_text = BeautifulSoup(str(comment_text), "html.parser")
+
+        try:
+            comment_text = str(comment_text.find('p').get_text()) + " "
+        except:
+            # 스티커는 <class 'NoneType'> 반환
+            # <class 'NoneType'>에는 get_text()가 없어 오류..
+            comment_text = " "
+
+        if comment_text[0] == "!":  # !가 붙은 댓글만 필터링
+            comment_nickname = comment.select_one('div:nth-child(1) > div:nth-child(1) > a').get_text()
+            comment_srl = comments_list[x]["id"][8:]
+
+            bot_command = comment_text[1:comment_text.find(" ")]
+            space_pos = [pos for pos, char in enumerate(comment_text) if char == " "]
+            bot_arg = []
+
+            for ii in range(len(space_pos) - 1):
+                bot_arg.append(comment_text[space_pos[ii] + 1:space_pos[ii + 1]])
+
+
+            # bot.py에서 명령어 실행해서 리턴
+            bot_output = await bot.filter(bot_command, bot_arg, comment_nickname)
+
+            # 최종적으로 답글작성
+            print(await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid))
+
+# 이미 처리된 댓글인지 구분
+def check_already_comment():
+    pass
+
+
+def made_taks():
+    global tasks
+    for i in range(1,3):
+        tasks.append(asyncio.create_task(get_page(i)))
+
+    return tasks
+
+async def run():
+    global error_count,sus_count, all_comment_doc_count
+    tasks = made_taks()
+
+    tasks_results = await asyncio.gather(*tasks)
+    print(f"댓글이 있는 문서 수 : {all_comment_doc_count}")
+    print(f"실패한 리퀘스트 : {error_count}\n성공한 리퀘스트 : {sus_count}")
+    return tasks_results
+
+
+s = session.create_post_session()
+
+set_t = time.time()
+loop = asyncio.get_event_loop()
+
+result = loop.run_until_complete(run())
+
+end_t = time.time()
+print(end_t - set_t)
