@@ -5,16 +5,15 @@ from functools import partial
 from bs4 import BeautifulSoup
 import bot
 import session
+import json
 
 useragent_header = {
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
             }
 
-tasks = []
-error_count = 0
-sus_count = 0
-all_comment_doc_count = 0
-mid = "workroom" # 필터링할 게시판
+
+
+
 
 # 워크룸 한페이당 게시물 30개
 async def get_page(i):
@@ -41,7 +40,7 @@ async def document_filter(soup):
     for x in range(0,len(soup)):
         comment = BeautifulSoup(str(soup[x]),"html.parser")
         if comment.find_all("a",attrs={"title":"댓글"}):
-            all_comment_doc_count += 1
+
             document_srl = comment.find("a")["href"]
             document_srl = document_srl.replace(f'/{mid}/','')
             document_srl = document_srl[:document_srl.find("?")]
@@ -56,17 +55,18 @@ async def document_filter(soup):
 
 # 댓글 리스트 만들어서 comment_filter 로 보냄
 async def make_comment_list(url, document_srl):
-    global useragent_header,error_count, sus_count
+    global useragent_header
 
+    # 게시물 GET
     par_t = partial(requests.get, url=url,headers=useragent_header)
     res = await loop.run_in_executor(None, par_t)
 
     if res.status_code == 429: # 429(너무 많은 요청)일때 재시도
         print("error... 재시도")
-        error_count += 1
+
         #await asyncio.sleep(0.1)
         time.sleep(0.05)
-        await make_comment_list(url)
+        await make_comment_list(url, document_srl)
     if res.status_code == 200:
         comments_list = BeautifulSoup(res.text,"html.parser")
         comments_list = comments_list.select('#comment > ul > li')
@@ -74,7 +74,6 @@ async def make_comment_list(url, document_srl):
         await comment_filter(comments_list,document_srl,url)
 
 
-        sus_count += 1
 
 # 댓글 내용을 필터링함
 # 댓글 맨 앞에 "!" 가 있으면 명령어로 인식
@@ -98,51 +97,65 @@ async def comment_filter(comments_list, document_srl,url):
             comment_text = " "
 
         if comment_text[0] == "!":  # !가 붙은 댓글만 필터링
-            comment_nickname = comment.select_one('div:nth-child(1) > div:nth-child(1) > a').get_text()
-            comment_srl = comments_list[x]["id"][8:]
 
-            bot_command = comment_text[1:comment_text.find(" ")]
-            space_pos = [pos for pos, char in enumerate(comment_text) if char == " "]
-            bot_arg = []
+            # 바로 이 댓글 아래로 봇이 단 댓글이 있는지 확인
+            if check_already_comment(comments_list[x:]):
+                pass
+            else:
+                comment_nickname = comment.select_one('div:nth-child(1) > div:nth-child(1) > a').get_text()
+                comment_srl = comments_list[x]["id"][8:]
 
-            for ii in range(len(space_pos) - 1):
-                bot_arg.append(comment_text[space_pos[ii] + 1:space_pos[ii + 1]])
+                bot_command = comment_text[1:comment_text.find(" ")]
+                space_pos = [pos for pos, char in enumerate(comment_text) if char == " "]
+                bot_arg = []
+
+                for ii in range(len(space_pos) - 1):
+                    bot_arg.append(comment_text[space_pos[ii] + 1:space_pos[ii + 1]])
 
 
-            # bot.py에서 명령어 실행해서 리턴
-            bot_output = await bot.filter(bot_command, bot_arg, comment_nickname)
+                # bot.py에서 명령어 실행해서 리턴
+                bot_output = await bot.filter(bot_command, bot_arg, comment_nickname)
 
-            # 최종적으로 답글작성
-            print(await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid))
+                # 최종적으로 답글작성
+                await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid)
 
 # 이미 처리된 댓글인지 구분
-def check_already_comment():
-    pass
+def check_already_comment(comments_list):
+    for i in range(len(comments_list)):
+        comment = BeautifulSoup(str(comments_list[i]), "html.parser")
+        comment_nickname = comment.select_one('div:nth-child(1) > div:nth-child(1) > a').get_text()
+        if comment_nickname == my_nickname:
+            return 1
+    return 0
 
 
-def made_taks():
-    global tasks
-    for i in range(1,3):
+async def made_corutin_task(first_page, last_page):
+    tasks = []
+    for i in range(first_page, last_page):
         tasks.append(asyncio.create_task(get_page(i)))
 
-    return tasks
-
-async def run():
-    global error_count,sus_count, all_comment_doc_count
-    tasks = made_taks()
-
     tasks_results = await asyncio.gather(*tasks)
-    print(f"댓글이 있는 문서 수 : {all_comment_doc_count}")
-    print(f"실패한 리퀘스트 : {error_count}\n성공한 리퀘스트 : {sus_count}")
+
     return tasks_results
 
+# 1 사이클의 정의
+# first_page번째 페이지 부터 last_page번째 페이지까지 스캔
+def start_cycle(first_page, last_page):
+    global loop
+    loop = asyncio.get_event_loop()
+    result = loop.run_until_complete(made_corutin_task(first_page, last_page+1))
+    print("싸이클 끝..")
 
-s = session.create_post_session()
+if __name__ == '__main__':
+    with open('setting.json', encoding='UTF-8') as f:
+        setting = json.load(f)
+    mid = setting["mid"]  # 필터링할 게시판
+    my_nickname = setting["nickname"]
+    s = session.create_post_session(setting["id"],setting["pw"],setting["nickname"])
+    while True:
+        set_t = time.time()
 
-set_t = time.time()
-loop = asyncio.get_event_loop()
+        start_cycle(1,3)
 
-result = loop.run_until_complete(run())
-
-end_t = time.time()
-print(end_t - set_t)
+        end_t = time.time()
+        print(end_t - set_t)

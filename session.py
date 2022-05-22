@@ -21,13 +21,11 @@ def get_mid(document_srl):
 
 class create_post_session:
     with requests.Session() as s:
-        def __init__(self):
+        def __init__(self, my_id, my_pw, my_nickname):
             self.csrf_token = ""
-            with open('secret.json',encoding='UTF-8') as f:
-                secret = json.load(f)
-            self.__my_id = secret['id']
-            self.__my_pw = secret['pw']
-            self.my_nickname = secret['nickname']
+            self.__my_id = my_id
+            self.__my_pw = my_pw
+            self.my_nickname = my_nickname
 
         # 1. HiphopLE 처음 GET 시 PHPSESSID, rx_sesskey1, rx_sesskey2, rx_uatype 발급받음(쿠키로)
         # 2. 그 후 동일 세션에서 로그인시 csrf-token 발급
