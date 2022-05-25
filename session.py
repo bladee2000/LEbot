@@ -2,7 +2,7 @@ import requests
 from ast import literal_eval
 from bs4 import BeautifulSoup
 from urllib import parse
-import json
+import time
 
 # document_srl(게시물 고유번호)를 받아 게시판(mid)을 리턴
 # 국외 게시판 : fboard
@@ -21,11 +21,10 @@ def get_mid(document_srl):
 
 class create_post_session:
     with requests.Session() as s:
-        def __init__(self, my_id, my_pw, my_nickname):
+        def __init__(self, my_id, my_pw):
             self.csrf_token = ""
             self.__my_id = my_id
             self.__my_pw = my_pw
-            self.my_nickname = my_nickname
 
         # 1. HiphopLE 처음 GET 시 PHPSESSID, rx_sesskey1, rx_sesskey2, rx_uatype 발급받음(쿠키로)
         # 2. 그 후 동일 세션에서 로그인시 csrf-token 발급
@@ -64,22 +63,28 @@ class create_post_session:
                 "referer":"https://hiphople.com/"
 
             }
-            #print(login_header)
-            #print(login_cookie)
-
-
 
             login_data = f'error_return_url=%2F&mid=main&ruleset=%40login&act=procMemberLogin&success_return_url=%2F&user_id={self.__my_id}&password={self.__my_pw}'
 
             postlogin = self.s.post(url=url,data=login_data,headers=login_header)
-            #print(postlogin.headers)
 
-            gettokenhtml = postlogin.text
-            csrf_token = gettokenhtml[297:313]
-            print("token 발급완료..  token : " + csrf_token)
+            if postlogin.status_code == 429:
+                time.sleep(0.5)
+                self.login()
 
-            self.csrf_token = csrf_token
-            return csrf_token
+            if postlogin.status_code == 200:
+                gettokenhtml = postlogin.text
+                csrf_token = gettokenhtml[297:313]
+
+                assert csrf_token[0] != '"' , "잘못된 아이디 혹은 비밀번호입니다..."
+                print("token 발급완료..  token : " + csrf_token)
+                # 닉네임 추출
+                bs_nickname = BeautifulSoup(postlogin.text, 'html.parser')
+                nick = bs_nickname.select_one("#profile > h2").get_text()
+                self.my_nickname = nick
+                self.csrf_token = csrf_token
+
+                return csrf_token
 
         # document_srl 만 들어올시 게시물에 댓글
         # document_srl 와 parent_srl 이 같이 들어오면 대댓글
@@ -116,8 +121,20 @@ class create_post_session:
                 "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"'
             }
             post_comment = self.s.post(url='https://hiphople.com/', data=comment_data, headers=comment_header)
-            #print(literal_eval(post_comment.text)["message"])
-            return literal_eval(post_comment.text)
+
+            if post_comment.status_code == 429:
+                time.sleep(0.5)
+                await self.comment_write(document_srl=document_srl,comment=comment,parent_srl=parent_srl,mid=mid)
+            if post_comment.status_code == 200:
+                if literal_eval(post_comment.text)['error'] == -1:
+                    time.sleep(0.5)
+                    print("-" * 10, literal_eval(post_comment.text), '-' * 10)
+                    await self.comment_write(document_srl=document_srl, comment=comment, parent_srl=parent_srl, mid=mid)
+                if literal_eval(post_comment.text)['error'] == 0:
+                    print("-" * 10, literal_eval(post_comment.text), '-' * 10)
+
+
+
 
 
 

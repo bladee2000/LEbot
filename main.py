@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 import bot
 import session
 import json
+from multiprocessing import Pool
+import multiprocessing
 
 useragent_header = {
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
@@ -24,6 +26,9 @@ async def get_page(i):
 
     r = partial(requests.get, url=url,headers=useragent_header)
     a = await loop.run_in_executor(None, r)
+
+    assert a.status_code != 404 , f"mid 값을 정확하게 입력해주세요.. {a}"
+
     soup = BeautifulSoup(a.text,"html.parser")
 
     soup = soup.select("#flagList > table > tbody > tr:not(.notice) > td.title")
@@ -36,7 +41,7 @@ async def get_page(i):
 
 # 댓글이 있는 게시물을 걸러냄 -> comment_filter로 보냄
 async def document_filter(soup):
-    global all_comment_doc_count
+
     for x in range(0,len(soup)):
         comment = BeautifulSoup(str(soup[x]),"html.parser")
         if comment.find_all("a",attrs={"title":"댓글"}):
@@ -48,10 +53,8 @@ async def document_filter(soup):
             await make_comment_list("https://hiphople.com"+comment.find("a")["href"],document_srl)
 
             #await asyncio.sleep(0.05)
-            #time.sleep(0.05)
+            time.sleep(0.05)
 
-# 필요한거
-# 댓글번호(parent_srl), 댓글내용, 댓글작성자
 
 # 댓글 리스트 만들어서 comment_filter 로 보냄
 async def make_comment_list(url, document_srl):
@@ -62,9 +65,8 @@ async def make_comment_list(url, document_srl):
     res = await loop.run_in_executor(None, par_t)
 
     if res.status_code == 429: # 429(너무 많은 요청)일때 재시도
-        print("error... 재시도")
+        print("너무많은 요청 error... 재시도")
 
-        #await asyncio.sleep(0.1)
         time.sleep(0.05)
         await make_comment_list(url, document_srl)
     if res.status_code == 200:
@@ -74,12 +76,8 @@ async def make_comment_list(url, document_srl):
         await comment_filter(comments_list,document_srl,url)
 
 
-
 # 댓글 내용을 필터링함
 # 댓글 맨 앞에 "!" 가 있으면 명령어로 인식
-# 명령어 부분만 슬라이싱해서 bot.filter으로 보내고
-# bot.filter에서 명령어 실행후 출력값을 받음
-# s.comment_write 으로 댓글작성
 async def comment_filter(comments_list, document_srl,url):
     for x in range(len(comments_list)):
         comment = BeautifulSoup(str(comments_list[x]), "html.parser")
@@ -112,11 +110,8 @@ async def comment_filter(comments_list, document_srl,url):
                 for ii in range(len(space_pos) - 1):
                     bot_arg.append(comment_text[space_pos[ii] + 1:space_pos[ii + 1]])
 
-
-                # bot.py에서 명령어 실행해서 리턴
                 bot_output = await bot.filter(bot_command, bot_arg, comment_nickname)
 
-                # 최종적으로 답글작성
                 await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid)
 
 # 이미 처리된 댓글인지 구분
@@ -138,24 +133,58 @@ async def made_corutin_task(first_page, last_page):
 
     return tasks_results
 
+# 코루틴 사이클을 시작하는 함수
 # 1 사이클의 정의
 # first_page번째 페이지 부터 last_page번째 페이지까지 스캔
-def start_cycle(first_page, last_page):
-    global loop
+# page_list 인자는 [first_page, last_page] 로 줘야댐
+def start_cycle(page_list):
+    global loop, mid, my_nickname, s
+
+    with open('setting.json', encoding='UTF-8') as f:
+        setting = json.load(f)
+
+    mid = setting["mid"]  # 필터링할 게시판
+    s = session.create_post_session(setting["id"],setting["pw"])
+    s.login()
+    my_nickname = s.my_nickname
+
+    first_page = page_list[0]
+    last_page = page_list[1]
     loop = asyncio.get_event_loop()
     result = loop.run_until_complete(made_corutin_task(first_page, last_page+1))
     print("싸이클 끝..")
 
+# 쓰레드에 페이지 범위를 균등하게 분배
+# multi_page_list_ex = [[1,3],[4,6],[7,9],[10,12]] --> 1페이지부터 12페이지까지 4개의 스레드에 분배
+def make_multiproces_page_list(page):
+    task = page
+    cpu = multiprocessing.cpu_count()
+    pre_list = []
+    page_list = []
+
+    for i in range(task % cpu):
+        pre_list.append(int(task/cpu)+1)
+    for x in range(cpu - task % cpu):
+        pre_list.append(int(task/cpu))
+
+    for ii in range(len(pre_list)):
+        sum_page_ = 0
+        if pre_list[ii] == 0:
+            pass
+        else:
+            for xx in range(ii+1):
+                sum_page_ += pre_list[xx]
+            page_list.append([sum_page_ - pre_list[ii] + 1, sum_page_])
+    print(page_list)
+    return page_list
+
 if __name__ == '__main__':
-    with open('setting.json', encoding='UTF-8') as f:
-        setting = json.load(f)
-    mid = setting["mid"]  # 필터링할 게시판
-    my_nickname = setting["nickname"]
-    s = session.create_post_session(setting["id"],setting["pw"],setting["nickname"])
-    while True:
-        set_t = time.time()
 
-        start_cycle(1,3)
+    set_t = time.time()
 
-        end_t = time.time()
-        print(end_t - set_t)
+    pool = Pool()
+    pool.map(start_cycle, make_multiproces_page_list(5))
+
+    end_t = time.time()
+    print(end_t - set_t)
+
