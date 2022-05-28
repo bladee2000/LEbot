@@ -25,6 +25,7 @@ class create_post_session:
             self.csrf_token = ""
             self.__my_id = my_id
             self.__my_pw = my_pw
+            self.my_nickname = ""
 
         # 1. HiphopLE 처음 GET 시 PHPSESSID, rx_sesskey1, rx_sesskey2, rx_uatype 발급받음(쿠키로)
         # 2. 그 후 동일 세션에서 로그인시 csrf-token 발급
@@ -42,9 +43,7 @@ class create_post_session:
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
             }
             self.s.get(url=url,headers=useragent_header)
-            print(self.s.cookies.get_dict())
 
-            #login_cookie = getindex.cookies.get_dict()
             login_header = {
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
                 "content-type":"application/x-www-form-urlencoded; charset=UTF-8",
@@ -77,7 +76,7 @@ class create_post_session:
                 csrf_token = gettokenhtml[297:313]
 
                 assert csrf_token[0] != '"' , "잘못된 아이디 혹은 비밀번호입니다..."
-                print("token 발급완료..  token : " + csrf_token)
+
                 # 닉네임 추출
                 bs_nickname = BeautifulSoup(postlogin.text, 'html.parser')
                 nick = bs_nickname.select_one("#profile > h2").get_text()
@@ -122,19 +121,58 @@ class create_post_session:
             }
             post_comment = self.s.post(url='https://hiphople.com/', data=comment_data, headers=comment_header)
 
+
             if post_comment.status_code == 429:
                 time.sleep(0.5)
                 await self.comment_write(document_srl=document_srl,comment=comment,parent_srl=parent_srl,mid=mid)
             if post_comment.status_code == 200:
                 if literal_eval(post_comment.text)['error'] == -1:
                     time.sleep(0.5)
-                    print("-" * 10, literal_eval(post_comment.text), '-' * 10)
                     await self.comment_write(document_srl=document_srl, comment=comment, parent_srl=parent_srl, mid=mid)
                 if literal_eval(post_comment.text)['error'] == 0:
                     print("-" * 10, literal_eval(post_comment.text), '-' * 10)
 
+        # 문서 수정
+        def doc_edit(self, url: str, title: str, content: str):
+            csrf_token = self.login()
 
+            url = url.replace("https://hiphople.com/","")
+            mid = url[:url.find("/")]
+            document_srl = url[url.find("/")+1:]
 
+            if mid == "kboard":
+                category = "6056078"
+            if mid == "fboard":
+                category = "6056191"
+            if mid == "workroom":
+                category = "197639"
 
+            doc_data = {
+                "_filter": "insert",
+                "error_return_url": f"/index.php?mid={mid}&document_srl={document_srl}&act=dispBoardWrite",
+                "act": "procBoardInsertDocument",
+                "mid": mid,
+                "content": content,
+                "document_srl": document_srl,
+                "comment_status": "ALLOW",
+                "status": "PUBLIC",
+                "category_srl": category,
+                "title": title,
+                "_rx_csrf_token": csrf_token,
+                "use_editor": "Y",
+                "use_html": "Y",
+                "module": "board",
+                "_rx_ajax_compat": "XMLRPC"
+                }
+            doc_data = parse.urlencode(doc_data)
+            doc_header = {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+                "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+                # "x-csrf-token":f"{csrf_token}",
+                "accept": "application/json, text/javascript, */*; q=0.01",
+                "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"'
+                }
 
+            post_doc = self.s.post(url="https://hiphople.com/", data=doc_data, headers=doc_header)
+            print(literal_eval(post_doc.text))
 

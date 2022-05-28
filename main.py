@@ -8,16 +8,13 @@ import session
 import json
 from multiprocessing import Pool
 import multiprocessing
+import sticker
 
 useragent_header = {
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
             }
 
 
-
-
-
-# 워크룸 한페이당 게시물 30개
 async def get_page(i):
     global useragent_header,mid
     print(f'{i}번째 페이지 시작...')
@@ -30,18 +27,14 @@ async def get_page(i):
     assert a.status_code != 404 , f"mid 값을 정확하게 입력해주세요.. {a}"
 
     soup = BeautifulSoup(a.text,"html.parser")
-
     soup = soup.select("#flagList > table > tbody > tr:not(.notice) > td.title")
 
     await document_filter(soup)
-
-
 
     print(f'{i}번째 페이지 완료')
 
 # 댓글이 있는 게시물을 걸러냄 -> comment_filter로 보냄
 async def document_filter(soup):
-
     for x in range(0,len(soup)):
         comment = BeautifulSoup(str(soup[x]),"html.parser")
         if comment.find_all("a",attrs={"title":"댓글"}):
@@ -52,7 +45,6 @@ async def document_filter(soup):
 
             await make_comment_list("https://hiphople.com"+comment.find("a")["href"],document_srl)
 
-            #await asyncio.sleep(0.05)
             time.sleep(0.05)
 
 
@@ -65,8 +57,6 @@ async def make_comment_list(url, document_srl):
     res = await loop.run_in_executor(None, par_t)
 
     if res.status_code == 429: # 429(너무 많은 요청)일때 재시도
-        print("너무많은 요청 error... 재시도")
-
         time.sleep(0.05)
         await make_comment_list(url, document_srl)
     if res.status_code == 200:
@@ -77,7 +67,6 @@ async def make_comment_list(url, document_srl):
 
 
 # 댓글 내용을 필터링함
-# 댓글 맨 앞에 "!" 가 있으면 명령어로 인식
 async def comment_filter(comments_list, document_srl,url):
     for x in range(len(comments_list)):
         comment = BeautifulSoup(str(comments_list[x]), "html.parser")
@@ -94,9 +83,8 @@ async def comment_filter(comments_list, document_srl,url):
             # <class 'NoneType'>에는 get_text()가 없어 오류..
             comment_text = " "
 
-        if comment_text[0] == "!":  # !가 붙은 댓글만 필터링
+        if comment_text[0] == "!":  # !가 붙은 댓글 필터링
 
-            # 바로 이 댓글 아래로 봇이 단 댓글이 있는지 확인
             if check_already_comment(comments_list[x:]):
                 pass
             else:
@@ -113,6 +101,18 @@ async def comment_filter(comments_list, document_srl,url):
                 bot_output = await bot.filter(bot_command, bot_arg, comment_nickname)
 
                 await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid)
+
+        # 스티커
+        if comment_text[0] == "~": # ~ 일때는 스티커
+            if check_already_comment(comments_list[x:]):
+                pass
+            else:
+                comment_srl = comments_list[x]["id"][8:]
+                sticker_keyword = comment_text[1:comment_text.find(" ")]
+
+                sticker_output = await sticker.filter(sticker_keyword, sticker_list)
+
+                await s.comment_write(document_srl=document_srl,comment=sticker_output,parent_srl=comment_srl,mid=mid)
 
 # 이미 처리된 댓글인지 구분
 def check_already_comment(comments_list):
@@ -136,12 +136,15 @@ async def made_corutin_task(first_page, last_page):
 # 코루틴 사이클을 시작하는 함수
 # 1 사이클의 정의
 # first_page번째 페이지 부터 last_page번째 페이지까지 스캔
-# page_list 인자는 [first_page, last_page] 로 줘야댐
+# page_list 인자는 리스트 [first_page, last_page] 로 줘야댐
 def start_cycle(page_list):
-    global loop, mid, my_nickname, s
+    global loop, mid, my_nickname, s, sticker_list
 
     with open('setting.json', encoding='UTF-8') as f:
         setting = json.load(f)
+
+    with open('sticker_list.json', encoding='UTF-8') as ff:
+        sticker_list = json.load(ff)
 
     mid = setting["mid"]  # 필터링할 게시판
     s = session.create_post_session(setting["id"],setting["pw"])
@@ -166,7 +169,6 @@ def make_multiproces_page_list(page):
         pre_list.append(int(task/cpu)+1)
     for x in range(cpu - task % cpu):
         pre_list.append(int(task/cpu))
-
     for ii in range(len(pre_list)):
         sum_page_ = 0
         if pre_list[ii] == 0:
@@ -179,12 +181,12 @@ def make_multiproces_page_list(page):
     return page_list
 
 if __name__ == '__main__':
+    while True:
+        set_t = time.time()
 
-    set_t = time.time()
+        pool = Pool()
+        pool.map(start_cycle, make_multiproces_page_list(5))
 
-    pool = Pool()
-    pool.map(start_cycle, make_multiproces_page_list(5))
-
-    end_t = time.time()
-    print(end_t - set_t)
+        end_t = time.time()
+        print(end_t - set_t)
 
