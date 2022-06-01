@@ -4,11 +4,8 @@ from bs4 import BeautifulSoup
 from urllib import parse
 import time
 
+
 # document_srl(게시물 고유번호)를 받아 게시판(mid)을 리턴
-# 국외 게시판 : fboard
-# 국내 게시판 : kboard
-# 워크룸 : workroom
-# .... 기타등등
 def get_mid(document_srl):
     document_srl = str(document_srl)
     header = {
@@ -130,7 +127,7 @@ class create_post_session:
                     time.sleep(0.5)
                     await self.comment_write(document_srl=document_srl, comment=comment, parent_srl=parent_srl, mid=mid)
                 if literal_eval(post_comment.text)['error'] == 0:
-                    print("-" * 10, literal_eval(post_comment.text), '-' * 10)
+                    return literal_eval(post_comment.text)
 
         # 문서 수정
         def doc_edit(self, url: str, title: str, content: str):

@@ -100,8 +100,13 @@ async def comment_filter(comments_list, document_srl,url):
 
                 bot_output = await bot.filter(bot_command, bot_arg, comment_nickname)
 
-                await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid)
-
+                comment_res =await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid)
+                comment_res['redirect_url'] = f"https://hiphople.com/{mid}/{document_srl}?comment_srl={str(comment_res['comment_srl'])}#comment_{str(comment_res['comment_srl'])}"
+                print('-' * 100)
+                print(comment_res)
+                print(f"original comment : {comment_text}")
+                print(f"bot comment : {bot_output}")
+                print('-' * 100)
         # 스티커
         if comment_text[0] == "~": # ~ 일때는 스티커
             if check_already_comment(comments_list[x:]):
@@ -112,7 +117,13 @@ async def comment_filter(comments_list, document_srl,url):
 
                 sticker_output = await sticker.filter(sticker_keyword, sticker_list)
 
-                await s.comment_write(document_srl=document_srl,comment=sticker_output,parent_srl=comment_srl,mid=mid)
+                comment_res = await s.comment_write(document_srl=document_srl,comment=sticker_output,parent_srl=comment_srl,mid=mid)
+                comment_res['redirect_url'] = f"https://hiphople.com/{mid}/{document_srl}?comment_srl={str(comment_res['comment_srl'])}#comment_{str(comment_res['comment_srl'])}"
+                print('-'*100)
+                print(comment_res)
+                print(f"original comment : {comment_text}")
+                print(f"bot comment : {sticker_output}")
+                print('-' * 100)
 
 # 이미 처리된 댓글인지 구분
 def check_already_comment(comments_list):
@@ -138,7 +149,7 @@ async def made_corutin_task(first_page, last_page):
 # first_page번째 페이지 부터 last_page번째 페이지까지 스캔
 # page_list 인자는 리스트 [first_page, last_page] 로 줘야댐
 def start_cycle(page_list):
-    global loop, mid, my_nickname, s, sticker_list
+    global loop, mid, my_nickname, s, sticker_list, setting
 
     with open('setting.json', encoding='UTF-8') as f:
         setting = json.load(f)
@@ -180,13 +191,22 @@ def make_multiproces_page_list(page):
     print(page_list)
     return page_list
 
+
+# aws 람다용 실행함수
+def lambda_handler(event, context):
+    set_t = time.time()
+    start_cycle([1, 5])
+    end_t = time.time()
+    print(end_t - set_t)
+
+
 if __name__ == '__main__':
-    while True:
-        set_t = time.time()
 
-        pool = Pool()
-        pool.map(start_cycle, make_multiproces_page_list(5))
+    set_t = time.time()
 
-        end_t = time.time()
-        print(end_t - set_t)
+    pool = Pool()
+    pool.map(start_cycle, make_multiproces_page_list(5))
+
+    end_t = time.time()
+    print(end_t - set_t)
 
