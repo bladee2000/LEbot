@@ -38,7 +38,6 @@ async def document_filter(soup):
     for x in range(0,len(soup)):
         comment = BeautifulSoup(str(soup[x]),"html.parser")
         if comment.find_all("a",attrs={"title":"댓글"}):
-
             document_srl = comment.find("a")["href"]
             document_srl = document_srl.replace(f'/{mid}/','')
             document_srl = document_srl[:document_srl.find("?")]
@@ -101,12 +100,7 @@ async def comment_filter(comments_list, document_srl,url):
                 bot_output = await bot.filter(bot_command, bot_arg, comment_nickname)
 
                 comment_res =await s.comment_write(document_srl=document_srl,comment=bot_output,parent_srl=comment_srl,mid=mid)
-                comment_res['redirect_url'] = f"https://hiphople.com/{mid}/{document_srl}?comment_srl={str(comment_res['comment_srl'])}#comment_{str(comment_res['comment_srl'])}"
-                print('-' * 100)
-                print(comment_res)
-                print(f"original comment : {comment_text}")
-                print(f"bot comment : {bot_output}")
-                print('-' * 100)
+                log_print(comment_res, document_srl, comment_text, bot_output)
         # 스티커
         if comment_text[0] == "~": # ~ 일때는 스티커
             if check_already_comment(comments_list[x:]):
@@ -118,12 +112,17 @@ async def comment_filter(comments_list, document_srl,url):
                 sticker_output = await sticker.filter(sticker_keyword, sticker_list)
 
                 comment_res = await s.comment_write(document_srl=document_srl,comment=sticker_output,parent_srl=comment_srl,mid=mid)
-                comment_res['redirect_url'] = f"https://hiphople.com/{mid}/{document_srl}?comment_srl={str(comment_res['comment_srl'])}#comment_{str(comment_res['comment_srl'])}"
-                print('-'*100)
-                print(comment_res)
-                print(f"original comment : {comment_text}")
-                print(f"bot comment : {sticker_output}")
-                print('-' * 100)
+                log_print(comment_res, document_srl, comment_text, sticker_output)
+
+
+def log_print(comment_res, document_srl, comment_text, output):
+    comment_res['redirect_url'] = f"https://hiphople.com/{mid}/{document_srl}?comment_srl={str(comment_res['comment_srl'])}#comment_{str(comment_res['comment_srl'])}"
+    print('-' * 100)
+    print(comment_res)
+    print(f"original comment : {comment_text}")
+    print(f"bot comment : {output}")
+    print('-' * 100)
+
 
 # 이미 처리된 댓글인지 구분
 def check_already_comment(comments_list):
@@ -148,7 +147,7 @@ async def made_corutin_task(first_page, last_page):
 # 1 사이클의 정의
 # first_page번째 페이지 부터 last_page번째 페이지까지 스캔
 # page_list 인자는 리스트 [first_page, last_page] 로 줘야댐
-def start_cycle(page_list):
+def start_cycle(page_list: list):
     global loop, mid, my_nickname, s, sticker_list, setting
 
     with open('setting.json', encoding='UTF-8') as f:
