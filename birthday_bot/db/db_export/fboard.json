@@ -1,0 +1,4083 @@
+[
+    {
+        "birthday": "1986-10-24",
+        "genres": "['canadian hip hop', 'canadian pop', 'hip hop', 'rap', 'toronto rap']",
+        "name": "Drake",
+        "popularity": 95,
+        "spotify_id": "3TVXtAsR1Inumwj472S9r4"
+    },
+    {
+        "birthday": "1996-09-13",
+        "genres": "['atl hip hop', 'plugg', 'pluggnb', 'rap', 'trap']",
+        "name": "Playboi Carti",
+        "popularity": 81,
+        "spotify_id": "699OTQXzgjhIYAHMy9RyPD"
+    },
+    {
+        "birthday": "1977-06-08",
+        "genres": "['chicago rap', 'rap']",
+        "name": "Kanye West",
+        "popularity": 90,
+        "spotify_id": "5K4W6rqBFWDnAN6FQUkS6x"
+    },
+    {
+        "birthday": "1969-12-04",
+        "genres": "['east coast hip hop', 'hip hop', 'rap']",
+        "name": "JAY-Z",
+        "popularity": 82,
+        "spotify_id": "3nFkdlSjzX9mRTtwJOzDYB"
+    },
+    {
+        "birthday": "1998-12-02",
+        "genres": "['chicago rap', 'melodic rap']",
+        "name": "Juice WRLD",
+        "popularity": 88,
+        "spotify_id": "4MCBfE4596Uoi2O4DtmEMz"
+    },
+    {
+        "birthday": "1992-10-22",
+        "genres": "['atl hip hop', 'rap', 'trap']",
+        "name": "21 Savage",
+        "popularity": 86,
+        "spotify_id": "1URnnhqYAYcrqrcwql10ft"
+    },
+    {
+        "birthday": "1995-07-04",
+        "genres": "['dfw rap', 'melodic rap', 'rap']",
+        "name": "Post Malone",
+        "popularity": 89,
+        "spotify_id": "246dkjvS1zLTtiykXe5h60"
+    },
+    {
+        "birthday": "1991-03-06",
+        "genres": "['hip hop', 'rap']",
+        "name": "Tyler, The Creator",
+        "popularity": 84,
+        "spotify_id": "4V8LLVI7PbaPR0K2TGSxFF"
+    },
+    {
+        "birthday": "1987-06-17",
+        "genres": "['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",
+        "name": "Kendrick Lamar",
+        "popularity": 89,
+        "spotify_id": "2YZyLoL8N0Wb9xBt1NhZWg"
+    },
+    {
+        "birthday": "1972-10-17",
+        "genres": "['detroit hip hop', 'hip hop', 'rap']",
+        "name": "Eminem",
+        "popularity": 89,
+        "spotify_id": "7dGJo4pcD2V6oG8kP0tJRR"
+    },
+    {
+        "birthday": "1994-12-03",
+        "genres": "['atl hip hop', 'atl trap', 'rap', 'trap']",
+        "name": "Lil Baby",
+        "popularity": 87,
+        "spotify_id": "5f7VJjfbwm532GiveGC0ZK"
+    },
+    {
+        "birthday": "1999-06-18",
+        "genres": "['melodic rap', 'rap', 'trap']",
+        "name": "Trippie Redd",
+        "popularity": 81,
+        "spotify_id": "6Xgp2XMz1fhVYe7i6yNAax"
+    },
+    {
+        "birthday": "1983-11-20",
+        "genres": "['atl hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Future",
+        "popularity": 87,
+        "spotify_id": "1RyvyyTE3xzB2ZywiAwp0i"
+    },
+    {
+        "birthday": "1995-07-31",
+        "genres": "['melodic rap', 'philly rap', 'rap', 'trap']",
+        "name": "Lil Uzi Vert",
+        "popularity": 84,
+        "spotify_id": "4O15NlyKLIASxsJ0PrXPfz"
+    },
+    {
+        "birthday": "1982-09-27",
+        "genres": "['hip hop', 'new orleans rap', 'pop rap', 'rap', 'trap']",
+        "name": "Lil Wayne",
+        "popularity": 85,
+        "spotify_id": "55Aa2cqylxrFIXC767Z865"
+    },
+    {
+        "birthday": "1992-10-19",
+        "genres": "['chicago drill', 'chicago rap', 'drill', 'hip hop', 'rap', 'trap']",
+        "name": "Lil Durk",
+        "popularity": 84,
+        "spotify_id": "3hcs9uc56yIGFCSy9leWe7"
+    },
+    {
+        "birthday": "1993-06-14",
+        "genres": "['atl hip hop', 'melodic rap', 'rap', 'trap']",
+        "name": "Gunna",
+        "popularity": 84,
+        "spotify_id": "2hlmm7s2ICUX0LVIhVFlZQ"
+    },
+    {
+        "birthday": "1999-10-20",
+        "genres": "['baton rouge rap', 'trap']",
+        "name": "YoungBoy Never Broke Again",
+        "popularity": 83,
+        "spotify_id": "7wlFDEWiM5OoIAt8RSli8b"
+    },
+    {
+        "birthday": "1995-09-19",
+        "genres": "['dmv rap', 'hip hop', 'pop', 'r&b', 'rap']",
+        "name": "Brent Faiyaz",
+        "popularity": 82,
+        "spotify_id": "3tlXnStJ1fFhdScmQeLpuG"
+    },
+    {
+        "birthday": "1991-04-30",
+        "genres": "['hip hop', 'rap', 'slap house']",
+        "name": "Travis Scott",
+        "popularity": 86,
+        "spotify_id": "0Y5tJX1MQlPlqiwlOH1tJY"
+    },
+    {
+        "birthday": "1998-01-23",
+        "genres": "['emo rap', 'miami hip hop']",
+        "name": "XXXTENTACION",
+        "popularity": 86,
+        "spotify_id": "15UsOTVnJzReFVN1VCnxy4"
+    },
+    {
+        "birthday": "1999-01-06",
+        "genres": "['chicago rap']",
+        "name": "Polo G",
+        "popularity": 83,
+        "spotify_id": "6AgTAQt8XS6jRWi4sX7w49"
+    },
+    {
+        "birthday": "1991-08-16",
+        "genres": "['atl hip hop', 'atl trap', 'gangster rap', 'hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Young Thug",
+        "popularity": 84,
+        "spotify_id": "50co4Is1HCEo8bhOyUWKpn"
+    },
+    {
+        "birthday": "1985-01-28",
+        "genres": "['conscious hip hop', 'hip hop', 'north carolina hip hop', 'rap']",
+        "name": "J. Cole",
+        "popularity": 84,
+        "spotify_id": "6l3HvQ5sa6mXTsMTB19rO5"
+    },
+    {
+        "birthday": "1992-01-19",
+        "genres": "['hip hop', 'pittsburgh rap', 'rap']",
+        "name": "Mac Miller",
+        "popularity": 82,
+        "spotify_id": "4LLpKhyESsyAXpc4laK94U"
+    },
+    {
+        "birthday": "1989-05-05",
+        "genres": "['dance pop', 'pop', 'pop rap', 'r&b']",
+        "name": "Chris Brown",
+        "popularity": 86,
+        "spotify_id": "7bXgB6jMjp9ATFy66eO08Z"
+    },
+    {
+        "birthday": "1997-06-11",
+        "genres": "['florida rap', 'hip hop', 'melodic rap', 'miami hip hop', 'rap', 'trap']",
+        "name": "Kodak Black",
+        "popularity": 80,
+        "spotify_id": "46SHBwWsqBkxI7EeeBEQG7"
+    },
+    {
+        "birthday": "null",
+        "genres": "['dark trap', 'new orleans rap', 'underground hip hop']",
+        "name": "$uicideboy$",
+        "popularity": 82,
+        "spotify_id": "1VPmR4DJC1PlOtd0IADAO0"
+    },
+    {
+        "birthday": "1998-03-13",
+        "genres": "['deep underground hip hop', 'kentucky hip hop', 'rap']",
+        "name": "Jack Harlow",
+        "popularity": 85,
+        "spotify_id": "2LIk90788K0zvyj2JJVwkJ"
+    },
+    {
+        "birthday": "1991-12-22",
+        "genres": "['north carolina hip hop', 'rap', 'trap']",
+        "name": "DaBaby",
+        "popularity": 82,
+        "spotify_id": "4r63FhuTkUYltbVAg5TQnk"
+    },
+    {
+        "birthday": "1995-12-06",
+        "genres": "['melodic rap', 'rap', 'trap']",
+        "name": "A Boogie Wit da Hoodie",
+        "popularity": 80,
+        "spotify_id": "31W5EY0aAly4Qieq6OFu6I"
+    },
+    {
+        "birthday": "1982-12-08",
+        "genres": "['dance pop', 'hip pop', 'pop', 'pop rap', 'queens hip hop']",
+        "name": "Nicki Minaj",
+        "popularity": 84,
+        "spotify_id": "0hCNtLu0JehylgoiP8L4Gh"
+    },
+    {
+        "birthday": "1998-10-22",
+        "genres": "['melodic rap', 'rap', 'trap']",
+        "name": "Roddy Ricch",
+        "popularity": 80,
+        "spotify_id": "757aE44tKEUQEqRuT6GnEB"
+    },
+    {
+        "birthday": "1984-01-30",
+        "genres": "['hip hop', 'ohio hip hop', 'rap']",
+        "name": "Kid Cudi",
+        "popularity": 81,
+        "spotify_id": "0fA0VVWsXO9YnASrzqfmYu"
+    },
+    {
+        "birthday": "1987-09-08",
+        "genres": "['dance pop', 'hip hop', 'pittsburgh rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Wiz Khalifa",
+        "popularity": 81,
+        "spotify_id": "137W8MRPWKqSmrBGDBFSop"
+    },
+    {
+        "birthday": "1992-10-11",
+        "genres": "['dance pop', 'pop', 'pop rap', 'rap']",
+        "name": "Cardi B",
+        "popularity": 81,
+        "spotify_id": "4kYSro6naA4h99UJvo89HB"
+    },
+    {
+        "birthday": "1986-02-05",
+        "genres": "['baton rouge rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Kevin Gates",
+        "popularity": 75,
+        "spotify_id": "1gPhS1zisyXr5dHTYZyiMe"
+    },
+    {
+        "birthday": "2001-04-30",
+        "genres": "['brooklyn drill', 'melodic rap', 'nyc rap']",
+        "name": "Lil Tjay",
+        "popularity": 80,
+        "spotify_id": "6jGMq4yGs7aQzuGsMgVgZR"
+    },
+    {
+        "birthday": "1980-02-12",
+        "genres": "['atl hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Gucci Mane",
+        "popularity": 77,
+        "spotify_id": "13y7CgLHjMVRMDqxdx0Xdo"
+    },
+    {
+        "birthday": "1996-11-01",
+        "genres": "['emo rap', 'lgbtq+ hip hop']",
+        "name": "Lil Peep",
+        "popularity": 81,
+        "spotify_id": "2kCcBybjl3SAtIcwdWpUe3"
+    },
+    {
+        "birthday": "1995-02-15",
+        "genres": "['dance pop', 'houston rap', 'pop', 'trap queen']",
+        "name": "Megan Thee Stallion",
+        "popularity": 80,
+        "spotify_id": "181bsRPaVXVlUKXrxwZfHK"
+    },
+    {
+        "birthday": "1999-08-27",
+        "genres": "['florida rap']",
+        "name": "Rod Wave",
+        "popularity": 74,
+        "spotify_id": "45TgXXqMDdF8BkjA83OM7z"
+    },
+    {
+        "birthday": "1990-01-22",
+        "genres": "['conscious hip hop', 'dmv rap', 'hip hop', 'pop rap', 'rap']",
+        "name": "Logic",
+        "popularity": 77,
+        "spotify_id": "4xRYI6VqpkE3UwrDrAZL8L"
+    },
+    {
+        "birthday": "1988-10-03",
+        "genres": "['east coast hip hop', 'hip hop', 'rap', 'trap']",
+        "name": "A$AP Rocky",
+        "popularity": 80,
+        "spotify_id": "13ubrt8QOOCPljQ2FL1Kca"
+    },
+    {
+        "birthday": "1971-10-20",
+        "genres": "['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",
+        "name": "Snoop Dogg",
+        "popularity": 81,
+        "spotify_id": "7hJcb9fa4alzcOq3EaNPoG"
+    },
+    {
+        "birthday": "1990-11-27",
+        "genres": "['electropop', 'pop', 'pop rap']",
+        "name": "blackbear",
+        "popularity": 80,
+        "spotify_id": "2cFrymmkijnjDg9SS92EPM"
+    },
+    {
+        "birthday": "1991-03-30",
+        "genres": "['hip hop', 'pop rap', 'rap']",
+        "name": "NF",
+        "popularity": 78,
+        "spotify_id": "6fOMl44jA4Sp5b9PpYCkzz"
+    },
+    {
+        "birthday": "1997-08-23",
+        "genres": "['atl hip hop', 'hip hop', 'melodic rap', 'rap', 'trap', 'viral rap']",
+        "name": "Lil Yachty",
+        "popularity": 76,
+        "spotify_id": "6icQOAFXDZKsumw3YXyusw"
+    },
+    {
+        "birthday": "1991-04-02",
+        "genres": "['atl hip hop', 'hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Quavo",
+        "popularity": 78,
+        "spotify_id": "0VRj0yCOv2FXJNP47XQnx5"
+    },
+    {
+        "birthday": "1988-03-25",
+        "genres": "['detroit hip hop', 'hip hop', 'pop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Big Sean",
+        "popularity": 78,
+        "spotify_id": "0c173mlxpT3dSFRgMO8XPh"
+    },
+    {
+        "birthday": "1992-07-27",
+        "genres": "['canadian hip hop', 'canadian trap', 'melodic rap', 'pop rap', 'r&b', 'rap', 'toronto rap', 'trap']",
+        "name": "Tory Lanez",
+        "popularity": 78,
+        "spotify_id": "2jku7tDXc6XoB6MO2hFuqg"
+    },
+    {
+        "birthday": "1976-01-28",
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Rick Ross",
+        "popularity": 76,
+        "spotify_id": "1sBkRIssrMs1AbVkOJbc7a"
+    },
+    {
+        "birthday": "2000-10-22",
+        "genres": "['hip hop', 'rap']",
+        "name": "Baby Keem",
+        "popularity": 76,
+        "spotify_id": "5SXuuuRpukkTvsLuUknva1"
+    },
+    {
+        "birthday": "1977-09-12",
+        "genres": "['atl hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "2 Chainz",
+        "popularity": 76,
+        "spotify_id": "17lzZA2AlOHwCwFALHttmp"
+    },
+    {
+        "birthday": "1999-12-20",
+        "genres": "['brooklyn drill', 'nyc rap']",
+        "name": "Sleepy Hallow",
+        "popularity": 77,
+        "spotify_id": "6EPlBSH2RSiettczlz7ihV"
+    },
+    {
+        "birthday": "null",
+        "genres": "['atl hip hop', 'hip hop', 'pop rap', 'rap', 'trap']",
+        "name": "Migos",
+        "popularity": 77,
+        "spotify_id": "6oMuImdp5ZcFhWP0ESe6mG"
+    },
+    {
+        "birthday": "1975-07-06",
+        "genres": "['east coast hip hop', 'gangster rap', 'hip hop', 'pop rap', 'queens hip hop', 'rap']",
+        "name": "50 Cent",
+        "popularity": 81,
+        "spotify_id": "3q7HBObVc0L8jNeTe5Gofh"
+    },
+    {
+        "birthday": "1991-09-22",
+        "genres": "['hip hop', 'memphis hip hop', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']",
+        "name": "Moneybagg Yo",
+        "popularity": 77,
+        "spotify_id": "3tJoFztHeIJkJWMrx0td2f"
+    },
+    {
+        "birthday": "1993-09-16",
+        "genres": "['hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Metro Boomin",
+        "popularity": 77,
+        "spotify_id": "0iEtIxbK0KxaSlF7G42ZOp"
+    },
+    {
+        "birthday": "1982-04-13",
+        "genres": "['hip hop', 'pop', 'pop rap', 'r&b', 'southern hip hop', 'trap', 'trap soul']",
+        "name": "Ty Dolla $ign",
+        "popularity": 80,
+        "spotify_id": "7c0XG5cIJTrrAgEC3ULPiq"
+    },
+    {
+        "birthday": "1983-09-25",
+        "genres": "['atl hip hop', 'hip hop', 'rap']",
+        "name": "Childish Gambino",
+        "popularity": 77,
+        "spotify_id": "73sIBHcqh3Z3NyqHKZ7FOL"
+    },
+    {
+        "birthday": "1993-01-02",
+        "genres": "['kentucky hip hop', 'pop', 'pop rap', 'r&b', 'rap', 'trap']",
+        "name": "Bryson Tiller",
+        "popularity": 77,
+        "spotify_id": "2EMAnMvWE2eb56ToJVfCWs"
+    },
+    {
+        "birthday": "1971-06-16",
+        "genres": "['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",
+        "name": "2Pac",
+        "popularity": 78,
+        "spotify_id": "1ZwdS5xdxEREPySFridCfh"
+    },
+    {
+        "birthday": "1994-08-09",
+        "genres": "['chicago rap']",
+        "name": "King Von",
+        "popularity": 74,
+        "spotify_id": "6QtgPSJPSzcnn7dPZ4VINp"
+    },
+    {
+        "birthday": "2002-11-01",
+        "genres": "['memphis hip hop', 'viral rap']",
+        "name": "NLE Choppa",
+        "popularity": 76,
+        "spotify_id": "0ErzCpIMyLcjPiwT4elrtZ"
+    },
+    {
+        "birthday": "2002-08-26",
+        "genres": "['melodic rap', 'pluggnb']",
+        "name": "Lil Tecca",
+        "popularity": 77,
+        "spotify_id": "4Ga1P7PMIsmqEZqhYZQgDo"
+    },
+    {
+        "birthday": "1991-12-14",
+        "genres": "['atl hip hop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']",
+        "name": "Offset",
+        "popularity": 76,
+        "spotify_id": "4DdkRBBYG6Yk9Ka8tdJ9BW"
+    },
+    {
+        "birthday": "1989-11-19",
+        "genres": "['dance pop', 'hip hop', 'pop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Tyga",
+        "popularity": 79,
+        "spotify_id": "5LHRHt1k9lMyONurDHEdrp"
+    },
+    {
+        "birthday": "1994-06-12",
+        "genres": "['pop', 'rap', 'trap']",
+        "name": "Don Toliver",
+        "popularity": 78,
+        "spotify_id": "4Gso3d4CscCijv0lmajZWs"
+    },
+    {
+        "birthday": "1981-01-15",
+        "genres": "['dance pop', 'latin', 'miami hip hop', 'pop', 'pop rap']",
+        "name": "Pitbull",
+        "popularity": 82,
+        "spotify_id": "0TnOYISbd1XYRBk9myaseg"
+    },
+    {
+        "birthday": "1987-05-06",
+        "genres": "['hip hop', 'philly rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Meek Mill",
+        "popularity": 75,
+        "spotify_id": "20sxb77xiYeusSH8cVdatc"
+    },
+    {
+        "birthday": "1993-04-16",
+        "genres": "['chicago rap', 'conscious hip hop', 'hip hop', 'pop rap', 'rap']",
+        "name": "Chance the Rapper",
+        "popularity": 75,
+        "spotify_id": "1anyVhU62p31KFi8MEzkbf"
+    },
+    {
+        "birthday": "1984-09-30",
+        "genres": "['dance pop', 'hip hop', 'pop', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'urban contemporary']",
+        "name": "T-Pain",
+        "popularity": 76,
+        "spotify_id": "3aQeKQSyrW4qWr35idm0cy"
+    },
+    {
+        "birthday": "1992-09-26",
+        "genres": "['hawaiian hip hop', 'rap']",
+        "name": "Russ",
+        "popularity": 76,
+        "spotify_id": "1z7b1Pr1rSlvWRzsW3HOrS"
+    },
+    {
+        "birthday": "1996-04-18",
+        "genres": "['miami hip hop', 'rap']",
+        "name": "Ski Mask The Slump God",
+        "popularity": 75,
+        "spotify_id": "2rhFzFmezpnW82MNqEKVry"
+    },
+    {
+        "birthday": "1965-02-18",
+        "genres": "['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",
+        "name": "Dr. Dre",
+        "popularity": 78,
+        "spotify_id": "6DPYiyq5kWVQS4RGwxzPC7"
+    },
+    {
+        "birthday": "1990-03-09",
+        "genres": "['cali rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "YG",
+        "popularity": 75,
+        "spotify_id": "0A0FS04o6zMoto8OKPsDwY"
+    },
+    {
+        "birthday": "1999-03-25",
+        "genres": "['melodic rap', 'pop rap']",
+        "name": "iann dior",
+        "popularity": 76,
+        "spotify_id": "6ASri4ePR7RlsvIQgWPJpS"
+    },
+    {
+        "birthday": "1995-11-25",
+        "genres": "['detroit trap', 'rap', 'southern hip hop', 'trap']",
+        "name": "42 Dugg",
+        "popularity": 73,
+        "spotify_id": "45gHcnDnMC15sgx3VL7ROG"
+    },
+    {
+        "birthday": "null",
+        "genres": "['alternative metal', 'nu metal', 'post-grunge', 'rap metal']",
+        "name": "Linkin Park",
+        "popularity": 81,
+        "spotify_id": "6XyY86QOPPrYVGvF9ch6wz"
+    },
+    {
+        "birthday": "1989-10-22",
+        "genres": "['escape room', 'experimental hip hop', 'hip hop', 'industrial hip hop', 'rap', 'underground hip hop']",
+        "name": "JPEGMAFIA",
+        "popularity": 61,
+        "spotify_id": "6yJ6QQ3Y5l0s0tn7b0arrO"
+    },
+    {
+        "birthday": "1974-11-02",
+        "genres": "['dance pop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'st louis rap', 'urban contemporary']",
+        "name": "Nelly",
+        "popularity": 74,
+        "spotify_id": "2gBjLmx6zQnFGQJCAQpRgw"
+    },
+    {
+        "birthday": "1990-10-31",
+        "genres": "['hip hop', 'rap', 'underground hip hop']",
+        "name": "JID",
+        "popularity": 77,
+        "spotify_id": "6U3ybJ9UHNKEdsH7ktGBZ7"
+    },
+    {
+        "birthday": "1972-05-21",
+        "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']",
+        "name": "The Notorious B.I.G.",
+        "popularity": 77,
+        "spotify_id": "5me0Irg2ANcsgc93uaYrpb"
+    },
+    {
+        "birthday": "1984-11-09",
+        "genres": "['gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "French Montana",
+        "popularity": 77,
+        "spotify_id": "6vXTefBL93Dj5IqAWq6OTv"
+    },
+    {
+        "birthday": "1977-09-11",
+        "genres": "['atl hip hop', 'dance pop', 'dirty south rap', 'hip hop', 'old school atlanta hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Ludacris",
+        "popularity": 75,
+        "spotify_id": "3ipn9JLAPI5GUEo4y4jcoi"
+    },
+    {
+        "birthday": "1985-07-27",
+        "genres": "['gangster rap', 'hip hop', 'memphis hip hop', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']",
+        "name": "Young Dolph",
+        "popularity": 71,
+        "spotify_id": "3HiuzBlSW7pGDXlSFMhO2g"
+    },
+    {
+        "birthday": "1993-07-03",
+        "genres": "['pop', 'pop rap', 'r&b', 'rap', 'toronto rap', 'trap', 'urban contemporary']",
+        "name": "PARTYNEXTDOOR",
+        "popularity": 74,
+        "spotify_id": "2HPaUgqeutzr3jx5a9WyDV"
+    },
+    {
+        "birthday": "1975-11-26",
+        "genres": "['dance pop', 'dirty south rap', 'hip hop', 'miami hip hop', 'pop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "DJ Khaled",
+        "popularity": 76,
+        "spotify_id": "0QHgL1lAIqAw0HtD7YldmP"
+    },
+    {
+        "birthday": "1989-05-24",
+        "genres": "['indie pop rap', 'oakland hip hop', 'pop', 'pop rap', 'rap']",
+        "name": "G-Eazy",
+        "popularity": 75,
+        "spotify_id": "02kJSzxNuaWGqwubyUba0Z"
+    },
+    {
+        "birthday": "1996-03-19",
+        "genres": "['minnesota hip hop', 'pop rap']",
+        "name": "Yung Gravy",
+        "popularity": 73,
+        "spotify_id": "2YOYua8FpudSEiB9s88IgQ"
+    },
+    {
+        "birthday": "1993-06-07",
+        "genres": "['melodic rap', 'trap']",
+        "name": "Swae Lee",
+        "popularity": 76,
+        "spotify_id": "1zNqQNIdeOUZHb8zbZRFMX"
+    },
+    {
+        "birthday": "1980-09-25",
+        "genres": "['atl hip hop', 'dance pop', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "T.I.",
+        "popularity": 73,
+        "spotify_id": "4OBJLual30L7gRl5UkeRcT"
+    },
+    {
+        "birthday": "1967-11-07",
+        "genres": "['big room', 'dance pop', 'edm', 'pop', 'pop dance', 'pop rap']",
+        "name": "David Guetta",
+        "popularity": 86,
+        "spotify_id": "1Cs0zKBU1kc0i8ypK3B9ai"
+    },
+    {
+        "birthday": "1997-12-16",
+        "genres": "['aesthetic rap', 'florida rap', 'rap', 'underground hip hop']",
+        "name": "$NOT",
+        "popularity": 72,
+        "spotify_id": "5IbEL2xjRtKsunfmsahLuO"
+    },
+    {
+        "birthday": "1995-08-15",
+        "genres": "['chicago bop', 'chicago drill', 'chicago rap', 'drill', 'hip hop', 'rap', 'southern hip hop', 'trap', 'underground hip hop', 'viral rap']",
+        "name": "Chief Keef",
+        "popularity": 72,
+        "spotify_id": "15iVAtD3s3FsQR4w1v6M0P"
+    },
+    {
+        "birthday": "1999-05-01",
+        "genres": "['melodic rap', 'trap']",
+        "name": "YNW Melly",
+        "popularity": 73,
+        "spotify_id": "1cNDP5yjU5vjeR8qMf4grg"
+    },
+    {
+        "birthday": "1989-11-03",
+        "genres": "['canadian hip hop', 'canadian trap', 'hip hop', 'melodic rap', 'rap', 'toronto rap', 'trap', 'vapor trap']",
+        "name": "NAV",
+        "popularity": 73,
+        "spotify_id": "7rkW85dBwwrJtlHRDkJDAC"
+    },
+    {
+        "birthday": "1992-09-17",
+        "genres": "['pop rap']",
+        "name": "Blxst",
+        "popularity": 74,
+        "spotify_id": "4qXC0i02bSFstECuXP2ZpL"
+    },
+    {
+        "birthday": "1995-04-24",
+        "genres": "['dance pop', 'pop', 'pop rap', 'r&b']",
+        "name": "Kehlani",
+        "popularity": 75,
+        "spotify_id": "0cGUm45nv7Z6M6qdXYQGTX"
+    },
+    {
+        "birthday": "1995-06-11",
+        "genres": "['afro r&b', 'alte', 'nigerian pop', 'pop', 'pop rap', 'r&b']",
+        "name": "Tems",
+        "popularity": 76,
+        "spotify_id": "687cZJR45JO7jhk1LHIbgq"
+    },
+    {
+        "birthday": "1997-08-03",
+        "genres": "['memphis hip hop', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']",
+        "name": "Key Glock",
+        "popularity": 73,
+        "spotify_id": "0RESbWvOMyua0yuyVrztJ5"
+    },
+    {
+        "birthday": "1992-06-24",
+        "genres": "['atl hip hop', 'hip hop', 'melodic rap', 'r&b', 'rap', 'trap']",
+        "name": "6LACK",
+        "popularity": 74,
+        "spotify_id": "4IVAbR2w4JJNJDDRFP3E83"
+    },
+    {
+        "birthday": "1987-07-17",
+        "genres": "['chicago rap', 'dance pop', 'pop', 'pop rap', 'r&b', 'southern hip hop', 'trap', 'urban contemporary']",
+        "name": "Jeremih",
+        "popularity": 74,
+        "spotify_id": "3KV3p5EY4AvKxOlhGHORLg"
+    },
+    {
+        "birthday": "1975-04-05",
+        "genres": "['crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Juicy J",
+        "popularity": 73,
+        "spotify_id": "5gCRApTajqwbnHHPbr2Fpi"
+    },
+    {
+        "birthday": "1995-10-08",
+        "genres": "['chicago drill', 'chicago rap', 'drill', 'hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "G Herbo",
+        "popularity": 71,
+        "spotify_id": "5QdEbQJ3ylBnc3gsIASAT5"
+    },
+    {
+        "birthday": "1977-05-13",
+        "genres": "['gangster rap', 'hip hop', 'rap', 'southern hip hop', 'trap', 'virginia hip hop']",
+        "name": "Pusha T",
+        "popularity": 73,
+        "spotify_id": "0ONHkAv9pCAFxb0zJwDNTy"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'nu metal', 'rap metal']",
+        "name": "Slipknot",
+        "popularity": 77,
+        "spotify_id": "05fG473iIaoy82BF1aGhL8"
+    },
+    {
+        "birthday": "1986-10-26",
+        "genres": "['gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",
+        "name": "ScHoolboy Q",
+        "popularity": 72,
+        "spotify_id": "5IcR3N7QB1j6KBL8eImZ8m"
+    },
+    {
+        "birthday": "1991-05-24",
+        "genres": "['country rap', 'redneck']",
+        "name": "Upchurch",
+        "popularity": 69,
+        "spotify_id": "2pSObt5Fk8izuX8ZfI3jRn"
+    },
+    {
+        "birthday": "null",
+        "genres": "['atl hip hop', 'dirty south rap', 'hip hop', 'old school atlanta hip hop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "Outkast",
+        "popularity": 73,
+        "spotify_id": "1G9G7WwrXka3Z1r7aIDjI7"
+    },
+    {
+        "birthday": "1990-06-05",
+        "genres": "['cali rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Mustard",
+        "popularity": 72,
+        "spotify_id": "0YinUQ50QDB7ZxSCLyQ40k"
+    },
+    {
+        "birthday": "1997-03-02",
+        "genres": "['latin', 'latin viral pop', 'rap latina', 'reggaeton']",
+        "name": "Becky G",
+        "popularity": 81,
+        "spotify_id": "4obzFoKoKRHIphyHzJ35G3"
+    },
+    {
+        "birthday": "null",
+        "genres": "['alternative metal', 'nu metal', 'rap metal', 'rock', 'sacramento indie']",
+        "name": "Deftones",
+        "popularity": 73,
+        "spotify_id": "6Ghvu1VvMGScGpOUJBAHNH"
+    },
+    {
+        "birthday": "1998-08-04",
+        "genres": "['melodic rap', 'rap', 'trap']",
+        "name": "Lil Skies",
+        "popularity": 70,
+        "spotify_id": "7d3WFRME3vBY2cgoP38RDo"
+    },
+    {
+        "birthday": "1986-12-04",
+        "genres": "['country rap', 'nashville hip hop', 'tennessee hip hop']",
+        "name": "Jelly Roll",
+        "popularity": 69,
+        "spotify_id": "19k8AgwwTSxeaxkOuCQEJs"
+    },
+    {
+        "birthday": "1990-03-29",
+        "genres": "['brooklyn drill', 'hip hop', 'new york drill', 'rap', 'trap']",
+        "name": "Fivio Foreign",
+        "popularity": 75,
+        "spotify_id": "14CHVeJGrR5xgUGQFV5BVM"
+    },
+    {
+        "birthday": "1999-11-08",
+        "genres": "['memphis hip hop', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']",
+        "name": "Pooh Shiesty",
+        "popularity": 71,
+        "spotify_id": "5F1aAS1duwlzExnPs3l2Xe"
+    },
+    {
+        "birthday": "1969-08-19",
+        "genres": "['g funk', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'west coast rap']",
+        "name": "Nate Dogg",
+        "popularity": 75,
+        "spotify_id": "1Oa0bMld0A3u5OTYfMzp5h"
+    },
+    {
+        "birthday": "2001-12-30",
+        "genres": "['florida rap', 'trap', 'viral rap']",
+        "name": "Nardo Wick",
+        "popularity": 68,
+        "spotify_id": "0Njy6yR9LykNKYg9yE23QN"
+    },
+    {
+        "birthday": "null",
+        "genres": "['hip hop', 'melodic rap', 'mississippi hip hop', 'pop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Rae Sremmurd",
+        "popularity": 72,
+        "spotify_id": "7iZtZyCzp3LItcw1wtPI3D"
+    },
+    {
+        "birthday": "1998-10-13",
+        "genres": "['indie pop rap', 'pop rap', 'rhode island rap']",
+        "name": "mike.",
+        "popularity": 68,
+        "spotify_id": "5G9kmDLg3OeUyj8KVBLzbu"
+    },
+    {
+        "birthday": "2000-11-13",
+        "genres": "['cali rap', 'pop rap']",
+        "name": "24kGoldn",
+        "popularity": 74,
+        "spotify_id": "6fWVd57NKTalqvmjRd2t8Z"
+    },
+    {
+        "birthday": "1994-05-11",
+        "genres": "['kentucky hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "EST Gee",
+        "popularity": 71,
+        "spotify_id": "4FlG0V0jhLO4qGpayFOphj"
+    },
+    {
+        "birthday": "null",
+        "genres": "['dance pop', 'pop', 'pop rap']",
+        "name": "Black Eyed Peas",
+        "popularity": 79,
+        "spotify_id": "1yxSLGMDHlW21z4YXirZDS"
+    },
+    {
+        "birthday": "1981-05-19",
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']",
+        "name": "Yo Gotti",
+        "popularity": 69,
+        "spotify_id": "6Ha4aES39QiVjR0L2lwuwq"
+    },
+    {
+        "birthday": "null",
+        "genres": "['alternative metal', 'nu metal', 'rap metal', 'rock']",
+        "name": "System Of A Down",
+        "popularity": 76,
+        "spotify_id": "5eAWCfyUhZtHHtBdNk56l1"
+    },
+    {
+        "birthday": "1989-09-21",
+        "genres": "['dance pop', 'pop', 'pop rap', 'post-teen pop']",
+        "name": "Jason Derulo",
+        "popularity": 80,
+        "spotify_id": "07YZf4WDAMNwqr4jfgOZ8y"
+    },
+    {
+        "birthday": "1998-10-06",
+        "genres": "['glitchcore', 'viral rap']",
+        "name": "Lil Darkie",
+        "popularity": 69,
+        "spotify_id": "62F9BiUmjqeXbBztCwiX1U"
+    },
+    {
+        "birthday": "1991-02-24",
+        "genres": "['conscious hip hop', 'g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",
+        "name": "Ice Cube",
+        "popularity": 73,
+        "spotify_id": "3Mcii5XWf6E0lrY3Uky4cA"
+    },
+    {
+        "birthday": "1988-08-17",
+        "genres": "['boston hip hop', 'hip hop', 'pop rap', 'rap']",
+        "name": "Joyner Lucas",
+        "popularity": 71,
+        "spotify_id": "6C1ohJrd5VydigQtaGy5Wa"
+    },
+    {
+        "birthday": "1984-09-21",
+        "genres": "['dance pop', 'gangster rap', 'hip hop', 'pop', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'trap', 'urban contemporary']",
+        "name": "Wale",
+        "popularity": 70,
+        "spotify_id": "67nwj3Y5sZQLl72VNUHEYE"
+    },
+    {
+        "birthday": "1988-10-20",
+        "genres": "['gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",
+        "name": "A$AP Ferg",
+        "popularity": 71,
+        "spotify_id": "5dHt1vcEm9qb8fCyLcB3HL"
+    },
+    {
+        "birthday": "null",
+        "genres": "['rap', 'trap']",
+        "name": "Internet Money",
+        "popularity": 72,
+        "spotify_id": "6MPCFvOQv5cIGfw3jODMF0"
+    },
+    {
+        "birthday": "1995-01-20",
+        "genres": "['conscious hip hop', 'hip hop', 'rap', 'underground hip hop']",
+        "name": "Joey Bada$$",
+        "popularity": 72,
+        "spotify_id": "2P5sC9cVZDToPxyomzF1UH"
+    },
+    {
+        "birthday": "1979-09-16",
+        "genres": "['dance pop', 'miami hip hop', 'pop', 'pop rap']",
+        "name": "Flo Rida",
+        "popularity": 77,
+        "spotify_id": "0jnsk9HBra6NMjO2oANoPY"
+    },
+    {
+        "birthday": "1977-09-28",
+        "genres": "['atl hip hop', 'crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'old school atlanta hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Jeezy",
+        "popularity": 69,
+        "spotify_id": "4yBK75WVCQXej1p04GWqxH"
+    },
+    {
+        "birthday": "1990-12-18",
+        "genres": "['dembow', 'latin', 'rap dominicano', 'reggaeton', 'trap latino']",
+        "name": "El Alfa",
+        "popularity": 77,
+        "spotify_id": "2oQX8QiMXOyuqbcZEFsZfm"
+    },
+    {
+        "birthday": "1975-11-14",
+        "genres": "['rap rock']",
+        "name": "Travis Barker",
+        "popularity": 71,
+        "spotify_id": "4exLIFE8sISLr28sqG1qNX"
+    },
+    {
+        "birthday": "1971-07-13",
+        "genres": "['alternative hip hop', 'east coast hip hop', 'hip hop', 'rap']",
+        "name": "MF DOOM",
+        "popularity": 72,
+        "spotify_id": "2pAWfrd7WFF3XhVt9GooDL"
+    },
+    {
+        "birthday": "1973-02-08",
+        "genres": "['crunk', 'dirty south rap', 'gangster rap', 'memphis hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Project Pat",
+        "popularity": 69,
+        "spotify_id": "08Ld63UgKrJ0nZnCkzHtzc"
+    },
+    {
+        "birthday": "1993-07-02",
+        "genres": "['cali rap', 'dance pop', 'pop', 'pop rap', 'trap queen']",
+        "name": "Saweetie",
+        "popularity": 73,
+        "spotify_id": "6cK3NBO6uP7hh0oyuVELFl"
+    },
+    {
+        "birthday": "1991-12-09",
+        "genres": "['melodic rap', 'pop rap', 'r&b', 'rap', 'trap', 'vapor trap']",
+        "name": "PnB Rock",
+        "popularity": 69,
+        "spotify_id": "21WS9wngs9AqFckK7yYJPM"
+    },
+    {
+        "birthday": "1992-12-17",
+        "genres": "['hip hop', 'pluggnb', 'rap', 'trap', 'vapor trap', 'viral rap']",
+        "name": "Young Nudy",
+        "popularity": 69,
+        "spotify_id": "5yPzzu25VzEk8qrGTLIrE1"
+    },
+    {
+        "birthday": "1995-02-16",
+        "genres": "['dark trap', 'drill', 'hip hop', 'miami hip hop', 'rap', 'underground hip hop']",
+        "name": "Denzel Curry",
+        "popularity": 72,
+        "spotify_id": "6fxyWrfmjcbj5d12gXeiNV"
+    },
+    {
+        "birthday": "1987-06-24",
+        "genres": "['cali rap', 'pop rap', 'rap', 'sacramento hip hop', 'southern hip hop', 'trap']",
+        "name": "Mozzy",
+        "popularity": 67,
+        "spotify_id": "4AA474G2hRfrHyGrfyDseO"
+    },
+    {
+        "birthday": "1992-05-06",
+        "genres": "['electropop', 'indie pop rap', 'pop', 'pop rap']",
+        "name": "Quinn XCII",
+        "popularity": 67,
+        "spotify_id": "3ApUX1o6oSz321MMECyIYd"
+    },
+    {
+        "birthday": "2003-06-08",
+        "genres": "['sad rap']",
+        "name": "347aidan",
+        "popularity": 71,
+        "spotify_id": "0bBz5bRBkExaej2HxtVfCw"
+    },
+    {
+        "birthday": "2002-01-25",
+        "genres": "['melodic rap', 'rap', 'rap conscient', 'trap', 'vapor trap']",
+        "name": "Lil Mosey",
+        "popularity": 71,
+        "spotify_id": "5zctI4wO9XSKS8XwcnqEHk"
+    },
+    {
+        "birthday": "1994-12-20",
+        "genres": "['aesthetic rap', 'dark trap', 'emo rap', 'miami hip hop', 'underground hip hop']",
+        "name": "Pouya",
+        "popularity": 68,
+        "spotify_id": "4nXOZlYoAD67hF9aUEncMY"
+    },
+    {
+        "birthday": "1979-11-29",
+        "genres": "['gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "The Game",
+        "popularity": 72,
+        "spotify_id": "0NbfKEOTQCcwd6o7wSDOHI"
+    },
+    {
+        "birthday": "1991-06-07",
+        "genres": "['new jersey rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Fetty Wap",
+        "popularity": 69,
+        "spotify_id": "6PXS4YHDkKvl1wkIl4V8DL"
+    },
+    {
+        "birthday": "1985-03-31",
+        "genres": "['conscious hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",
+        "name": "Jay Rock",
+        "popularity": 70,
+        "spotify_id": "28ExwzUQsvgJooOI0X1mr3"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap', 'phonk']",
+        "name": "Freddie Dredd",
+        "popularity": 71,
+        "spotify_id": "0dlDsD7y6ccmDm8tuWCU6F"
+    },
+    {
+        "birthday": "1971-11-08",
+        "genres": "['hip hop', 'kansas city hip hop', 'pop rap']",
+        "name": "Tech N9ne",
+        "popularity": 69,
+        "spotify_id": "6UBA15slIuadJ8h2lPRPos"
+    },
+    {
+        "birthday": "1989-09-08",
+        "genres": "['dance pop', 'edm', 'pop', 'pop dance', 'pop rap']",
+        "name": "Avicii",
+        "popularity": 79,
+        "spotify_id": "1vCWHaC5f2uS3yhpwWbIA6"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'funk metal', 'nu metal', 'rap metal', 'rock']",
+        "name": "Korn",
+        "popularity": 72,
+        "spotify_id": "3RNrq3jvMZxD9ZyoOZbQOD"
+    },
+    {
+        "birthday": "1998-09-23",
+        "genres": "['brooklyn drill', 'new york drill', 'nyc rap']",
+        "name": "Sheff G",
+        "popularity": 70,
+        "spotify_id": "1tG7s7S4sq2eFFW0QZyLbm"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'nu metal', 'rap metal']",
+        "name": "Disturbed",
+        "popularity": 72,
+        "spotify_id": "3TOqt5oJwL9BE2NG9MEwDa"
+    },
+    {
+        "birthday": "1967-11-15",
+        "genres": "['cali rap', 'gangster rap', 'hip hop', 'hyphy', 'oakland hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'west coast rap']",
+        "name": "E-40",
+        "popularity": 66,
+        "spotify_id": "3crnzLy8R4lVwaigKEOz7V"
+    },
+    {
+        "birthday": "1973-09-14",
+        "genres": "['conscious hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap']",
+        "name": "Nas",
+        "popularity": 72,
+        "spotify_id": "20qISvAhX20dpIbOOzGK3q"
+    },
+    {
+        "birthday": "1988-11-15",
+        "genres": "['atl hip hop', 'dance pop', 'hip hop', 'pop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "B.o.B",
+        "popularity": 71,
+        "spotify_id": "5ndkK3dpZLKtBklKjxNQwT"
+    },
+    {
+        "birthday": "1983-06-19",
+        "genres": "['pop rap', 'seattle hip hop']",
+        "name": "Macklemore",
+        "popularity": 75,
+        "spotify_id": "3JhNCzhSMTxs9WLGJJxWOY"
+    },
+    {
+        "birthday": "1994-03-23",
+        "genres": "['detroit hip hop', 'detroit trap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Tee Grizzley",
+        "popularity": 67,
+        "spotify_id": "6AUl0ykLLpvTktob97x9hO"
+    },
+    {
+        "birthday": "1973-01-09",
+        "genres": "['dance pop', 'dancehall', 'pop', 'pop rap']",
+        "name": "Sean Paul",
+        "popularity": 79,
+        "spotify_id": "3Isy6kedDrgPYoTS1dazA9"
+    },
+    {
+        "birthday": null,
+        "genres": "['hip hop', 'rap']",
+        "name": "Dreamville",
+        "popularity": 67,
+        "spotify_id": "1iNqsUDUraNWrj00bqssQG"
+    },
+    {
+        "birthday": null,
+        "genres": "['cali rap', 'trap', 'underground hip hop', 'viral rap']",
+        "name": "Shoreline Mafia",
+        "popularity": 66,
+        "spotify_id": "4tYSBptyGeVyZsk8JC4JHZ"
+    },
+    {
+        "birthday": null,
+        "genres": "['lo-fi chill', 'sad rap']",
+        "name": "Shiloh Dynasty",
+        "popularity": 73,
+        "spotify_id": "1wxPItEzr7U7rGSMPqZ25r"
+    },
+    {
+        "birthday": null,
+        "genres": "['plugg', 'pluggnb', 'viral rap']",
+        "name": "Cochise",
+        "popularity": 69,
+        "spotify_id": "46HzS7yz0c9udVwtbHk1sx"
+    },
+    {
+        "birthday": null,
+        "genres": "['emo rap', 'pop rap', 'sad rap']",
+        "name": "iamjakehill",
+        "popularity": 68,
+        "spotify_id": "26JloX1vHxGGrGUVeMItFJ"
+    },
+    {
+        "birthday": "1972-03-10",
+        "genres": "['dance pop', 'hip hop', 'hip pop', 'pop', 'pop rap', 'urban contemporary']",
+        "name": "Timbaland",
+        "popularity": 75,
+        "spotify_id": "5Y5TRrQiqgUO4S36tzjIRZ"
+    },
+    {
+        "birthday": "1982-11-14",
+        "genres": "['baton rouge rap', 'dirty south rap', 'gangster rap', 'hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Boosie Badazz",
+        "popularity": 64,
+        "spotify_id": "6z7xFFHxYkE9t8bwIF0Bvg"
+    },
+    {
+        "birthday": null,
+        "genres": "['dance pop', 'pop', 'pop rap', 'r&b', 'scam rap', 'trap queen']",
+        "name": "City Girls",
+        "popularity": 67,
+        "spotify_id": "37hAfseJWi0G3Scife12Il"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'nu metal', 'rap metal', 'rap rock']",
+        "name": "Papa Roach",
+        "popularity": 70,
+        "spotify_id": "4RddZ3iHvSpGV4dvATac9X"
+    },
+    {
+        "birthday": "1972-01-17",
+        "genres": "['atl hip hop', 'crunk', 'dance pop', 'dirty south rap', 'old school atlanta hip hop', 'pop rap', 'southern hip hop']",
+        "name": "Lil Jon",
+        "popularity": 72,
+        "spotify_id": "7sfl4Xt5KmfyDs2T3SVSMK"
+    },
+    {
+        "birthday": "2000-06-16",
+        "genres": "['cali rap', 'dfw rap', 'rap', 'trap', 'vapor trap', 'viral rap']",
+        "name": "Tay-K",
+        "popularity": 65,
+        "spotify_id": "2ODbg2404zUzTi02qIPEjB"
+    },
+    {
+        "birthday": "1991-08-16",
+        "genres": "['pop', 'pop rap', 'r&b', 'rap latina', 'trap queen']",
+        "name": "BIA",
+        "popularity": 68,
+        "spotify_id": "6veh5zbFpm31XsPdjBgPER"
+    },
+    {
+        "birthday": "1991-04-15",
+        "genres": "['dark trap', 'florida rap']",
+        "name": "Ghostemane",
+        "popularity": 71,
+        "spotify_id": "3uL4UpqShC4p2x1dJutoRW"
+    },
+    {
+        "birthday": "1985-08-15",
+        "genres": "['conscious hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Nipsey Hussle",
+        "popularity": 66,
+        "spotify_id": "0EeQBlQJFiAfJeVN2vT9s0"
+    },
+    {
+        "birthday": "1999-03-31",
+        "genres": "['sad rap']",
+        "name": "Powfu",
+        "popularity": 71,
+        "spotify_id": "6bmlMHgSheBauioMgKv2tn"
+    },
+    {
+        "birthday": null,
+        "genres": "['memphis hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Money Man",
+        "popularity": 67,
+        "spotify_id": "3Rx4PJ7SP6unkOk5elPUK7"
+    },
+    {
+        "birthday": "1969-11-04",
+        "genres": "['dance pop', 'east coast hip hop', 'hip hop', 'hip pop', 'pop rap', 'r&b', 'rap']",
+        "name": "Diddy",
+        "popularity": 72,
+        "spotify_id": "59wfkuBoNyhDMQGCljbUbA"
+    },
+    {
+        "birthday": null,
+        "genres": "['metalcore', 'modern rock', 'pop punk', 'rap metal', 'rock']",
+        "name": "Falling In Reverse",
+        "popularity": 69,
+        "spotify_id": "2CmaKO2zEGJ1NWpS1yfVGz"
+    },
+    {
+        "birthday": "1990-07-28",
+        "genres": "['atl hip hop', 'chicago bop', 'dance pop', 'dirty south rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']",
+        "name": "Soulja Boy",
+        "popularity": 69,
+        "spotify_id": "6GMYJwaziB4ekv1Y6wCDWS"
+    },
+    {
+        "birthday": "1971-07-01",
+        "genres": "['dance pop', 'hip hop', 'hip pop', 'pop', 'pop rap', 'r&b', 'rap', 'urban contemporary', 'virginia hip hop']",
+        "name": "Missy Elliott",
+        "popularity": 69,
+        "spotify_id": "2wIVse2owClT7go1WT98tk"
+    },
+    {
+        "birthday": "1996-05-08",
+        "genres": "['emo rap', 'rap', 'trap']",
+        "name": "6ix9ine",
+        "popularity": 71,
+        "spotify_id": "7gZfnEnfiaHzxARJ2LeXrf"
+    },
+    {
+        "birthday": "1986-08-26",
+        "genres": "['melodic rap', 'pop rap', 'rap', 'slap house', 'trap']",
+        "name": "SAINt JHN",
+        "popularity": 70,
+        "spotify_id": "0H39MdGGX6dbnnQPt6NQkZ"
+    },
+    {
+        "birthday": "1997-08-26",
+        "genres": "['dmv rap', 'hip hop', 'rap', 'trap']",
+        "name": "Cordae",
+        "popularity": 67,
+        "spotify_id": "0huGjMyP507tBCARyzSkrv"
+    },
+    {
+        "birthday": "1994-11-03",
+        "genres": "['dance pop', 'pop', 'pop rap', 'r&b', 'uk contemporary r&b', 'urban contemporary']",
+        "name": "Ella Mai",
+        "popularity": 70,
+        "spotify_id": "7HkdQ0gt53LP4zmHsL0nap"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'modern rock', 'nu metal', 'rap metal', 'rap rock']",
+        "name": "Hollywood Undead",
+        "popularity": 68,
+        "spotify_id": "0CEFCo8288kQU7mJi25s6E"
+    },
+    {
+        "birthday": "1971-03-02",
+        "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'southern hip hop']",
+        "name": "Method Man",
+        "popularity": 71,
+        "spotify_id": "4VmEWwd8y9MCLwexFMdpwt"
+    },
+    {
+        "birthday": "1986-06-13",
+        "genres": "['dance pop', 'edm', 'electronic trap', 'pop', 'pop dance', 'pop rap']",
+        "name": "DJ Snake",
+        "popularity": 77,
+        "spotify_id": "540vIaP2JwjQb9dm3aArA4"
+    },
+    {
+        "birthday": "1988-06-16",
+        "genres": "['electropop', 'pop', 'pop rap']",
+        "name": "Bryce Vine",
+        "popularity": 66,
+        "spotify_id": "1ShZZUjkbXCjhwrb18BA8I"
+    },
+    {
+        "birthday": "1973-11-27",
+        "genres": "['chicago rap', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'r&b', 'rap', 'trap', 'urban contemporary']",
+        "name": "Twista",
+        "popularity": 66,
+        "spotify_id": "6vbY3hOaCAhC7VjucswgdS"
+    },
+    {
+        "birthday": "1994-04-05",
+        "genres": "['alabama rap', 'pop rap', 'r&b', 'trap']",
+        "name": "BLEU",
+        "popularity": 67,
+        "spotify_id": "3KNIG74xSTc3dj0TRy7pGX"
+    },
+    {
+        "birthday": "1992-07-13",
+        "genres": "['atl hip hop', 'hip hop', 'melodic rap', 'plugg', 'pop rap', 'rap', 'southern hip hop', 'trap', 'vapor trap', 'viral rap']",
+        "name": "Rich The Kid",
+        "popularity": 67,
+        "spotify_id": "1pPmIToKXyGdsCF6LmqLmI"
+    },
+    {
+        "birthday": null,
+        "genres": "['viral rap']",
+        "name": "SleazyWorld Go",
+        "popularity": 65,
+        "spotify_id": "7FOQfJbC3e4GNoheojERnF"
+    },
+    {
+        "birthday": "1988-09-21",
+        "genres": "['bc underground hip hop', 'country rap', 'maga rap']",
+        "name": "Tom MacDonald",
+        "popularity": 65,
+        "spotify_id": "6DvlemMOlMH6VD9tB7BPRf"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'alternative rock', 'conscious hip hop', 'funk metal', 'nu metal', 'political hip hop', 'rap metal', 'rap rock', 'rock']",
+        "name": "Rage Against The Machine",
+        "popularity": 71,
+        "spotify_id": "2d0hyoQ5ynDBnkvAbJKORj"
+    },
+    {
+        "birthday": "1969-07-24",
+        "genres": "['dance pop', 'pop', 'pop rap', 'urban contemporary']",
+        "name": "Jennifer Lopez",
+        "popularity": 76,
+        "spotify_id": "2DlGxzQSjYe5N6G9nkYghR"
+    },
+    {
+        "birthday": "1995-10-03",
+        "genres": "['dark trap', 'emo rap', 'melodic rap', 'underground hip hop', 'vapor trap']",
+        "name": "Lil Tracy",
+        "popularity": 69,
+        "spotify_id": "5g63iWaMJ2UrkZMkCC8dMi"
+    },
+    {
+        "birthday": "1997-08-08",
+        "genres": "['dream smp', 'viral rap']",
+        "name": "CORPSE",
+        "popularity": 68,
+        "spotify_id": "7yntSJ6uojO3z6GFUVwhAW"
+    },
+    {
+        "birthday": "1970-12-18",
+        "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "DMX",
+        "popularity": 69,
+        "spotify_id": "1HwM5zlC5qNWhJtM00yXzG"
+    },
+    {
+        "birthday": "1989-09-02",
+        "genres": "['complextro', 'dance pop', 'edm', 'electro house', 'electropop', 'german techno', 'pop', 'pop dance', 'pop rap', 'tropical house', 'uk pop']",
+        "name": "Zedd",
+        "popularity": 74,
+        "spotify_id": "2qxJFvFYMEDqd7ui6kSAcq"
+    },
+    {
+        "birthday": "1983-12-03",
+        "genres": "['dance pop', 'modern rock', 'neo mellow', 'pop', 'pop rap', 'pop rock']",
+        "name": "Andy Grammer",
+        "popularity": 70,
+        "spotify_id": "2oX42qP5ineK3hrhBECLmj"
+    },
+    {
+        "birthday": "1993-05-18",
+        "genres": "['pop', 'pop rap', 'rap', 'viral rap']",
+        "name": "KYLE",
+        "popularity": 65,
+        "spotify_id": "4qBgvVog0wzW75IQ48mU7v"
+    },
+    {
+        "birthday": "1994-04-18",
+        "genres": "['hip hop', 'pop', 'portland hip hop', 'rap', 'underground hip hop']",
+        "name": "Aminé",
+        "popularity": 69,
+        "spotify_id": "3Gm5F95VdRxW3mqCn8RPBJ"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap']",
+        "name": "1nonly",
+        "popularity": 70,
+        "spotify_id": "3ZHU5AKrUmIPnCFfr82QER"
+    },
+    {
+        "birthday": "1975-03-15",
+        "genres": "['dance pop', 'pop', 'pop rap']",
+        "name": "will.i.am",
+        "popularity": 72,
+        "spotify_id": "085pc2PYOi8bGKj0PNjekA"
+    },
+    {
+        "birthday": "1979-12-30",
+        "genres": "['alabama rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "Yelawolf",
+        "popularity": 65,
+        "spotify_id": "68DWke2VjdDmA75aJX5C57"
+    },
+    {
+        "birthday": "1997-01-28",
+        "genres": "['cali rap', 'pop rap']",
+        "name": "Sueco",
+        "popularity": 65,
+        "spotify_id": "4iDroUFo89Y7YBsdDTBmTD"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rap rock', 'rock']",
+        "name": "Godsmack",
+        "popularity": 65,
+        "spotify_id": "6gZq1Q6bdOxsUPUG1TaFbF"
+    },
+    {
+        "birthday": "1988-03-08",
+        "genres": "['electropop', 'pop', 'pop rap']",
+        "name": "benny blanco",
+        "popularity": 71,
+        "spotify_id": "5CiGnKThu5ctn9pBxv7DGa"
+    },
+    {
+        "birthday": "1982-02-16",
+        "genres": "['alternative hip hop', 'chicago rap', 'conscious hip hop', 'gangster rap', 'hip hop', 'political hip hop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "Lupe Fiasco",
+        "popularity": 66,
+        "spotify_id": "01QTIT5P1pFP3QnnFSdsJf"
+    },
+    {
+        "birthday": "1986-05-31",
+        "genres": "['atl hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Waka Flocka Flame",
+        "popularity": 64,
+        "spotify_id": "6f4XkbvYlXMH0QgVRzW0sM"
+    },
+    {
+        "birthday": "1990-12-26",
+        "genres": "['pop rap']",
+        "name": "Jon Bellion",
+        "popularity": 67,
+        "spotify_id": "50JJSqHUf2RQ9xsHs0KMHg"
+    },
+    {
+        "birthday": "1977-11-18",
+        "genres": "['dance pop', 'gangster rap', 'hip hop', 'hip pop', 'pop rap', 'r&b', 'rap', 'trap', 'urban contemporary']",
+        "name": "Fabolous",
+        "popularity": 66,
+        "spotify_id": "0YWxKQj2Go9CGHCp77UOyy"
+    },
+    {
+        "birthday": "1981-04-04",
+        "genres": "['alternative hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'new orleans rap', 'pop rap', 'rap', 'southern hip hop', 'underground hip hop']",
+        "name": "Curren$y",
+        "popularity": 64,
+        "spotify_id": "6X8WdFjrNhXATMDSs26aCc"
+    },
+    {
+        "birthday": null,
+        "genres": "['boy band', 'hip hop', 'rap']",
+        "name": "BROCKHAMPTON",
+        "popularity": 68,
+        "spotify_id": "1Bl6wpkWCQ4KVgnASpvzzA"
+    },
+    {
+        "birthday": "1997-05-29",
+        "genres": "['aesthetic rap', 'canadian hip hop', 'canadian trap', 'dark trap', 'ottawa rap', 'underground hip hop']",
+        "name": "Night Lovell",
+        "popularity": 69,
+        "spotify_id": "2y246nnP9pQT0E6v3ZMMOO"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative rock', 'east coast hip hop', 'golden age hip hop', 'hip hop', 'old school hip hop', 'rap', 'rap rock']",
+        "name": "Beastie Boys",
+        "popularity": 67,
+        "spotify_id": "03r4iKL2g2442PT9n2UKsx"
+    },
+    {
+        "birthday": null,
+        "genres": "['emo rap', 'pop rap', 'sad rap']",
+        "name": "Josh A",
+        "popularity": 67,
+        "spotify_id": "2rWCIhENZyPVDAeFC0ESWN"
+    },
+    {
+        "birthday": "1997-01-20",
+        "genres": "['cali rap', 'trap']",
+        "name": "Blueface",
+        "popularity": 67,
+        "spotify_id": "3Fl1V19tmjt57oBdxXKAjJ"
+    },
+    {
+        "birthday": "1972-05-20",
+        "genres": "['east coast hip hop', 'hardcore hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap']",
+        "name": "Busta Rhymes",
+        "popularity": 70,
+        "spotify_id": "1YfEcTuGvBQ8xSD1f53UnK"
+    },
+    {
+        "birthday": "1996-09-30",
+        "genres": "['cali rap', 'viral rap']",
+        "name": "Mike Sherm",
+        "popularity": 61,
+        "spotify_id": "3tqosLbNFNekyZyO2KJ6qd"
+    },
+    {
+        "birthday": "1993-07-02",
+        "genres": "['conscious hip hop', 'escape room', 'hip hop', 'rap', 'underground hip hop']",
+        "name": "Vince Staples",
+        "popularity": 68,
+        "spotify_id": "68kEuyFKyqrdQQLLsmiatm"
+    },
+    {
+        "birthday": "1978-12-02",
+        "genres": "['canadian latin', 'canadian pop', 'dance pop', 'pop', 'pop rap']",
+        "name": "Nelly Furtado",
+        "popularity": 73,
+        "spotify_id": "2jw70GZXlAI8QzWeY2bgRc"
+    },
+    {
+        "birthday": "1991-10-02",
+        "genres": "['hip hop', 'rap', 'underground hip hop']",
+        "name": "Smino",
+        "popularity": 66,
+        "spotify_id": "1ybINI1qPiFbwDXamRtwxD"
+    },
+    {
+        "birthday": null,
+        "genres": "['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']",
+        "name": "Quality Control",
+        "popularity": 64,
+        "spotify_id": "6i392l38cR3uBPF0DbNs7S"
+    },
+    {
+        "birthday": "2000-06-13",
+        "genres": "['florida rap', 'pop rap', 'trap']",
+        "name": "Hotboii",
+        "popularity": 63,
+        "spotify_id": "220xv2aB3dsGxaJI1gGs7l"
+    },
+    {
+        "birthday": "2000-01-09",
+        "genres": "['dance pop', 'pop', 'viral rap']",
+        "name": "Flo Milli",
+        "popularity": 66,
+        "spotify_id": "08PvCOlef4xdOr20jFSTPd"
+    },
+    {
+        "birthday": "1991-05-16",
+        "genres": "['hip hop', 'rap', 'tennessee hip hop', 'underground hip hop']",
+        "name": "Isaiah Rashad",
+        "popularity": 66,
+        "spotify_id": "6aaMZ3fcfLv4tEbmY7bjRM"
+    },
+    {
+        "birthday": "1969-02-15",
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "Birdman",
+        "popularity": 63,
+        "spotify_id": "35sCXuy5gN6Or69rZ9vqBs"
+    },
+    {
+        "birthday": "1970-10-05",
+        "genres": "['chicano rap', 'dirty south rap', 'gangster rap', 'houston rap', 'latin hip hop', 'texas latin rap']",
+        "name": "South Park Mexican",
+        "popularity": 61,
+        "spotify_id": "4kKaAWGdu6WW0W415RWaQA"
+    },
+    {
+        "birthday": "1986-12-10",
+        "genres": "['latin', 'latin pop', 'rap latina', 'reggaeton', 'trap latino']",
+        "name": "Natti Natasha",
+        "popularity": 75,
+        "spotify_id": "1GDbiv3spRmZ1XdM1jQbT7"
+    },
+    {
+        "birthday": "1988-02-12",
+        "genres": "['dance pop', 'edm', 'pop', 'pop rap']",
+        "name": "Mike Posner",
+        "popularity": 69,
+        "spotify_id": "2KsP6tYLJlTBvSUxnwlVWa"
+    },
+    {
+        "birthday": null,
+        "genres": "['cali rap']",
+        "name": "Fenix Flexin",
+        "popularity": 64,
+        "spotify_id": "63GIj2yhFvX1Bzphb9JgVb"
+    },
+    {
+        "birthday": "1998-07-08",
+        "genres": "['hip hop', 'pop', 'rap']",
+        "name": "Jaden",
+        "popularity": 69,
+        "spotify_id": "0xOeVMOz2fVg5BJY3N6akT"
+    },
+    {
+        "birthday": "1987-07-26",
+        "genres": "['cali rap', 'melodic rap', 'trap']",
+        "name": "03 Greedo",
+        "popularity": 64,
+        "spotify_id": "0FtsMKmZEq8fBWqdSOWtqp"
+    },
+    {
+        "birthday": "1993-12-01",
+        "genres": "['cali rap', 'viral rap']",
+        "name": "Drakeo the Ruler",
+        "popularity": 62,
+        "spotify_id": "0p4ViyfJUTW0IT4SCBLexf"
+    },
+    {
+        "birthday": null,
+        "genres": "['pop rap', 'rhode island rap', 'viral rap']",
+        "name": "Arizona Zervas",
+        "popularity": 66,
+        "spotify_id": "0vRvGUQVUjytro0xpb26bs"
+    },
+    {
+        "birthday": "1997-05-11",
+        "genres": "['new jersey underground rap', 'pop rap', 'r&b', 'trap queen', 'viral rap']",
+        "name": "Coi Leray",
+        "popularity": 65,
+        "spotify_id": "6AMd49uBDJfhf30Ak2QR5s"
+    },
+    {
+        "birthday": "1994-06-18",
+        "genres": "['atl hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Takeoff",
+        "popularity": 67,
+        "spotify_id": "3EW0kQ1skZiK1NHg3Spt9J"
+    },
+    {
+        "birthday": "1993-09-19",
+        "genres": "['melodic rap', 'pluggnb', 'rap', 'trap', 'vapor trap']",
+        "name": "Pi’erre Bourne",
+        "popularity": 64,
+        "spotify_id": "3x3jSlhyv5CiCZDZlaTq0M"
+    },
+    {
+        "birthday": "1991-04-08",
+        "genres": "['cali rap', 'rap', 'southern hip hop']",
+        "name": "Larry June",
+        "popularity": 62,
+        "spotify_id": "1grN0519h2zYqpRtYbDZAl"
+    },
+    {
+        "birthday": null,
+        "genres": "['hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Young Stoner Life",
+        "popularity": 66,
+        "spotify_id": "1xr2G8Hlx4QWmT9HaUbmoO"
+    },
+    {
+        "birthday": "1982-06-14",
+        "genres": "['alternative hip hop', 'gangster rap', 'hip hop', 'indiana hip hop', 'rap', 'southern hip hop', 'underground hip hop']",
+        "name": "Freddie Gibbs",
+        "popularity": 66,
+        "spotify_id": "0Y4inQK6OespitzD6ijMwb"
+    },
+    {
+        "birthday": "1966-04-28",
+        "genres": "['cali rap', 'gangster rap', 'golden age hip hop', 'hip hop', 'hyphy', 'oakland hip hop', 'pop rap', 'rap', 'southern hip hop', 'west coast rap']",
+        "name": "Too $hort",
+        "popularity": 63,
+        "spotify_id": "4sb7rZNN93BSS6Gqgepo4v"
+    },
+    {
+        "birthday": "1975-05-27",
+        "genres": "['battle rap', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap', 'trap']",
+        "name": "Jadakiss",
+        "popularity": 66,
+        "spotify_id": "5pnbUBPifNnlusY8kTBivi"
+    },
+    {
+        "birthday": "1980-09-05",
+        "genres": "['country rap', 'military rap', 'redneck']",
+        "name": "Adam Calhoun",
+        "popularity": 61,
+        "spotify_id": "4fZ8AuVP6Y8mLmCoybfKpC"
+    },
+    {
+        "birthday": null,
+        "genres": "['gangster rap', 'hip hop', 'ohio hip hop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "Bone Thugs-N-Harmony",
+        "popularity": 63,
+        "spotify_id": "5spEJXLwD1sKUdC2bnOHPg"
+    },
+    {
+        "birthday": "1970-05-09",
+        "genres": "['alternative hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'southern hip hop']",
+        "name": "Ghostface Killah",
+        "popularity": 67,
+        "spotify_id": "6FD0unjzGQhX3b6eMccMJe"
+    },
+    {
+        "birthday": null,
+        "genres": "['hip hop', 'rap']",
+        "name": "Aaron May",
+        "popularity": 64,
+        "spotify_id": "2rwALQ1SXdfUWPUd6WOfYS"
+    },
+    {
+        "birthday": null,
+        "genres": "['rap']",
+        "name": "Mike Dimes",
+        "popularity": 63,
+        "spotify_id": "6rIaHuCIUu32uj2CjlEBN3"
+    },
+    {
+        "birthday": "1999-12-18",
+        "genres": "['alabama rap', 'rap', 'trap', 'underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "YBN Nahmir",
+        "popularity": 63,
+        "spotify_id": "3gGUMEwIX6XodWsYEvKSal"
+    },
+    {
+        "birthday": "1994-02-24",
+        "genres": "['alternative hip hop', 'experimental hip hop', 'hip hop', 'rap', 'underground hip hop']",
+        "name": "Earl Sweatshirt",
+        "popularity": 66,
+        "spotify_id": "3A5tHz1SfngyOZM2gItYKu"
+    },
+    {
+        "birthday": "1976-02-29",
+        "genres": "['dance pop', 'east coast hip hop', 'gangster rap', 'hip hop', 'pop rap', 'queens hip hop', 'rap', 'urban contemporary']",
+        "name": "Ja Rule",
+        "popularity": 68,
+        "spotify_id": "1J2VVASYAamtQ3Bt8wGgA6"
+    },
+    {
+        "birthday": null,
+        "genres": "['cali rap']",
+        "name": "OHGEESY",
+        "popularity": 63,
+        "spotify_id": "3ppQEG71r7jVpI8RudzycF"
+    },
+    {
+        "birthday": null,
+        "genres": "['pop rap']",
+        "name": "Nic D",
+        "popularity": 64,
+        "spotify_id": "1XlLhtgJjC4ROQZilBZAvw"
+    },
+    {
+        "birthday": "1997-10-10",
+        "genres": "['rap', 'trap', 'viral rap']",
+        "name": "DDG",
+        "popularity": 64,
+        "spotify_id": "0WK3H9OErSn5zKOkOV5egm"
+    },
+    {
+        "birthday": "1994-03-22",
+        "genres": "['canadian hip hop', 'ottawa rap', 'pop rap']",
+        "name": "Dax",
+        "popularity": 64,
+        "spotify_id": "5icKdCmMhNMYoAzVBAWt39"
+    },
+    {
+        "birthday": "1994-04-15",
+        "genres": "['atl hip hop', 'pop', 'pop r&b', 'pop rap', 'r&b', 'rap', 'urban contemporary']",
+        "name": "Jacquees",
+        "popularity": 65,
+        "spotify_id": "4tMm1dU6Gn04VAZ9ClHcIZ"
+    },
+    {
+        "birthday": "1984-11-27",
+        "genres": "['boom bap', 'buffalo hip hop', 'hip hop', 'rap', 'southern hip hop', 'upstate ny rap']",
+        "name": "Benny The Butcher",
+        "popularity": 64,
+        "spotify_id": "5Matrg5du62bXwer29cU5T"
+    },
+    {
+        "birthday": "1990-04-27",
+        "genres": "['atl hip hop', 'gangster rap', 'melodic rap', 'pop r&b', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'trap', 'viral rap']",
+        "name": "K CAMP",
+        "popularity": 62,
+        "spotify_id": "5bgfj5zUoWpyeVatGDjn6H"
+    },
+    {
+        "birthday": "1970-01-12",
+        "genres": "['alternative hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'southern hip hop']",
+        "name": "Raekwon",
+        "popularity": 67,
+        "spotify_id": "2yQf6b8hxahZaT5dHlWaB1"
+    },
+    {
+        "birthday": "1989-10-04",
+        "genres": "['atl hip hop', 'gangster rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Rich Homie Quan",
+        "popularity": 63,
+        "spotify_id": "5lHRUCqkQZCIWeX7xG4sYT"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'funk metal', 'nu metal', 'rap metal']",
+        "name": "Limp Bizkit",
+        "popularity": 71,
+        "spotify_id": "165ZgPlLkK7bf5bDoFc6Sb"
+    },
+    {
+        "birthday": "1976-07-01",
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'miami hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'urban contemporary']",
+        "name": "Plies",
+        "popularity": 63,
+        "spotify_id": "3jksrX4oBklxR78ft8gv3j"
+    },
+    {
+        "birthday": "1998-07-06",
+        "genres": "['rap', 'trap', 'underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "Comethazine",
+        "popularity": 63,
+        "spotify_id": "1iJdyDcY98X3GMnUesl7tf"
+    },
+    {
+        "birthday": null,
+        "genres": "['chicago rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Only The Family",
+        "popularity": 62,
+        "spotify_id": "3IaKn0ExWTMPqa0mscUYw3"
+    },
+    {
+        "birthday": null,
+        "genres": "['viral rap']",
+        "name": "Insane Clown Posse",
+        "popularity": 63,
+        "spotify_id": "4xtWjIlVuZwTCeqVAsgEXy"
+    },
+    {
+        "birthday": null,
+        "genres": "['detroit hip hop', 'scam rap', 'vapor trap', 'viral rap']",
+        "name": "BabyTron",
+        "popularity": 61,
+        "spotify_id": "0sKsReKseslDlhxmbN6wLk"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap']",
+        "name": "Riovaz",
+        "popularity": 62,
+        "spotify_id": "1bhZt10yZVCJfp3HaNxJv8"
+    },
+    {
+        "birthday": "1994-07-17",
+        "genres": "['chicago rap', 'hip hop', 'rap', 'underground hip hop']",
+        "name": "Saba",
+        "popularity": 63,
+        "spotify_id": "7Hjbimq43OgxaBRpFXic4x"
+    },
+    {
+        "birthday": null,
+        "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']",
+        "name": "Wu-Tang Clan",
+        "popularity": 66,
+        "spotify_id": "34EP7KEpOjXcM2TCat1ISk"
+    },
+    {
+        "birthday": "1983-06-19",
+        "genres": "['dance pop', 'pop', 'pop rap', 'seattle hip hop']",
+        "name": "Macklemore & Ryan Lewis",
+        "popularity": 71,
+        "spotify_id": "5BcAKTbp20cv7tC5VqPFoC"
+    },
+    {
+        "birthday": "1992-09-09",
+        "genres": "['pop rap']",
+        "name": "Morray",
+        "popularity": 63,
+        "spotify_id": "44vREmJC0OlVZjZaGLqVEd"
+    },
+    {
+        "birthday": null,
+        "genres": "['crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']",
+        "name": "Three 6 Mafia",
+        "popularity": 62,
+        "spotify_id": "26s8LSolLfCIY88ysQbIuT"
+    },
+    {
+        "birthday": null,
+        "genres": "['atl hip hop', 'hip hop', 'psychedelic hip hop', 'rap', 'underground hip hop']",
+        "name": "EARTHGANG",
+        "popularity": 65,
+        "spotify_id": "5MbNzCW3qokGyoo9giHA3V"
+    },
+    {
+        "birthday": "1977-11-30",
+        "genres": "['dance pop', 'edm', 'electro house', 'pop dance', 'pop rap', 'tropical house']",
+        "name": "Steve Aoki",
+        "popularity": 73,
+        "spotify_id": "77AiFEVeAVj2ORpC85QVJs"
+    },
+    {
+        "birthday": null,
+        "genres": "['dance pop', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Young Money",
+        "popularity": 62,
+        "spotify_id": "5OrB6Jhhrl9y2PK0pSV4VP"
+    },
+    {
+        "birthday": "2004-12-16",
+        "genres": "['aesthetic rap', 'pluggnb', 'viral rap']",
+        "name": "KA$HDAMI",
+        "popularity": 61,
+        "spotify_id": "4YEl33ar2WlUSF94Yh9CCf"
+    },
+    {
+        "birthday": "1997-05-07",
+        "genres": "['alternative r&b', 'dance pop', 'dmv rap', 'escape room', 'pop', 'trap queen']",
+        "name": "Rico Nasty",
+        "popularity": 66,
+        "spotify_id": "2OaHYHb2XcFPvqL3VsyPzU"
+    },
+    {
+        "birthday": "1993-05-17",
+        "genres": "['dmv rap', 'hip hop', 'r&b', 'rap', 'underground hip hop']",
+        "name": "GoldLink",
+        "popularity": 65,
+        "spotify_id": "5XenQ7XfcvQdfIbpLEFaKQ"
+    },
+    {
+        "birthday": "1990-06-07",
+        "genres": "['australian hip hop', 'dance pop', 'hip pop', 'pop', 'pop rap', 'post-teen pop', 'uk pop', 'viral rap']",
+        "name": "Iggy Azalea",
+        "popularity": 69,
+        "spotify_id": "5yG7ZAZafVaAlMTeBybKAL"
+    },
+    {
+        "birthday": "1968-10-22",
+        "genres": "['pop rap', 'reggae fusion']",
+        "name": "Shaggy",
+        "popularity": 72,
+        "spotify_id": "5EvFsr3kj42KNv97ZEnqij"
+    },
+    {
+        "birthday": "1992-05-31",
+        "genres": "['dfw rap', 'trap']",
+        "name": "MO3",
+        "popularity": 60,
+        "spotify_id": "44JEJiBvti7NiEhAfzWstv"
+    },
+    {
+        "birthday": "1969-10-17",
+        "genres": "['rap kreyol']",
+        "name": "Wyclef Jean",
+        "popularity": 69,
+        "spotify_id": "7aBzpmFXB4WWpPl2F7RjBe"
+    },
+    {
+        "birthday": "1995-10-17",
+        "genres": "['pop', 'pop r&b', 'pop rap', 'r&b', 'urban contemporary', 'viral rap']",
+        "name": "Queen Naija",
+        "popularity": 63,
+        "spotify_id": "3nViOFa3kZW8OMSNOzwr98"
+    },
+    {
+        "birthday": "1977-10-25",
+        "genres": "['alternative hip hop', 'hardcore hip hop', 'hip hop', 'rap', 'underground hip hop', 'west coast rap']",
+        "name": "The Alchemist",
+        "popularity": 64,
+        "spotify_id": "0eVyjRhzZKke2KFYTcDkeu"
+    },
+    {
+        "birthday": "1982-02-18",
+        "genres": "['gangster rap', 'harlem hip hop', 'hip hop', 'nyc rap', 'pop rap', 'rap', 'trap']",
+        "name": "Juelz Santana",
+        "popularity": 63,
+        "spotify_id": "6Uh8uJyN9g7oFjDK16nJgb"
+    },
+    {
+        "birthday": "1975-05-26",
+        "genres": "['alternative r&b', 'conscious hip hop', 'hip pop', 'neo soul', 'new jersey rap', 'r&b', 'urban contemporary']",
+        "name": "Ms. Lauryn Hill",
+        "popularity": 69,
+        "spotify_id": "2Mu5NfyYm8n5iTomuKAEHl"
+    },
+    {
+        "birthday": "2001-09-30",
+        "genres": "['melodic rap', 'viral rap']",
+        "name": "Bankrol Hayden",
+        "popularity": 64,
+        "spotify_id": "0Yr4BBpK2dkCp2UsrJ9LZN"
+    },
+    {
+        "birthday": "1992-12-12",
+        "genres": "['dmv rap', 'drill', 'gangster rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'vapor trap']",
+        "name": "Shy Glizzy",
+        "popularity": 61,
+        "spotify_id": "1DvtabXAjfrMihPP6JQdHs"
+    },
+    {
+        "birthday": "1994-07-15",
+        "genres": "['mexican hip hop', 'rap conciencia']",
+        "name": "Gera MX",
+        "popularity": 75,
+        "spotify_id": "2hejA1Dkf8v8R0koF44FvW"
+    },
+    {
+        "birthday": null,
+        "genres": "['modern alternative rock', 'modern rock', 'pop', 'pop rap', 'pop rock', 'rock', 'stomp pop']",
+        "name": "X Ambassadors",
+        "popularity": 70,
+        "spotify_id": "3NPpFNZtSTHheNBaWC82rB"
+    },
+    {
+        "birthday": "null",
+        "genres": "['dance pop', 'edm', 'electro house', 'moombahton', 'pop', 'pop dance', 'pop rap', 'tropical house']",
+        "name": "Major Lazer",
+        "popularity": 74,
+        "spotify_id": "738wLrAtLtCtFOLvQBXOXp"
+    },
+    {
+        "birthday": "1982-07-27",
+        "genres": "['alternative hip hop', 'boom bap', 'buffalo hip hop', 'hip hop', 'rap', 'upstate ny rap']",
+        "name": "Westside Gunn",
+        "popularity": 63,
+        "spotify_id": "0ABk515kENDyATUdpCKVfW"
+    },
+    {
+        "birthday": "1967-12-13",
+        "genres": "['contemporary r&b', 'hip hop', 'hip pop', 'neo soul', 'pop rap', 'r&b', 'southern hip hop', 'urban contemporary']",
+        "name": "Jamie Foxx",
+        "popularity": 67,
+        "spotify_id": "7LnaAXbDVIL75IVPnndf7w"
+    },
+    {
+        "birthday": null,
+        "genres": "['mexican hip hop', 'tamaulipas rap']",
+        "name": "La Santa Grifa",
+        "popularity": 71,
+        "spotify_id": "1oH2B8tcHn4Gpl2bmmyd4A"
+    },
+    {
+        "birthday": "1987-05-27",
+        "genres": "['hip hop', 'queens hip hop', 'rap', 'southern hip hop', 'sudanese hip hop', 'sudanese pop', 'trap', 'underground hip hop']",
+        "name": "Bas",
+        "popularity": 66,
+        "spotify_id": "70gP6Ry4Uo0Yx6uzPIdaiJ"
+    },
+    {
+        "birthday": "1989-03-23",
+        "genres": "['atl hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Mike WiLL Made-It",
+        "popularity": 64,
+        "spotify_id": "0NWbwDZY1VkRqFafuQm6wk"
+    },
+    {
+        "birthday": "1999-03-23",
+        "genres": "['melodic rap', 'pop rap', 'trap']",
+        "name": "Quando Rondo",
+        "popularity": 61,
+        "spotify_id": "4IprNlQiJZUUJhDl0fL2SL"
+    },
+    {
+        "birthday": null,
+        "genres": "['atl hip hop', 'crunk', 'dance pop', 'dirty south rap', 'gangster rap', 'hip hop', 'hip pop', 'old school atlanta hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Ying Yang Twins",
+        "popularity": 62,
+        "spotify_id": "44PA0rCQXikgOWbfY7Fq7m"
+    },
+    {
+        "birthday": null,
+        "genres": "['latin hip hop', 'mexican hip hop', 'narco rap']",
+        "name": "Cartel De Santa",
+        "popularity": 75,
+        "spotify_id": "07PdYoE4jVRF6Ut40GgVSP"
+    },
+    {
+        "birthday": null,
+        "genres": "['dance pop', 'pop rap']",
+        "name": "Gym Class Heroes",
+        "popularity": 68,
+        "spotify_id": "4IJczjB0fJ04gs4uvP0Fli"
+    },
+    {
+        "birthday": "1970-08-19",
+        "genres": "['bronx hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'rap', 'trap']",
+        "name": "Fat Joe",
+        "popularity": 67,
+        "spotify_id": "3ScY9CQxNLQei8Umvpx5g6"
+    },
+    {
+        "birthday": "1981-11-18",
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'houston rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Mike Jones",
+        "popularity": 60,
+        "spotify_id": "07VmOvmuBp9G0gb8BTrpn0"
+    },
+    {
+        "birthday": "1981-03-11",
+        "genres": "['chopped and screwed', 'crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'houston rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Paul Wall",
+        "popularity": 61,
+        "spotify_id": "0k7Xl1pqI3tu8sSEjo5oEg"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative hip hop', 'conscious hip hop', 'east coast hip hop', 'gangster rap', 'golden age hip hop', 'hardcore hip hop', 'hip hop', 'jazz rap', 'queens hip hop', 'rap']",
+        "name": "A Tribe Called Quest",
+        "popularity": 65,
+        "spotify_id": "09hVIj6vWgoCDtT03h8ZCa"
+    },
+    {
+        "birthday": null,
+        "genres": "['chicano rap', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'rap rock', 'west coast rap']",
+        "name": "Cypress Hill",
+        "popularity": 66,
+        "spotify_id": "4P0dddbxPil35MNN9G2MEX"
+    },
+    {
+        "birthday": "1998-08-20",
+        "genres": "['alabama rap', 'atl trap', 'trap']",
+        "name": "NoCap",
+        "popularity": 61,
+        "spotify_id": "4PNHuWkk4ee6R8WEhFVPf5"
+    },
+    {
+        "birthday": "1983-10-27",
+        "genres": "['cali rap', 'gangster rap', 'hyphy', 'oakland hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Berner",
+        "popularity": 61,
+        "spotify_id": "2lrtGWxNXWjd0JzDLKXubI"
+    },
+    {
+        "birthday": "1964-09-07",
+        "genres": "['g funk', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'west coast rap']",
+        "name": "Eazy-E",
+        "popularity": 64,
+        "spotify_id": "7B4hKK0S9QYnaoqa9OuwgX"
+    },
+    {
+        "birthday": "1980-09-20",
+        "genres": "['atl hip hop', 'crunk', 'dirty south rap', 'gangster rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Yung Joc",
+        "popularity": 61,
+        "spotify_id": "23LbwefIODbyGdRbAz3urj"
+    },
+    {
+        "birthday": "1988-10-13",
+        "genres": "['indie pop rap', 'pop rap', 'rap']",
+        "name": "Chris Webby",
+        "popularity": 61,
+        "spotify_id": "3IstlZaHyUP9SONpulb4SM"
+    },
+    {
+        "birthday": null,
+        "genres": "['pittsburgh rap', 'pop']",
+        "name": "Montell Fish",
+        "popularity": 65,
+        "spotify_id": "5nvWOyAkfNgVLKESq4fOj2"
+    },
+    {
+        "birthday": null,
+        "genres": "['detroit trap', 'pluggnb', 'scam rap']",
+        "name": "Baby Smoove",
+        "popularity": 60,
+        "spotify_id": "15oLsNy8mZYaIukh4eDhXy"
+    },
+    {
+        "birthday": "1970-08-27",
+        "genres": "['contemporary country', 'country', 'country rap', 'country road', 'modern country rock', 'redneck']",
+        "name": "Colt Ford",
+        "popularity": 62,
+        "spotify_id": "0OpWIlokQeE7BNQMhuu2Nx"
+    },
+    {
+        "birthday": "1988-03-15",
+        "genres": "['comedy rap', 'pop rap', 'rap']",
+        "name": "Lil Dicky",
+        "popularity": 62,
+        "spotify_id": "1tqhsYv8yBBdwANFNzHtcr"
+    },
+    {
+        "birthday": "1992-10-16",
+        "genres": "['hip hop', 'rap', 'underground hip hop']",
+        "name": "Kota the Friend",
+        "popularity": 63,
+        "spotify_id": "2AfU5LYBVCiCtuCCfM7uVX"
+    },
+    {
+        "birthday": "1993-06-06",
+        "genres": "['chicago rap', 'conscious hip hop', 'hip hop', 'pop rap', 'rap', 'trap', 'underground hip hop']",
+        "name": "VIC MENSA",
+        "popularity": 62,
+        "spotify_id": "27w1NoOLMX7tJMYqcetPyG"
+    },
+    {
+        "birthday": "1998-02-12",
+        "genres": "['florida rap', 'melodic rap', 'pop rap', 'trap']",
+        "name": "Yungeen Ace",
+        "popularity": 59,
+        "spotify_id": "7hj7ffJe6UkF1gsMpuweSI"
+    },
+    {
+        "birthday": "1986-04-01",
+        "genres": "['dance pop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Kid Ink",
+        "popularity": 67,
+        "spotify_id": "6KZDXtSj0SzGOV705nNeh3"
+    },
+    {
+        "birthday": null,
+        "genres": "['emo rap', 'pop rap', 'sad rap', 'viral rap']",
+        "name": "Chri$tian Gate$",
+        "popularity": 63,
+        "spotify_id": "0OEYE03fBF2VoTBxGuaUxL"
+    },
+    {
+        "birthday": "1975-10-18",
+        "genres": "['chicano rap', 'dance pop', 'dirty south rap', 'gangster rap', 'hip hop', 'hip pop', 'latin hip hop', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'texas latin rap', 'urban contemporary']",
+        "name": "Baby Bash",
+        "popularity": 61,
+        "spotify_id": "12PSlydMSjEHzSCj9X5qv7"
+    },
+    {
+        "birthday": null,
+        "genres": "['underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "DJ Scheme",
+        "popularity": 63,
+        "spotify_id": "1m7LSAMIB1BErIHYSOn32W"
+    },
+    {
+        "birthday": "1993-02-06",
+        "genres": "['alternative r&b', 'dance pop', 'electropop', 'metropopolis', 'pop', 'pop rap', 'post-teen pop', 'r&b', 'uk pop', 'urban contemporary']",
+        "name": "Tinashe",
+        "popularity": 68,
+        "spotify_id": "0NIIxcxNHmOoyBx03SfTCD"
+    },
+    {
+        "birthday": "1985-07-18",
+        "genres": "['conscious hip hop', 'hip hop', 'pop rap', 'rap']",
+        "name": "Hopsin",
+        "popularity": 62,
+        "spotify_id": "7EWU4FhUJM1sZQgQKdENeT"
+    },
+    {
+        "birthday": "2000-08-17",
+        "genres": "['emo rap', 'miami hip hop', 'rap', 'trap']",
+        "name": "Lil Pump",
+        "popularity": 66,
+        "spotify_id": "3wyVrVrFCkukjdVIdirGVY"
+    },
+    {
+        "birthday": "1990-04-08",
+        "genres": "['gangster rap', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Blac Youngsta",
+        "popularity": 60,
+        "spotify_id": "41klVmDluQZmGGqoidNfbe"
+    },
+    {
+        "birthday": "1992-04-12",
+        "genres": "['atl hip hop', 'hip hop', 'melodic rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "MadeinTYO",
+        "popularity": 62,
+        "spotify_id": "5SyGEPymt1G2uto47tVWvZ"
+    },
+    {
+        "birthday": null,
+        "genres": "['baltimore hip hop', 'cali rap', 'pop rap', 'viral rap']",
+        "name": "Shordie Shordie",
+        "popularity": 59,
+        "spotify_id": "5fyvTyetDr7gvLafBsEEhU"
+    },
+    {
+        "birthday": "1998-06-24",
+        "genres": "['hyperpop francais', 'pluggnb', 'viral rap']",
+        "name": "tana",
+        "popularity": 62,
+        "spotify_id": "1xgl9yxqIVq8PEEMai38uV"
+    },
+    {
+        "birthday": "1988-06-03",
+        "genres": "['gangster rap', 'harlem hip hop', 'hip hop', 'nyc rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",
+        "name": "Dave East",
+        "popularity": 61,
+        "spotify_id": "7e10JUMF7MJmmwYpnTSMI5"
+    },
+    {
+        "birthday": null,
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'houston rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "UGK",
+        "popularity": 59,
+        "spotify_id": "6ZhjJOJXXwnPS8PrXdmjLw"
+    },
+    {
+        "birthday": "1975-08-27",
+        "genres": "['gangster rap', 'hardcore hip hop', 'harlem hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap', 'southern hip hop', 'urban contemporary']",
+        "name": "Mase",
+        "popularity": 64,
+        "spotify_id": "1wiBLzTI7z9RUwEpNPdFT6"
+    },
+    {
+        "birthday": "1979-01-16",
+        "genres": "['contemporary r&b', 'dance pop', 'hip pop', 'pop', 'pop rap', 'r&b', 'urban contemporary']",
+        "name": "Aaliyah",
+        "popularity": 65,
+        "spotify_id": "0urTpYCsixqZwgNTkPJOJ4"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'alternative rock', 'funk metal', 'funk rock', 'nu metal', 'pop rock', 'post-grunge', 'rap rock', 'rock']",
+        "name": "Incubus",
+        "popularity": 67,
+        "spotify_id": "3YcBF2ttyueytpXtEzn1Za"
+    },
+    {
+        "birthday": "1980-09-08",
+        "genres": "['crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'houston rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Slim Thug",
+        "popularity": 59,
+        "spotify_id": "0st5vgzw9XkH5ALJiUM1lE"
+    },
+    {
+        "birthday": "1998-09-10",
+        "genres": "['rap', 'trap', 'underground hip hop', 'vapor trap']",
+        "name": "Sheck Wes",
+        "popularity": 65,
+        "spotify_id": "2RDOrhPqAM4jzTRCEb19qX"
+    },
+    {
+        "birthday": "1965-01-12",
+        "genres": "['alternative metal', 'industrial metal', 'industrial rock', 'nu metal', 'rap rock', 'rock']",
+        "name": "Rob Zombie",
+        "popularity": 64,
+        "spotify_id": "3HVdAiMNjYrQIKlOGxoGh5"
+    },
+    {
+        "birthday": "1995-05-23",
+        "genres": "['dance pop', 'gangster rap', 'hip hop', 'hip pop', 'philly rap', 'pop rap', 'r&b', 'rap', 'urban contemporary']",
+        "name": "Eve",
+        "popularity": 66,
+        "spotify_id": "4d3yvTptO48nOYTPBcPFZC"
+    },
+    {
+        "birthday": null,
+        "genres": "['plugg', 'pluggnb', 'rap', 'underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "D. Savage",
+        "popularity": 60,
+        "spotify_id": "6FqXAd1hQl7vVdIQ3hhtgc"
+    },
+    {
+        "birthday": "1987-04-09",
+        "genres": "['pop', 'pop rap', 'r&b']",
+        "name": "Marc E. Bassy",
+        "popularity": 62,
+        "spotify_id": "3tQx1LPXbsYjE9VwN1Peaa"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap', 'sad lo-fi', 'sad rap']",
+        "name": "Rxseboy",
+        "popularity": 63,
+        "spotify_id": "1ScHz7wPPxVTEKsc9g3Z0c"
+    },
+    {
+        "birthday": "1996-03-29",
+        "genres": "['baton rouge rap', 'pop rap', 'southern hip hop', 'trap']",
+        "name": "Fredo Bang",
+        "popularity": 60,
+        "spotify_id": "4yTmEo2clwWq2jwelvqgVv"
+    },
+    {
+        "birthday": "1974-07-11",
+        "genres": "['alternative r&b', 'dance pop', 'east coast hip hop', 'gangster rap', 'hip hop', 'hip pop', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'trap queen', 'urban contemporary']",
+        "name": "Lil' Kim",
+        "popularity": 64,
+        "spotify_id": "5tth2a3v0sWwV1C7bApBdX"
+    },
+    {
+        "birthday": "1986-08-26",
+        "genres": "['alternative hip hop', 'conscious hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'houston rap', 'mississippi hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",
+        "name": "Big K.R.I.T.",
+        "popularity": 60,
+        "spotify_id": "0CKa42Jqrc9fSFbDjePaXP"
+    },
+    {
+        "birthday": null,
+        "genres": "['alt z', 'indie pop', 'modern indie pop', 'viral rap']",
+        "name": "Penelope Scott",
+        "popularity": 64,
+        "spotify_id": "3u6lPufHw4Oww6D88rv6sB"
+    },
+    {
+        "birthday": "2001-09-23",
+        "genres": "['nyc rap']",
+        "name": "J.I the Prince of N.Y",
+        "popularity": 62,
+        "spotify_id": "2eqoJbzUGDwys5ENUkbT3h"
+    },
+    {
+        "birthday": "1980-05-31",
+        "genres": "['country rap']",
+        "name": "Struggle Jennings",
+        "popularity": 59,
+        "spotify_id": "7HnPsSFnXUJ8XiHt1UuQ23"
+    },
+    {
+        "birthday": "1972-01-17",
+        "genres": "['atl hip hop', 'atlanta bass', 'crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'old school atlanta hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Lil Jon & The East Side Boyz",
+        "popularity": 61,
+        "spotify_id": "3ciRvbBIVz9fBoPbtSYq4x"
+    },
+    {
+        "birthday": "1991-03-26",
+        "genres": "['alternative r&b', 'dmv rap', 'neo soul', 'pop', 'r&b', 'urban contemporary']",
+        "name": "Ari Lennox",
+        "popularity": 63,
+        "spotify_id": "1vaQ6v3pOFxAIrFoPrAcom"
+    },
+    {
+        "birthday": "1988-05-11",
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'miami hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Ace Hood",
+        "popularity": 61,
+        "spotify_id": "31HjiqargV4NAw4GZqUale"
+    },
+    {
+        "birthday": "1975-03-25",
+        "genres": "['bounce', 'crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'hip pop', 'new orleans rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "JUVENILE",
+        "popularity": 58,
+        "spotify_id": "0rG0AZBscc8S8q1ahIsasI"
+    },
+    {
+        "birthday": "1998-07-15",
+        "genres": "['melodic rap', 'pop rap', 'southern hip hop', 'trap']",
+        "name": "JayDaYoungan",
+        "popularity": 59,
+        "spotify_id": "0E3pLs4jXz9tDQGY8m1A1d"
+    },
+    {
+        "birthday": "1986-01-03",
+        "genres": "['dance pop', 'hip pop', 'pop', 'pop rap', 'r&b', 'southern hip hop', 'trap', 'urban contemporary']",
+        "name": "Lloyd",
+        "popularity": 65,
+        "spotify_id": "1Xfmvd48oOhEWkscWyEbh9"
+    },
+    {
+        "birthday": null,
+        "genres": "['pop rap']",
+        "name": "charlieonnafriday",
+        "popularity": 60,
+        "spotify_id": "1hmTCch4tWOJmdqkf8nSRA"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'canadian metal', 'canadian rock', 'nu metal', 'post-grunge', 'rap rock']",
+        "name": "Theory of a Deadman",
+        "popularity": 63,
+        "spotify_id": "74eX4C98E4FCrAMl39qRsJ"
+    },
+    {
+        "birthday": "1992-06-20",
+        "genres": "['dance pop', 'hyphy', 'pop rap', 'southern hip hop', 'viral rap']",
+        "name": "Sage The Gemini",
+        "popularity": 64,
+        "spotify_id": "6d47Z08T4snK50HgTEHo5Z"
+    },
+    {
+        "birthday": "1982-09-19",
+        "genres": "['birmingham grime', 'grime', 'instrumental grime', 'rap']",
+        "name": "Skepta",
+        "popularity": 71,
+        "spotify_id": "2p1fiYHYiXz9qi0JJyxBzN"
+    },
+    {
+        "birthday": "1992-04-03",
+        "genres": "['alternative r&b', 'lgbtq+ hip hop', 'nyc rap', 'pop rap', 'rap', 'trap', 'viral rap']",
+        "name": "Young M.A",
+        "popularity": 61,
+        "spotify_id": "7LvoDJUNGnOrPdGRzVtOJ9"
+    },
+    {
+        "birthday": "1982-04-30",
+        "genres": "['gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'queens hip hop', 'rap', 'trap']",
+        "name": "Lloyd Banks",
+        "popularity": 65,
+        "spotify_id": "3vDUJHQtqT3jFRZ2ECXDTi"
+    },
+    {
+        "birthday": "1986-03-26",
+        "genres": "['pop', 'pop r&b', 'pop rap', 'r&b', 'urban contemporary']",
+        "name": "Eric Bellinger",
+        "popularity": 64,
+        "spotify_id": "7ibAWtDtmEfaVhc1FJ3Vl9"
+    },
+    {
+        "birthday": "1995-05-31",
+        "genres": "['cali rap', 'melodic rap', 'pop rap', 'rap', 'trap']",
+        "name": "Tyla Yaweh",
+        "popularity": 62,
+        "spotify_id": "1MXZ0hsGic96dWRDKwAwdr"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'nu metal', 'pop rock', 'post-grunge', 'rap rock', 'rock']",
+        "name": "Staind",
+        "popularity": 63,
+        "spotify_id": "5KDIH2gF0VpelTqyQS7udb"
+    },
+    {
+        "birthday": null,
+        "genres": "['dark trap', 'oc rap', 'scream rap', 'underground hip hop', 'viral rap']",
+        "name": "Kxllswxtch",
+        "popularity": 60,
+        "spotify_id": "2VDZoCBGjxbHJbnzSX5nP6"
+    },
+    {
+        "birthday": "1988-09-14",
+        "genres": "['indie r&b', 'pop', 'pop r&b', 'pop rap', 'r&b']",
+        "name": "Muni Long",
+        "popularity": 64,
+        "spotify_id": "7tjVFCxJdwT4NdrTmjyjQ6"
+    },
+    {
+        "birthday": "1996-05-13",
+        "genres": "['alternative r&b', 'escape room', 'high vibe', 'r&b', 'trap queen', 'viral rap']",
+        "name": "Baby Tate",
+        "popularity": 63,
+        "spotify_id": "3IJ21966TwNZI24MwZHMu4"
+    },
+    {
+        "birthday": "1987-09-09",
+        "genres": "['big room', 'dance pop', 'dutch house', 'edm', 'electro house', 'pop dance', 'pop rap', 'progressive house', 'tropical house']",
+        "name": "Afrojack",
+        "popularity": 72,
+        "spotify_id": "4D75GcNG95ebPtNvoNVXhz"
+    },
+    {
+        "birthday": null,
+        "genres": "['cali rap', 'rap', 'underground hip hop']",
+        "name": "Buddy",
+        "popularity": 60,
+        "spotify_id": "6PDLwWvgYNMfBRLqC1h5cJ"
+    },
+    {
+        "birthday": "1999-10-22",
+        "genres": "['modern indie pop', 'viral rap']",
+        "name": "Sub Urban",
+        "popularity": 67,
+        "spotify_id": "7gXb99Sf9nNmpNYeAgIQFG"
+    },
+    {
+        "birthday": "1994-09-28",
+        "genres": "['melodic rap', 'pop', 'pop rap']",
+        "name": "Trevor Daniel",
+        "popularity": 66,
+        "spotify_id": "7uaIm6Pw7xplS8Dy06V6pT"
+    },
+    {
+        "birthday": null,
+        "genres": "['emo rap', 'sad lo-fi', 'sad rap']",
+        "name": "SadBoyProlific",
+        "popularity": 62,
+        "spotify_id": "0inkJpjAKDnQOv2VHBCU0Z"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'christian rock', 'nu metal', 'post-grunge', 'rap rock', 'rock']",
+        "name": "Chevelle",
+        "popularity": 61,
+        "spotify_id": "56dO9zeHKuU5Gvfc2kxHNw"
+    },
+    {
+        "birthday": "1999-02-07",
+        "genres": "['alt z', 'dance pop', 'electropop', 'modern rock', 'pop', 'post-teen pop', 'talent show', 'uk pop', 'viral rap']",
+        "name": "Bea Miller",
+        "popularity": 68,
+        "spotify_id": "1o2NpYGqHiCq7FoiYdyd1x"
+    },
+    {
+        "birthday": null,
+        "genres": "['dance pop', 'pop', 'pop rap', 'pop rock', 'post-teen pop', 'uk pop']",
+        "name": "MKTO",
+        "popularity": 66,
+        "spotify_id": "2l35CQqtYRh3d8ZIiBep4v"
+    },
+    {
+        "birthday": null,
+        "genres": "['indie pop', 'lo-fi rap']",
+        "name": "khai dreams",
+        "popularity": 62,
+        "spotify_id": "0lawSNBxNgJFQYJnQzLH8c"
+    },
+    {
+        "birthday": null,
+        "genres": "['sad lo-fi', 'sad rap']",
+        "name": "Snøw",
+        "popularity": 66,
+        "spotify_id": "5fSVkkuijRIpxuvSqysYiP"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'nu metal', 'rap metal', 'rap rock']",
+        "name": "Saliva",
+        "popularity": 60,
+        "spotify_id": "5S6hjAxgxjsLylsTtMIimO"
+    },
+    {
+        "birthday": "1983-12-02",
+        "genres": "['alternative hip hop', 'east coast hip hop', 'hip hop', 'nyc rap', 'queens hip hop', 'rap', 'southern hip hop', 'underground hip hop']",
+        "name": "Action Bronson",
+        "popularity": 62,
+        "spotify_id": "7BMccF0hQFBpP6417k1OtQ"
+    },
+    {
+        "birthday": "1995-11-16",
+        "genres": "['melodic rap', 'pop rap', 'rap', 'trap', 'vapor trap', 'viral rap']",
+        "name": "Flipp Dinero",
+        "popularity": 60,
+        "spotify_id": "2HUwZ0kumzCSlhFcjFZfpp"
+    },
+    {
+        "birthday": "1976-07-15",
+        "genres": "['gangster rap', 'harlem hip hop', 'hip hop', 'pop rap', 'rap', 'trap']",
+        "name": "Jim Jones",
+        "popularity": 59,
+        "spotify_id": "6AMa1VFQ7qCi61tCRtVWXe"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap', 'plugg', 'viral rap']",
+        "name": "yvngxchris",
+        "popularity": 59,
+        "spotify_id": "2qB0DlFsQOpNh0bdMCJLwr"
+    },
+    {
+        "birthday": "1968-11-15",
+        "genres": "['alternative hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']",
+        "name": "Ol' Dirty Bastard",
+        "popularity": 64,
+        "spotify_id": "50NoVNy9GU1lCrDV8iGpyu"
+    },
+    {
+        "birthday": "1968-09-25",
+        "genres": "['dance pop', 'hip hop', 'pop rap']",
+        "name": "Will Smith",
+        "popularity": 67,
+        "spotify_id": "41qil2VaGbD194gaEcmmyx"
+    },
+    {
+        "birthday": "1991-04-08",
+        "genres": "['detroit hip hop', 'pop r&b', 'pop rap', 'r&b', 'trap', 'trap queen', 'viral rap']",
+        "name": "DeJ Loaf",
+        "popularity": 61,
+        "spotify_id": "7kFfY4UjNdNyaeUgLIEbIF"
+    },
+    {
+        "birthday": "1978-09-13",
+        "genres": "['battle rap', 'dirty south rap', 'hip pop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Swizz Beatz",
+        "popularity": 60,
+        "spotify_id": "2cADQgiLMjNhbsfeN52Bf3"
+    },
+    {
+        "birthday": "1980-04-23",
+        "genres": "['dance pop', 'pop', 'pop rap']",
+        "name": "Taio Cruz",
+        "popularity": 69,
+        "spotify_id": "6MF9fzBmfXghAz953czmBC"
+    },
+    {
+        "birthday": "1990-03-29",
+        "genres": "['hip hop', 'houston rap', 'melodic rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop', 'vapor trap']",
+        "name": "Maxo Kream",
+        "popularity": 59,
+        "spotify_id": "6xS5PpBWaVYraexEkEjjXv"
+    },
+    {
+        "birthday": null,
+        "genres": "['detroit hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop']",
+        "name": "D12",
+        "popularity": 64,
+        "spotify_id": "5Qi4Bb7a8C0a00NZcA77L0"
+    },
+    {
+        "birthday": "1982-02-16",
+        "genres": "['boom bap', 'buffalo hip hop', 'hip hop', 'rap', 'southern hip hop', 'underground hip hop', 'upstate ny rap']",
+        "name": "Conway the Machine",
+        "popularity": 61,
+        "spotify_id": "67gqUXxHedeUGDTxwBzdjS"
+    },
+    {
+        "birthday": "1997-06-13",
+        "genres": "['new jersey rap']",
+        "name": "070 Shake",
+        "popularity": 63,
+        "spotify_id": "12Zk1DFhCbHY6v3xep2ZjI"
+    },
+    {
+        "birthday": null,
+        "genres": "['atl hip hop', 'boy band', 'contemporary r&b', 'dance pop', 'gangster rap', 'hip pop', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'urban contemporary']",
+        "name": "112",
+        "popularity": 64,
+        "spotify_id": "7urq0VfqxEYEEiZUkebXT4"
+    },
+    {
+        "birthday": "1990-11-26",
+        "genres": "['dance pop', 'edm', 'electropop', 'pop', 'pop rap', 'post-teen pop', 'tropical house', 'uk pop']",
+        "name": "Rita Ora",
+        "popularity": 73,
+        "spotify_id": "5CCwRZC6euC8Odo6y9X8jr"
+    },
+    {
+        "birthday": null,
+        "genres": "['chicago rap']",
+        "name": "tobi lou",
+        "popularity": 60,
+        "spotify_id": "4T8NIfZmVY6TJFqVzN6X49"
+    },
+    {
+        "birthday": "1973-03-19",
+        "genres": "['dirty south rap', 'gangster rap', 'hip hop', 'houston rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Bun B",
+        "popularity": 58,
+        "spotify_id": "45a6gCQWq61lIUDmr1tKuO"
+    },
+    {
+        "birthday": "1994-08-04",
+        "genres": "['nyc rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Bobby Shmurda",
+        "popularity": 60,
+        "spotify_id": "34Y0ldeyUv7jBvukWOGASO"
+    },
+    {
+        "birthday": null,
+        "genres": "['emo rap', 'sad rap', 'vapor trap']",
+        "name": "Landon Cube",
+        "popularity": 60,
+        "spotify_id": "04ei5kNgmDuNAydFhhIHnD"
+    },
+    {
+        "birthday": "1988-03-27",
+        "genres": "['dance pop', 'pop', 'pop rap', 'post-teen pop', 'uk pop']",
+        "name": "Jessie J",
+        "popularity": 71,
+        "spotify_id": "2gsggkzM5R49q6jpPvazou"
+    },
+    {
+        "birthday": "1986-11-05",
+        "genres": "['alternative r&b', 'hip hop', 'la pop', 'r&b', 'rap']",
+        "name": "SiR",
+        "popularity": 62,
+        "spotify_id": "3QTDHixorJelOLxoxcjqGx"
+    },
+    {
+        "birthday": "2000-08-01",
+        "genres": "['dfw rap', 'viral rap']",
+        "name": "Lil Loaded",
+        "popularity": 60,
+        "spotify_id": "7scapvSjZLSm0fBgqGM0Mn"
+    },
+    {
+        "birthday": null,
+        "genres": "['country rap', 'redneck']",
+        "name": "The Lacs",
+        "popularity": 58,
+        "spotify_id": "23OFz99wX0NDBBwrxthLWU"
+    },
+    {
+        "birthday": "1991-02-16",
+        "genres": "['arkansas hip hop', 'atl hip hop', 'gangster rap', 'melodic rap', 'pop r&b', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "YFN Lucci",
+        "popularity": 58,
+        "spotify_id": "5Berubt6ysOy2LCMyqhmXP"
+    },
+    {
+        "birthday": "1992-05-24",
+        "genres": "['dmv rap', 'hip hop', 'rap', 'underground hip hop']",
+        "name": "IDK",
+        "popularity": 61,
+        "spotify_id": "6aiFCgyKNwF9Rv5TOxnE8E"
+    },
+    {
+        "birthday": "1992-09-03",
+        "genres": "['pop r&b', 'pop rap', 'r&b', 'trap', 'urban contemporary']",
+        "name": "August Alsina",
+        "popularity": 62,
+        "spotify_id": "19Fi1Rj7kk8kyiwxpXy3yM"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative hip hop', 'chicago rap', 'conscious hip hop', 'gangster rap', 'hip hop', 'neo soul', 'political hip hop', 'rap']",
+        "name": "Common",
+        "popularity": 61,
+        "spotify_id": "2GHclqNVjqGuiE5mA7BEoc"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap', 'lo-fi chill', 'meme rap', 'sad lo-fi', 'sad rap']",
+        "name": "Shady Moon",
+        "popularity": 61,
+        "spotify_id": "2urobxol2zYHXOUJXDh8n4"
+    },
+    {
+        "birthday": null,
+        "genres": "['dance pop', 'pop rap']",
+        "name": "LMFAO",
+        "popularity": 66,
+        "spotify_id": "3sgFRtyBnxXD5ESfmbK4dl"
+    },
+    {
+        "birthday": "1995-03-18",
+        "genres": "['chicago rap', 'drill', 'pop', 'pop r&b', 'pop rap', 'r&b', 'trap queen', 'viral rap']",
+        "name": "Tink",
+        "popularity": 59,
+        "spotify_id": "4v6XOdonnfpdTKTRJArG7v"
+    },
+    {
+        "birthday": "1987-07-25",
+        "genres": "['dance pop', 'edm', 'house', 'pop', 'pop dance', 'pop rap', 'tropical house', 'uk dance', 'uk pop']",
+        "name": "Jax Jones",
+        "popularity": 76,
+        "spotify_id": "4Q6nIcaBED8qUel8bBx6Cr"
+    },
+    {
+        "birthday": null,
+        "genres": "['conscious hip hop', 'gangster rap', 'golden age hip hop', 'hardcore hip hop', 'hip hop', 'old school hip hop', 'rap', 'west coast rap']",
+        "name": "N.W.A.",
+        "popularity": 64,
+        "spotify_id": "4EnEZVjo3w1cwcQYePccay"
+    },
+    {
+        "birthday": "1990-04-02",
+        "genres": "['atl hip hop', 'dirty south rap', 'futuristic swag', 'pop rap', 'southern hip hop', 'trap']",
+        "name": "Roscoe Dash",
+        "popularity": 59,
+        "spotify_id": "0bfX8pF8kuHNCs57Ms4jZb"
+    },
+    {
+        "birthday": "1974-03-07",
+        "genres": "['country rap', 'kansas city hip hop', 'pop rap', 'rap rock', 'southern hip hop']",
+        "name": "Krizz Kaliko",
+        "popularity": 58,
+        "spotify_id": "3SEJQy90Vgg1aSnZ9b4AU9"
+    },
+    {
+        "birthday": "1992-12-13",
+        "genres": "['indie pop rap', 'pop rap', 'sad rap']",
+        "name": "Ryan Caraveo",
+        "popularity": 58,
+        "spotify_id": "1PDE2MIJ4M6uvFJDrslazf"
+    },
+    {
+        "birthday": "1989-08-30",
+        "genres": "['hip hop', 'rap', 'underground hip hop']",
+        "name": "WESTSIDE BOOGIE",
+        "popularity": 61,
+        "spotify_id": "5usbqiU7sjvszjWecANDL6"
+    },
+    {
+        "birthday": "null",
+        "genres": "['rap', 'trap']",
+        "name": "JACKBOYS",
+        "popularity": 65,
+        "spotify_id": "7A8S43ryYdbWpJKeHRZRcq"
+    },
+    {
+        "birthday": "1981-10-15",
+        "genres": "['contemporary r&b', 'dance pop', 'hip pop', 'neo soul', 'pop', 'pop r&b', 'pop rap', 'r&b', 'urban contemporary']",
+        "name": "Keyshia Cole",
+        "popularity": 64,
+        "spotify_id": "1vfezMIyCr4XUdYRaKIKi3"
+    },
+    {
+        "birthday": "1991-11-24",
+        "genres": "['nyc rap', 'trap']",
+        "name": "Rowdy Rebel",
+        "popularity": 60,
+        "spotify_id": "6LXRvV2OAtXF7685fzh3mj"
+    },
+    {
+        "birthday": "1978-04-15",
+        "genres": "['pop rap', 'sad rap']",
+        "name": "Aries",
+        "popularity": 60,
+        "spotify_id": "3hOdow4ZPmrby7Q1wfPLEy"
+    },
+    {
+        "birthday": "1970-11-10",
+        "genres": "['g funk', 'gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'rap', 'west coast rap']",
+        "name": "Warren G",
+        "popularity": 62,
+        "spotify_id": "2B4ZHz4QDWJTXPFPgO5peE"
+    },
+    {
+        "birthday": "1998-11-13",
+        "genres": "['meme rap', 'vapor trap', 'viral rap']",
+        "name": "TOKYO’S REVENGE",
+        "popularity": 59,
+        "spotify_id": "5TbLOwv8BNnik3f03NZJlt"
+    },
+    {
+        "birthday": null,
+        "genres": "['rap', 'southern hip hop', 'trap']",
+        "name": "Paper Route EMPIRE",
+        "popularity": 59,
+        "spotify_id": "65smG2lgnRmrDB8g7z1hG0"
+    },
+    {
+        "birthday": "1963-08-01",
+        "genres": "['g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap']",
+        "name": "Coolio",
+        "popularity": 68,
+        "spotify_id": "3y24n3XhZ96wgwRXjvS17T"
+    },
+    {
+        "birthday": "1997-05-15",
+        "genres": "['dark trap', 'melodic rap', 'miami hip hop', 'rap', 'trap', 'underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "Smokepurpp",
+        "popularity": 61,
+        "spotify_id": "21dooacK2WGBB5amYvKyfM"
+    },
+    {
+        "birthday": "1987-04-09",
+        "genres": "['alternative r&b', 'dance pop', 'hip pop', 'neo soul', 'pop', 'pop r&b', 'pop rap', 'r&b', 'urban contemporary']",
+        "name": "Jazmine Sullivan",
+        "popularity": 63,
+        "spotify_id": "7gSjFKpVmDgC2MMsnN8CYq"
+    },
+    {
+        "birthday": "1996-10-19",
+        "genres": "['dark trap', 'ohio hip hop', 'underground hip hop', 'viral rap']",
+        "name": "Jasiah",
+        "popularity": 62,
+        "spotify_id": "7502fDxg339jvGV08Jd4R0"
+    },
+    {
+        "birthday": "1980-08-16",
+        "genres": "['atl hip hop', 'country rap', 'pop rap', 'southern hip hop', 'trap']",
+        "name": "Rittz",
+        "popularity": 58,
+        "spotify_id": "5sRhscbWRXFbjXtSZyfaWY"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'alternative rock', 'funk metal', 'funk rock', 'nu metal', 'pop rock', 'rap rock', 'reggae fusion', 'rock']",
+        "name": "311",
+        "popularity": 61,
+        "spotify_id": "41Q0HrwWBtuUkJc7C1Rp6K"
+    },
+    {
+        "birthday": "1970-10-15",
+        "genres": "['contemporary r&b', 'dance pop', 'gangster rap', 'hip hop', 'hip pop', 'neo soul', 'r&b', 'urban contemporary']",
+        "name": "Ginuwine",
+        "popularity": 65,
+        "spotify_id": "7r8RF1tN2A4CiGEplkp1oP"
+    },
+    {
+        "birthday": "1996-01-01",
+        "genres": "['trap', 'viral rap']",
+        "name": "Stunna 4 Vegas",
+        "popularity": 59,
+        "spotify_id": "44IvvHRk2XF243QLA2VOa8"
+    },
+    {
+        "birthday": null,
+        "genres": "['meme rap', 'sad rap']",
+        "name": "MC Virgins",
+        "popularity": 61,
+        "spotify_id": "3iNL7rw7fpmysjZvhB8vi7"
+    },
+    {
+        "birthday": null,
+        "genres": "['sad rap']",
+        "name": "Arden Jones",
+        "popularity": 61,
+        "spotify_id": "3mMogqf2JyBUQZxFZlC79w"
+    },
+    {
+        "birthday": "1985-03-24",
+        "genres": "['black americana', 'country rap']",
+        "name": "Blanco Brown",
+        "popularity": 60,
+        "spotify_id": "3yzRiNMZdTsSUgplcyYZ4i"
+    },
+    {
+        "birthday": "1972-02-01",
+        "genres": "['latin', 'latin hip hop', 'rap boricua', 'reggaeton', 'trap latino']",
+        "name": "Tego Calderon",
+        "popularity": 69,
+        "spotify_id": "3SUT1jjM5hzZj9TLfLZGIP"
+    },
+    {
+        "birthday": "1996-05-19",
+        "genres": "['memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap', 'vapor trap', 'viral rap']",
+        "name": "BlocBoy JB",
+        "popularity": 60,
+        "spotify_id": "4TEJudQY2pXxVHPE3gD2EU"
+    },
+    {
+        "birthday": "1998-03-16",
+        "genres": "['melodic rap', 'rap', 'southern hip hop', 'trap', 'vapor trap']",
+        "name": "Lil Keed",
+        "popularity": 60,
+        "spotify_id": "3uJx5SnOM59Li7lCxA3b29"
+    },
+    {
+        "birthday": "1974-07-28",
+        "genres": "['comedy rap', 'gangster rap', 'hip hop', 'rap']",
+        "name": "Afroman",
+        "popularity": 61,
+        "spotify_id": "4Icvbp9RDt5aY2TWDOVDsr"
+    },
+    {
+        "birthday": "1984-04-07",
+        "genres": "['canadian hip hop', 'canadian trap', 'pop rap', 'rap', 'trap', 'trap soul']",
+        "name": "Belly",
+        "popularity": 62,
+        "spotify_id": "0FOWNUFHPnMy0vOw1siGqi"
+    },
+    {
+        "birthday": "2001-10-19",
+        "genres": "['florida rap', 'viral rap']",
+        "name": "SpotemGottem",
+        "popularity": 58,
+        "spotify_id": "3Y2MLcrD3ZQXRXmtn4fZQx"
+    },
+    {
+        "birthday": "1993-09-06",
+        "genres": "['chicago rap', 'drill', 'rap', 'southern hip hop', 'trap', 'underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "Famous Dex",
+        "popularity": 60,
+        "spotify_id": "0WOxhx4hikIsyF3CRPLC8W"
+    },
+    {
+        "birthday": "1998-11-26",
+        "genres": "['upstate ny rap']",
+        "name": "Scorey",
+        "popularity": 60,
+        "spotify_id": "0X3nsc84A9qlFilmlWNwQb"
+    },
+    {
+        "birthday": "1997-08-27",
+        "genres": "['florida rap', 'trap']",
+        "name": "Jackboy",
+        "popularity": 58,
+        "spotify_id": "2S2mt1DiA4QKdKvtqwxrbB"
+    },
+    {
+        "birthday": "1985-09-06",
+        "genres": "['baton rouge rap', 'crunk', 'dirty south rap', 'gangster rap', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Webbie",
+        "popularity": 55,
+        "spotify_id": "6aIm51fHkokqlJn2vzNTH8"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap', 'emo rap', 'sad lo-fi', 'sad rap', 'viral rap']",
+        "name": "ilyTOMMY",
+        "popularity": 61,
+        "spotify_id": "4XWaILHqySwH1y6LhlYcsb"
+    },
+    {
+        "birthday": null,
+        "genres": "['cali rap', 'viral rap']",
+        "name": "Remble",
+        "popularity": 58,
+        "spotify_id": "65s98MYZ4xFpgKlUYS5XKw"
+    },
+    {
+        "birthday": null,
+        "genres": "['abstract hip hop', 'alternative hip hop', 'hip hop', 'psychedelic hip hop', 'rap']",
+        "name": "Madvillain",
+        "popularity": 63,
+        "spotify_id": "2aoFQUeHD1U7pL098lRsDU"
+    },
+    {
+        "birthday": "1976-02-04",
+        "genres": "['battle rap', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'harlem hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Cam’ron",
+        "popularity": 59,
+        "spotify_id": "7iMvwE8qANp3aIfAGKEAwS"
+    },
+    {
+        "birthday": "1998-07-01",
+        "genres": "['dance pop', 'pop', 'pop rap', 'r&b']",
+        "name": "Chlöe",
+        "popularity": 62,
+        "spotify_id": "1FtBEIWAwvw5ymBen5GICR"
+    },
+    {
+        "birthday": "1970-04-17",
+        "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'new jersey rap', 'rap', 'southern hip hop', 'wu fam']",
+        "name": "Redman",
+        "popularity": 64,
+        "spotify_id": "7xTKLpo7UCzXSnlH7fOIoM"
+    },
+    {
+        "birthday": "1974-09-27",
+        "genres": "['crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'hip pop', 'miami hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",
+        "name": "Trick Daddy",
+        "popularity": 58,
+        "spotify_id": "12FHARd9fY0Tu0ila4Ua25"
+    },
+    {
+        "birthday": "1997-05-03",
+        "genres": "['pop rap', 'rap', 'trap', 'viral trap']",
+        "name": "Desiigner",
+        "popularity": 63,
+        "spotify_id": "7pFeBzX627ff0VnN6bxPR4"
+    },
+    {
+        "birthday": "1994-11-11",
+        "genres": "['sad rap']",
+        "name": "Connor Price",
+        "popularity": 60,
+        "spotify_id": "5zixe6AbgXPqt4c1uSl94L"
+    },
+    {
+        "birthday": "1992-11-17",
+        "genres": "['detroit trap', 'scam rap', 'trap']",
+        "name": "Sada Baby",
+        "popularity": 58,
+        "spotify_id": "2JSwnwAT1BupAQkhqcRCUw"
+    },
+    {
+        "birthday": "null",
+        "genres": "['emo rap', 'pop rap', 'sad lo-fi', 'sad rap']",
+        "name": "Lund",
+        "popularity": 60,
+        "spotify_id": "5uLkZ7FWMTBUg1corQqdkR"
+    },
+    {
+        "birthday": "1995-08-02",
+        "genres": "['pop rap']",
+        "name": "Capella Grey",
+        "popularity": 62,
+        "spotify_id": "59HbaJ5E8ud7FNLGqUN1KH"
+    },
+    {
+        "birthday": null,
+        "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap']",
+        "name": "Mobb Deep",
+        "popularity": 65,
+        "spotify_id": "6O2zJ0tId7g07yzHtX0yap"
+    },
+    {
+        "birthday": "1984-08-22",
+        "genres": "['cali rap', 'hip hop', 'rap', 'southern hip hop', 'trap', 'underground hip hop', 'west coast trap']",
+        "name": "Dom Kennedy",
+        "popularity": 59,
+        "spotify_id": "3s8alQfNnY0roAHaJh7Xxt"
+    },
+    {
+        "birthday": null,
+        "genres": "['alabama rap']",
+        "name": "Clever",
+        "popularity": 61,
+        "spotify_id": "5yy76ufVriyvidNSvXlRU1"
+    },
+    {
+        "birthday": "1988-08-03",
+        "genres": "['pop rap', 'underground hip hop', 'virginia hip hop']",
+        "name": "Shelley FKA DRAM",
+        "popularity": 61,
+        "spotify_id": "5M0lbkGluOPXLeFjApw8r8"
+    },
+    {
+        "birthday": null,
+        "genres": "['gangster rap']",
+        "name": "Outlawz",
+        "popularity": 64,
+        "spotify_id": "2jp3Fk52x0HbymU0lNYbSC"
+    },
+    {
+        "birthday": null,
+        "genres": "['dance pop', 'electropowerpop', 'modern rock', 'pop', 'pop punk', 'pop rap']",
+        "name": "3OH!3",
+        "popularity": 62,
+        "spotify_id": "0FWzNDaEu9jdgcYTbcOa4F"
+    },
+    {
+        "birthday": null,
+        "genres": "['east coast hip hop', 'gangster rap', 'hip hop', 'new jersey rap', 'rap']",
+        "name": "Fugees",
+        "popularity": 64,
+        "spotify_id": "2WKdxPFRD7IqZvlIAvhMgY"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap', 'hyperpop', 'meme rap']",
+        "name": "Sadfriendd",
+        "popularity": 64,
+        "spotify_id": "4UT0p3ljEiD472lZp44KLH"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'alternative rock', 'modern rock', 'nu metal', 'post-grunge', 'rap rock', 'rock']",
+        "name": "Puddle Of Mudd",
+        "popularity": 61,
+        "spotify_id": "3dXaa6jwM7B52GZpaJEIr5"
+    },
+    {
+        "birthday": null,
+        "genres": "['aesthetic rap', 'meme rap', 'viral rap']",
+        "name": "Savage Ga$p",
+        "popularity": 59,
+        "spotify_id": "0x7qiZJaal6j8qS7yCydFk"
+    },
+    {
+        "birthday": null,
+        "genres": "['corrido', 'mexican hip hop', 'narco rap', 'nueva musica mexicana']",
+        "name": "El Makabelico",
+        "popularity": 64,
+        "spotify_id": "0rJ0xlAQI0wLRucDRoQQbO"
+    },
+    {
+        "birthday": null,
+        "genres": "['cali rap', 'detroit trap', 'viral rap']",
+        "name": "ShooterGang Kony",
+        "popularity": 56,
+        "spotify_id": "0dT2U2jUx6OmKlyeQOH8AK"
+    },
+    {
+        "birthday": null,
+        "genres": "['hip hop', 'rap']",
+        "name": "KIDS SEE GHOSTS",
+        "popularity": 60,
+        "spotify_id": "2hPgGN4uhvXAxiXQBIXOmE"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'melodic metalcore', 'metalcore', 'nu metal', 'rap rock', 'uk metalcore', 'welsh metal']",
+        "name": "Bullet For My Valentine",
+        "popularity": 66,
+        "spotify_id": "7iWiAD5LLKyiox2grgfmUT"
+    },
+    {
+        "birthday": null,
+        "genres": "['meme rap']",
+        "name": "Shotgun Willy",
+        "popularity": 62,
+        "spotify_id": "7Gz6VlTVwlNtBNMYV4OI3w"
+    },
+    {
+        "birthday": "1994-10-11",
+        "genres": "['deep underground hip hop', 'oc rap', 'pop r&b', 'r&b']",
+        "name": "Phora",
+        "popularity": 59,
+        "spotify_id": "5XDJlfdfbGNJrOJJNxTcdq"
+    },
+    {
+        "birthday": "1988-08-19",
+        "genres": "['indie pop rap', 'pop rap']",
+        "name": "Hoodie Allen",
+        "popularity": 58,
+        "spotify_id": "382aq8Pij5V2nE2JMHMoxl"
+    },
+    {
+        "birthday": null,
+        "genres": "['asian american hip hop', 'dance pop', 'pop rap']",
+        "name": "Far East Movement",
+        "popularity": 65,
+        "spotify_id": "698hF4vcwHwPy8ltmXermq"
+    },
+    {
+        "birthday": "1999-04-03",
+        "genres": "['chicago rap', 'melodic rap', 'pop rap', 'trap', 'viral rap']",
+        "name": "Calboy",
+        "popularity": 58,
+        "spotify_id": "0HkcYmcjrBR3SCw9Ld5VZk"
+    },
+    {
+        "birthday": "1994-12-20",
+        "genres": "['pop', 'pop r&b', 'pop rap', 'r&b', 'rap latina']",
+        "name": "DaniLeigh",
+        "popularity": 60,
+        "spotify_id": "0XIKGBo9PnK1ApI5tZA60d"
+    },
+    {
+        "birthday": null,
+        "genres": "['alternative metal', 'groove metal', 'industrial metal', 'nu metal', 'rap metal', 'rap rock', 'rock']",
+        "name": "Mudvayne",
+        "popularity": 59,
+        "spotify_id": "2Pfv2w8a20xzC7Dr7QXRqM"
+    },
+    {
+        "birthday": "2001-02-28",
+        "genres": "['pop r&b', 'pop rap', 'r&b', 'viral rap']",
+        "name": "Lakeyah",
+        "popularity": 57,
+        "spotify_id": "77gMBvQ2frbQAPyCeoYGm7"
+    },
+    {
+        "birthday": "1998-10-26",
+        "genres": "['dark trap', 'san diego rap', 'underground hip hop', 'vapor trap', 'viral rap']",
+        "name": "Joey Trap",
+        "popularity": 58,
+        "spotify_id": "0qpRQJnULShIWFKhcW5pce"
+    },
+    {
+        "birthday": null,
+        "genres": "['sad rap']",
+        "name": "Dro Kenji",
+        "popularity": 59,
+        "spotify_id": "46fHMu9KxdQwcGV9xI1L9R"
+    },
+    {
+        "birthday": "1974-09-18",
+        "genres": "['detroit hip hop', 'g funk', 'gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'rap', 'west coast rap']",
+        "name": "Xzibit",
+        "popularity": 65,
+        "spotify_id": "4tujQJicOnuZRLiBFdp3Ou"
+    },
+    {
+        "birthday": "1990-01-30",
+        "genres": "['cali rap', 'pop rap', 'trap soul', 'underground hip hop']",
+        "name": "Rexx Life Raj",
+        "popularity": 59,
+        "spotify_id": "5rDXcEIODl8TgGTgrntnjX"
+    },
+    {
+        "birthday": "1977-01-19",
+        "genres": "['chopped and screwed', 'dirty south rap', 'gangster rap', 'houston rap', 'southern hip hop']",
+        "name": "Z-Ro",
+        "popularity": 55,
+        "spotify_id": "6MrdwyCIKbpXmTKQBlG3uq"
+    },
+    {
+        "birthday": null,
+        "genres": "['florida rap']",
+        "name": "Lil Poppa",
+        "popularity": 57,
+        "spotify_id": "2hq1yEIcPd7KMLmU6h77Cg"
+    },
+    {
+        "birthday": "1997-04-03",
+        "genres": "['chill r&b', 'dance pop', 'pop', 'pop r&b', 'pop rap', 'r&b', 'urban contemporary']",
+        "name": "Kiana Ledé",
+        "popularity": 63,
+        "spotify_id": "7jZMxhsB8djyIbYmoiJSTs"
+    },
+    {
+        "birthday": "1993-06-16",
+        "genres": "['pop', 'pop rap']",
+        "name": "Garrett Nash",
+        "popularity": 64,
+        "spotify_id": "3iri9nBFs9e4wN7PLIetAw"
+    },
+    {
+        "birthday": "1997-01-04",
+        "genres": "['nyc rap']",
+        "name": "CJ",
+        "popularity": 64,
+        "spotify_id": "7arQA31aZVS8yS6zUveWzb"
+    },
+    {
+        "birthday": null,
+        "genres": "['pluggnb', 'vapor trap', 'viral rap']",
+        "name": "SSGKobe",
+        "popularity": 59,
+        "spotify_id": "1NHCwCMqV9oNQJXl16IltL"
+    },
+    {
+        "birthday": null,
+        "genres": "['hyperpop', 'sped up', 'viral rap']",
+        "name": "Rebzyyx",
+        "popularity": 63,
+        "spotify_id": "7GcVOOrldYLwxGrCkELOno"
+    },
+    {
+        "birthday": null,
+        "genres": "['detroit hip hop', 'scam rap', 'vapor trap']",
+        "name": "Veeze",
+        "popularity": 58,
+        "spotify_id": "0B3kMiB21aPQlKumGDr4c7"
+    },
+    {
+        "birthday": "1994-01-17",
+        "genres": "['pop rap', 'rap', 'sad rap']",
+        "name": "Sik World",
+        "popularity": 59,
+        "spotify_id": "39G9Mcs99KhOEtVuthwztS"
+    },
+    {
+        "birthday": "1976-11-27",
+        "genres": "['rhode island rap']",
+        "name": "JELEEL!",
+        "popularity": 60,
+        "spotify_id": "1FX1BFU0DbHRYgKP83pA0d"
+    },
+    {
+        "birthday": "1974-11-28",
+        "genres": "['battle rap', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'southern hip hop', 'trap']",
+        "name": "Styles P",
+        "popularity": 61,
+        "spotify_id": "2x8KDZdSONA3872CnhaAlX"
+    },
+    {
+        "birthday": "1966-08-22",
+        "genres": "['alternative hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']",
+        "name": "GZA",
+        "popularity": 61,
+        "spotify_id": "6ns6XAOsw4B0nDUIovAOUO"
+    },
+    {
+        "birthday": null,
+        "genres": "['emo rap', 'pop punk', 'pop rap', 'sad rap']",
+        "name": "nothing,nowhere.",
+        "popularity": 59,
+        "spotify_id": "7FngGIEGgN3Iwauw1MvO4P"
+    },
+    {
+        "birthday": "1973-12-11",
+        "genres": "['alternative hip hop', 'conscious hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'southern hip hop']",
+        "name": "Mos Def",
+        "popularity": 63,
+        "spotify_id": "0Mz5XE0kb1GBnbLQm2VbcO"
+    },
+    {
+        "birthday": null,
+        "genres": "['atl hip hop', 'dirty south rap', 'futuristic swag', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']",
+        "name": "Travis Porter",
+        "popularity": 57,
+        "spotify_id": "6z1cicLMt9XArxN10q7m8a"
+    },
+    {
+        "birthday": null,
+        "genres": "['sad rap']",
+        "name": "KillBunk",
+        "popularity": 61,
+        "spotify_id": "7FGjkq9WfrRmBFL64ST0p9"
+    },
+    {
+        "birthday": "1994-04-09",
+        "genres": "['glitchcore', 'underground hip hop']",
+        "name": "Bladee",
+        "popularity": 65,
+        "spotify_id": "2xvtxDNInKDV4AvGmjw6d1"
+    },
+    {
+        "birthday": "1994-10-23",
+        "genres": "['glitchcore', 'hyperpop']",
+        "name": "Ecco2k",
+        "popularity": 60,
+        "spotify_id": "6hG0VsXXlD10l60TqiIHIX"
+    },
+    {
+        "birthday": "1996-07-18",
+        "genres": "['psychedelic hip hop', 'underground hip hop']",
+        "name": "Yung Lean",
+        "popularity": 66,
+        "spotify_id": "67lytN32YpUxiSeWlKfHJ3"
+    },
+    {
+        "birthday": "2000-12-22",
+        "genres": "['glitchcore', 'underground hip hop']",
+        "name": "Sematary",
+        "popularity": 49,
+        "spotify_id": "1GLnyPuL45vOsZPs5iANcC"
+    },
+    {
+        "birthday": "1994-10-11",
+        "genres": "['glitchcore', 'hyperpop', 'underground hip hop']",
+        "name": "Thaiboy Digital",
+        "popularity": 53,
+        "spotify_id": "3cGojc1Yu89IHXx8OeSnee"
+    },
+    {
+        "birthday": "1994-02-23",
+        "genres": "['plugg', 'pluggnb', 'underground hip hop', 'vapor trap']",
+        "name": "Black Kray",
+        "popularity": 46,
+        "spotify_id": "7EmyqxxYZltYLKFk9sAHzM"
+    },
+    {
+        "birthday": "1987-10-28",
+        "genres": "['hip hop', 'lgbtq+ hip hop', 'neo soul', 'pop']",
+        "name": "Frank Ocean",
+        "popularity": 81,
+        "spotify_id": "2h93pZq0e7k5yf4dywlkpM"
+    },
+    {
+        "birthday": "1995-04-05",
+        "genres": "['canadian contemporary r&b', 'pop', 'r&b']",
+        "name": "Daniel Caesar",
+        "popularity": 76,
+        "spotify_id": "20wkVLutqVOYrc0kxFs7rA"
+    },
+    {
+        "birthday": "null",
+        "genres": "['hip hop', 'rap']",
+        "name": "Odd Future",
+        "popularity": 53,
+        "spotify_id": "5xpkLC1MxiPRiIJUDEzuVm"
+    },
+    {
+        "birthday": "1984-05-29",
+        "genres": "['pop rap']",
+        "name": "Mann",
+        "popularity": 48,
+        "spotify_id": "3sAHunotiQdUXKSsFj5KUg"
+    },
+    {
+        "birthday": "1996-07-16",
+        "genres": "['afrofuturism', 'hip hop', 'lgbtq+ hip hop', 'rap']",
+        "name": "Kevin Abstract",
+        "popularity": 59,
+        "spotify_id": "07EcmJpfAday8xGkslfanE"
+    },
+    {
+        "birthday": "1990-02-16",
+        "genres": "['canadian contemporary r&b', 'canadian pop', 'pop']",
+        "name": "The Weeknd",
+        "popularity": 92,
+        "spotify_id": "1Xyo4u8uXC1ZmMpatF05PJ"
+    },
+    {
+        "birthday": "1987-06-13",
+        "genres": "['dark clubbing', 'destroy techno']",
+        "name": "Gesaffelstein",
+        "popularity": 72,
+        "spotify_id": "3hteYQFiMFbJY7wS0xDymP"
+    },
+    {
+        "birthday": null,
+        "genres": "['pop']",
+        "name": "Chase Atlantic",
+        "popularity": 77,
+        "spotify_id": "7cYEt1pqMgXJdq00hAwVpT"
+    },
+    {
+        "birthday": "1989-12-13",
+        "genres": "['pop']",
+        "name": "Taylor Swift",
+        "popularity": 93,
+        "spotify_id": "06HL4z0CvFAxyc27GXpf02"
+    },
+    {
+        "birthday": "1994-02-01",
+        "genres": "['pop']",
+        "name": "Harry Styles",
+        "popularity": 92,
+        "spotify_id": "6KImCVD70vtIoJWnq6nGn3"
+    },
+    {
+        "birthday": "1995-10-21",
+        "genres": "['dance pop', 'pop']",
+        "name": "Doja Cat",
+        "popularity": 89,
+        "spotify_id": "5cj0lLjcoR7YOSnhnX0Po5"
+    },
+    {
+        "birthday": "1994-03-01",
+        "genres": "['canadian pop', 'pop']",
+        "name": "Justin Bieber",
+        "popularity": 90,
+        "spotify_id": "1uNFoZAHBGtllmzznpCI3s"
+    },
+    {
+        "birthday": "1993-06-26",
+        "genres": "['dance pop', 'pop']",
+        "name": "Ariana Grande",
+        "popularity": 87,
+        "spotify_id": "66CXWjxzNUsdJxJ2JdwvnR"
+    },
+    {
+        "birthday": "1988-02-20",
+        "genres": "['barbadian pop', 'dance pop', 'pop', 'urban contemporary']",
+        "name": "Rihanna",
+        "popularity": 87,
+        "spotify_id": "5pKCCKE2ajJHZ9KAiaK11H"
+    },
+    {
+        "birthday": "1985-10-08",
+        "genres": "['dance pop', 'pop']",
+        "name": "Bruno Mars",
+        "popularity": 86,
+        "spotify_id": "0du5cEVh5yTK9QJze8zA0C"
+    },
+    {
+        "birthday": "1991-02-17",
+        "genres": "['pop', 'uk pop']",
+        "name": "Ed Sheeran",
+        "popularity": 90,
+        "spotify_id": "6eUKZXaKkcviH0Ku9w2n3V"
+    },
+    {
+        "birthday": "2001-12-18",
+        "genres": "['art pop', 'electropop', 'pop']",
+        "name": "Billie Eilish",
+        "popularity": 87,
+        "spotify_id": "6qqNVTkY8uBg9cP3Jd7DAH"
+    },
+    {
+        "birthday": "1998-02-11",
+        "genres": "['pop', 'pop r&b']",
+        "name": "Khalid",
+        "popularity": 84,
+        "spotify_id": "6LuN9FCkKOj5PcnpouEgny"
+    },
+    {
+        "birthday": "1995-08-22",
+        "genres": "['dance pop', 'pop', 'uk pop']",
+        "name": "Dua Lipa",
+        "popularity": 89,
+        "spotify_id": "6M2wZ9GZgrQXHCFfjv46we"
+    },
+    {
+        "birthday": "1992-09-18",
+        "genres": "['viral pop']",
+        "name": "Joji",
+        "popularity": 85,
+        "spotify_id": "3MZsBdqDrRTJihTHQrO6Dq"
+    },
+    {
+        "birthday": "1985-06-21",
+        "genres": "['art pop', 'pop']",
+        "name": "Lana Del Rey",
+        "popularity": 85,
+        "spotify_id": "00FQb4jTyendYWaN8pK0wa"
+    },
+    {
+        "birthday": "1994-09-29",
+        "genres": "['dance pop', 'electropop', 'etherpop', 'indie poptimism', 'pop', 'uk pop']",
+        "name": "Halsey",
+        "popularity": 82,
+        "spotify_id": "26VFTg2z8YR0cCuwLzESi2"
+    },
+    {
+        "birthday": "1989-11-08",
+        "genres": "['pop', 'r&b']",
+        "name": "SZA",
+        "popularity": 81,
+        "spotify_id": "7tYKF4w9nC0nq9CsPZTHyP"
+    },
+    {
+        "birthday": "2003-02-20",
+        "genres": "['pop']",
+        "name": "Olivia Rodrigo",
+        "popularity": 85,
+        "spotify_id": "1McMsnEElThX1knmY4oliG"
+    },
+    {
+        "birthday": "1981-09-04",
+        "genres": "['dance pop', 'pop', 'r&b']",
+        "name": "Beyoncé",
+        "popularity": 83,
+        "spotify_id": "6vWDO969PvNqNYHIOW5v0m"
+    },
+    {
+        "birthday": "1986-03-28",
+        "genres": "['art pop', 'dance pop', 'pop']",
+        "name": "Lady Gaga",
+        "popularity": 84,
+        "spotify_id": "1HY2Jd0NmPuamShAr6KMms"
+    },
+    {
+        "birthday": "1998-12-05",
+        "genres": "['bedroom pop', 'pop']",
+        "name": "Conan Gray",
+        "popularity": 81,
+        "spotify_id": "4Uc8Dsxct0oMqx0P6i60ea"
+    },
+    {
+        "birthday": "1988-04-27",
+        "genres": "['dance pop', 'escape room', 'minnesota hip hop', 'pop', 'trap queen']",
+        "name": "Lizzo",
+        "popularity": 81,
+        "spotify_id": "56oDRnqbIiwx4mymNEv7dS"
+    },
+    {
+        "birthday": "null",
+        "genres": "['puerto rican pop', 'trap latino']",
+        "name": "Rauw Alejandro",
+        "popularity": 89,
+        "spotify_id": "1mcTU81TzQhprhouKaTkpq"
+    },
+    {
+        "birthday": "1992-05-19",
+        "genres": "['brostep', 'dance pop', 'edm', 'pop', 'pop dance', 'progressive electro house']",
+        "name": "Marshmello",
+        "popularity": 82,
+        "spotify_id": "64KEffDW9EtZ1y2vBYgq8T"
+    },
+    {
+        "birthday": "null",
+        "genres": "['pop']",
+        "name": "Maroon 5",
+        "popularity": 84,
+        "spotify_id": "04gDigrS5kc9YWfZHwBETP"
+    },
+    {
+        "birthday": "1994-07-17",
+        "genres": "['colombian pop', 'dance pop', 'pop']",
+        "name": "Kali Uchis",
+        "popularity": 78,
+        "spotify_id": "1U1el3k54VvEUzo3ybLPlM"
+    },
+    {
+        "birthday": "1984-10-25",
+        "genres": "['dance pop', 'pop', 'post-teen pop']",
+        "name": "Katy Perry",
+        "popularity": 83,
+        "spotify_id": "6jJ0s89eD6GaHleKKya26X"
+    },
+    {
+        "birthday": "null",
+        "genres": "['modern alternative rock', 'modern rock', 'pop', 'shimmer pop']",
+        "name": "The Neighbourhood",
+        "popularity": 82,
+        "spotify_id": "77SW9BnxLY8rJ0RciFqkHh"
+    },
+    {
+        "birthday": "1973-04-05",
+        "genres": "['hip hop', 'pop', 'rap']",
+        "name": "Pharrell Williams",
+        "popularity": 81,
+        "spotify_id": "2RdwBSPQiwcmiDo9kixcl8"
+    },
+    {
+        "birthday": "null",
+        "genres": "['dance pop', 'piano rock', 'pop', 'pop rock']",
+        "name": "OneRepublic",
+        "popularity": 83,
+        "spotify_id": "5Pwc4xIPtQLFEnJriah9YJ"
+    },
+    {
+        "birthday": "1995-02-21",
+        "genres": "['pop', 'r&b']",
+        "name": "Giveon",
+        "popularity": 80,
+        "spotify_id": "4fxd5Ee7UefO4CUXgwJ7IP"
+    },
+    {
+        "birthday": "1984-01-17",
+        "genres": "['dance pop', 'edm', 'electro house', 'house', 'pop', 'progressive house', 'uk dance']",
+        "name": "Calvin Harris",
+        "popularity": 85,
+        "spotify_id": "7CajNmpbOovFoOoasH2HaY"
+    },
+    {
+        "birthday": "null",
+        "genres": "['permanent wave', 'pop']",
+        "name": "Coldplay",
+        "popularity": 86,
+        "spotify_id": "4gzpq5DPGxSnKTe4SA8HAU"
+    },
+    {
+        "birthday": "1988-05-05",
+        "genres": "['british soul', 'pop', 'pop soul', 'uk pop']",
+        "name": "Adele",
+        "popularity": 84,
+        "spotify_id": "4dpARuHxo51G3z768sgnrY"
+    },
+    {
+        "birthday": "1998-08-08",
+        "genres": "['canadian pop', 'pop', 'viral pop']",
+        "name": "Shawn Mendes",
+        "popularity": 83,
+        "spotify_id": "7n2wHs1TKAczGzO7Dd2rGr"
+    },
+    {
+        "birthday": "1992-11-23",
+        "genres": "['dance pop', 'pop', 'post-teen pop']",
+        "name": "Miley Cyrus",
+        "popularity": 81,
+        "spotify_id": "5YGY8feqx7naU7z4HrwZM6"
+    },
+    {
+        "birthday": "null",
+        "genres": "['boy band', 'pop', 'post-teen pop', 'talent show']",
+        "name": "One Direction",
+        "popularity": 83,
+        "spotify_id": "4AK6F7OLvEQ5QYCBNiQWHq"
+    },
+    {
+        "birthday": "null",
+        "genres": "['gauze pop', 'indietronica', 'shiver pop']",
+        "name": "Glass Animals",
+        "popularity": 80,
+        "spotify_id": "4yvcSjfu4PC0CYQyLy4wSq"
+    },
+    {
+        "birthday": "1998-05-04",
+        "genres": "['bedroom pop', 'pop']",
+        "name": "Rex Orange County",
+        "popularity": 78,
+        "spotify_id": "7pbDxGE6nQSZVfiFdq9lOL"
+    },
+    {
+        "birthday": "1991-12-02",
+        "genres": "['dance pop', 'pop', 'viral pop']",
+        "name": "Charlie Puth",
+        "popularity": 83,
+        "spotify_id": "6VuMaDnrHyPL1p4EHjYLi7"
+    },
+    {
+        "birthday": "1958-07-30",
+        "genres": "['art pop', 'art rock', 'baroque pop', 'new wave pop', 'permanent wave', 'piano rock', 'singer-songwriter']",
+        "name": "Kate Bush",
+        "popularity": 82,
+        "spotify_id": "1aSxMhuvixZ8h9dK9jIDwL"
+    },
+    {
+        "birthday": "1988-03-16",
+        "genres": "['dance pop', 'pop', 'r&b', 'urban contemporary']",
+        "name": "Jhené Aiko",
+        "popularity": 75,
+        "spotify_id": "5ZS223C6JyBfXasXxrRqOk"
+    },
+    {
+        "birthday": "1990-09-27",
+        "genres": "['brooklyn indie', 'indie pop']",
+        "name": "Mitski",
+        "popularity": 79,
+        "spotify_id": "2uYWxilOVlUdk4oV9DvwqK"
+    },
+    {
+        "birthday": "null",
+        "genres": "['latin', 'puerto rican pop', 'reggaeton', 'trap latino']",
+        "name": "Ozuna",
+        "popularity": 85,
+        "spotify_id": "1i8SpTcr7yvPOmcqrbnVXY"
+    },
+    {
+        "birthday": "2003-07-01",
+        "genres": "['pop']",
+        "name": "Tate McRae",
+        "popularity": 79,
+        "spotify_id": "45dkTj5sMRSjrmBSBeiHym"
+    },
+    {
+        "birthday": "1985-10-23",
+        "genres": "['dance pop', 'pop', 'r&b', 'urban contemporary']",
+        "name": "Miguel",
+        "popularity": 76,
+        "spotify_id": "360IAlyVv4PCEVjgyMZrxK"
+    },
+    {
+        "birthday": "1997-03-03",
+        "genres": "['dance pop', 'pop', 'post-teen pop', 'uk pop']",
+        "name": "Camila Cabello",
+        "popularity": 83,
+        "spotify_id": "4nDoRrQiYLoBzwC5BhVJzF"
+    },
+    {
+        "birthday": "1999-04-09",
+        "genres": "['lgbtq+ hip hop', 'pop']",
+        "name": "Lil Nas X",
+        "popularity": 82,
+        "spotify_id": "7jVv8c5Fj3E9VhNjxT4snq"
+    },
+    {
+        "birthday": "1992-05-19",
+        "genres": "['dance pop', 'pop', 'uk pop']",
+        "name": "Sam Smith",
+        "popularity": 81,
+        "spotify_id": "2wY79sveU1sp5g7SokKOiI"
+    },
+    {
+        "birthday": "null",
+        "genres": "['boy band', 'dance pop', 'pop', 'post-teen pop']",
+        "name": "5 Seconds of Summer",
+        "popularity": 78,
+        "spotify_id": "5Rl15oVamLq7FbSb0NNBNy"
+    },
+    {
+        "birthday": "1981-01-31",
+        "genres": "['dance pop', 'pop']",
+        "name": "Justin Timberlake",
+        "popularity": 78,
+        "spotify_id": "31TPClRtHm23RisEBtV3X7"
+    },
+    {
+        "birthday": "null",
+        "genres": "['contemporary country', 'country', 'country pop', 'country road', 'modern country rock']",
+        "name": "Florida Georgia Line",
+        "popularity": 76,
+        "spotify_id": "3b8QkneNDz4JHKKKlLgYZg"
+    },
+    {
+        "birthday": "1996-04-11",
+        "genres": "['pop', 'r&b']",
+        "name": "Summer Walker",
+        "popularity": 76,
+        "spotify_id": "57LYzLEk2LcFghVwuWbcuS"
+    },
+    {
+        "birthday": "1992-08-20",
+        "genres": "['dance pop', 'pop', 'post-teen pop', 'uk pop']",
+        "name": "Demi Lovato",
+        "popularity": 79,
+        "spotify_id": "6S2OmqARrzebs0tKUEyXyp"
+    },
+    {
+        "birthday": "1977-02-02",
+        "genres": "['colombian pop', 'dance pop', 'latin', 'latin pop', 'pop']",
+        "name": "Shakira",
+        "popularity": 85,
+        "spotify_id": "0EmeFodog0BfCgMzAIvKQp"
+    },
+    {
+        "birthday": "1958-08-29",
+        "genres": "['pop', 'r&b', 'soul']",
+        "name": "Michael Jackson",
+        "popularity": 80,
+        "spotify_id": "3fMbdgg4jU18AjLCKBhRSm"
+    },
+    {
+        "birthday": "1978-10-14",
+        "genres": "['atl hip hop', 'contemporary r&b', 'dance pop', 'pop', 'r&b', 'south carolina hip hop', 'urban contemporary']",
+        "name": "Usher",
+        "popularity": 78,
+        "spotify_id": "23zg3TcAtWQy7J6upgbUnj"
+    },
+    {
+        "birthday": "2000-10-31",
+        "genres": "['afrofuturism', 'dance pop', 'electropop', 'pop', 'post-teen pop']",
+        "name": "WILLOW",
+        "popularity": 77,
+        "spotify_id": "3rWZHrfrsPBxVy692yAIxF"
+    },
+    {
+        "birthday": "null",
+        "genres": "['dance pop', 'edm', 'electropop', 'pop', 'pop dance', 'tropical house']",
+        "name": "The Chainsmokers",
+        "popularity": 80,
+        "spotify_id": "69GGBxA162lTqCwzJG5jLp"
+    },
+    {
+        "birthday": "1978-11-10",
+        "genres": "['edm', 'electro house', 'moombahton', 'ninja', 'pop', 'pop dance', 'tropical house']",
+        "name": "Diplo",
+        "popularity": 79,
+        "spotify_id": "5fMUXHkw8R8eOP2RNVYEZX"
+    },
+    {
+        "birthday": "1998-08-18",
+        "genres": "['bedroom pop', 'indie pop', 'pop']",
+        "name": "Clairo",
+        "popularity": 75,
+        "spotify_id": "3l0CmX0FuQjFxr8SK7Vqag"
+    },
+    {
+        "birthday": "1987-03-01",
+        "genres": "['dance pop', 'electropop', 'pop', 'post-teen pop']",
+        "name": "Kesha",
+        "popularity": 76,
+        "spotify_id": "6LqNN22kT3074XbTVUrhzX"
+    },
+    {
+        "birthday": null,
+        "genres": "['candy pop', 'pixie', 'pop emo', 'pop punk']",
+        "name": "Paramore",
+        "popularity": 75,
+        "spotify_id": "74XFHRwlV6OrjEM0A2NCMF"
+    },
+    {
+        "birthday": "null",
+        "genres": "['ambient pop', 'dream pop', 'el paso indie', 'shoegaze']",
+        "name": "Cigarettes After Sex",
+        "popularity": 78,
+        "spotify_id": "1QAJqy2dA3ihHBFIHRphZj"
+    },
+    {
+        "birthday": "1981-12-02",
+        "genres": "['dance pop', 'pop', 'post-teen pop']",
+        "name": "Britney Spears",
+        "popularity": 78,
+        "spotify_id": "26dSoYclwsYLMAKD3tpOr4"
+    },
+    {
+        "birthday": "1997-06-27",
+        "genres": "['dance pop', 'pop', 'r&b']",
+        "name": "H.E.R.",
+        "popularity": 74,
+        "spotify_id": "3Y7RZ31TRPVadSFVy1o8os"
+    },
+    {
+        "birthday": "1995-04-28",
+        "genres": "['alt z', 'electropop', 'pop']",
+        "name": "Melanie Martinez",
+        "popularity": 78,
+        "spotify_id": "63yrD80RY3RNEM2YDpUpO8"
+    },
+    {
+        "birthday": "1979-09-08",
+        "genres": "['dance pop', 'pop']",
+        "name": "P!nk",
+        "popularity": 78,
+        "spotify_id": "1KCSPY1glIKqW2TotWuXOR"
+    },
+    {
+        "birthday": "1975-12-18",
+        "genres": "['australian dance', 'australian pop', 'pop']",
+        "name": "Sia",
+        "popularity": 82,
+        "spotify_id": "5WUlDfRSoLAfcVSX1WnrxN"
+    },
+    {
+        "birthday": "1979-10-18",
+        "genres": "['dance pop', 'pop', 'r&b', 'urban contemporary']",
+        "name": "Ne-Yo",
+        "popularity": 77,
+        "spotify_id": "21E3waRsmPlU7jZsS13rcj"
+    },
+    {
+        "birthday": "1992-07-22",
+        "genres": "['dance pop', 'pop', 'post-teen pop']",
+        "name": "Selena Gomez",
+        "popularity": 80,
+        "spotify_id": "0C8ZW7ezQVs4URX5aX7Kqx"
+    },
+    {
+        "birthday": "1996-11-07",
+        "genres": "['art pop', 'dance pop', 'electropop', 'metropopolis', 'nz pop', 'pop', 'uk pop']",
+        "name": "Lorde",
+        "popularity": 75,
+        "spotify_id": "163tK9Wjr9P9DmM0AVK7lm"
+    }
+]

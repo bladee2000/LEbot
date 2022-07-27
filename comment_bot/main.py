@@ -199,8 +199,7 @@ def lambda_handler(event, context):
     print(end_t - set_t)
 
 
-if __name__ == '__main__':
-
+def run():
     set_t = time.time()
 
     pool = Pool()
@@ -208,4 +207,8 @@ if __name__ == '__main__':
 
     end_t = time.time()
     print(end_t - set_t)
+
+
+if __name__ == '__main__':
+    run()
 
