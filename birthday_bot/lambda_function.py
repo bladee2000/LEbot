@@ -1,4 +1,4 @@
-from LEbot.comment_bot import session
+import session
 import sqlite3
 import random
 import json
@@ -9,14 +9,28 @@ def who_today_bday(board, date="now"):
     cur = con.cursor()
 
     cur.execute(
-        f'SELECT * FROM {board} WHERE birthday like "%" || strftime("-%m-%d", "{date}") ORDER by popularity DESC;')
+        f'SELECT * FROM {board} WHERE birthday like "%" || strftime("-%m-%d", "{date}", "+9 hour") ORDER by popularity DESC;')
     all_list = cur.fetchall()
     con.close()
+    print(all_list)
     return all_list
 
 
-def run(board):
-    today_brithday_list = who_today_bday("fboard","now")
+def today():
+    con = sqlite3.connect("./db/hiphop.db")
+    cur = con.cursor()
+
+    cur.execute(
+        f"select strftime('%Y-%m-%d %H:%M:%S', 'now', '+9 hour') as strftime;")
+
+    all_list = cur.fetchall()
+    con.close()
+    print(all_list)
+    return all_list
+
+
+def run(db, post_board):
+    today_brithday_list = who_today_bday(db, "now")
     print(today_brithday_list)
 
     with open('secret.json', encoding='UTF-8') as f:
@@ -29,7 +43,8 @@ def run(board):
         content = make_content(today_brithday_list)
         print(content)
 
-        http_session.doc_write(board, title, content)
+        http_session.doc_write(post_board, title, content)
+
 
 def make_title(artist: str):
     rand = [
@@ -38,7 +53,8 @@ def make_title(artist: str):
         f'생일 축하해 {artist}! '
     ]
     rand_emoji = ["🎁", "🎉", "🥳", "💖", "😍"]
-    return rand[random.randint(0, len(rand)-1)] + rand_emoji[random.randint(0, len(rand_emoji)-1)]
+    return rand[random.randint(0, len(rand) - 1)] + rand_emoji[random.randint(0, len(rand_emoji) - 1)]
+
 
 def make_content(today_list: list):
     content = ""
@@ -50,7 +66,7 @@ def make_content(today_list: list):
 
     if len(today_list) >= 2:
         content += "또한 오늘은 <br>"
-        for i in range(1,len(today_list)):
+        for i in range(1, len(today_list)):
             content += f'<strong>{today_list[i][1]}</strong>({today_list[i][2]})<br>'
         content += "<br>의 생일이기도 합니다! <br><br> 모두들 생일 축하해~<br><br>"
 
@@ -60,6 +76,13 @@ def make_content(today_list: list):
 
     return content
 
+
+def lambda_handler(event, context):
+    run("fboard", "workroom")
+    run("kboard", "workroom")
+
+
 if __name__ == '__main__':
-    run("workroom")
+    run("fboard", "workroom")
+    run("kboard", "workroom")
 

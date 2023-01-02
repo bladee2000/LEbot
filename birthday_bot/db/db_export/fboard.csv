@@ -152,7 +152,7 @@ spotify_id,name,birthday,popularity,genres
 0NbfKEOTQCcwd6o7wSDOHI,The Game,1979-11-29,72,"['gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
 6PXS4YHDkKvl1wkIl4V8DL,Fetty Wap,1991-06-07,69,"['new jersey rap', 'pop rap', 'rap', 'southern hip hop', 'trap']"
 28ExwzUQsvgJooOI0X1mr3,Jay Rock,1985-03-31,70,"['conscious hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']"
-0dlDsD7y6ccmDm8tuWCU6F,Freddie Dredd,,71,"['aesthetic rap', 'phonk']"
+0dlDsD7y6ccmDm8tuWCU6F,Freddie Dredd,1997-09-19,71,"['aesthetic rap', 'phonk']"
 6UBA15slIuadJ8h2lPRPos,Tech N9ne,1971-11-08,69,"['hip hop', 'kansas city hip hop', 'pop rap']"
 1vCWHaC5f2uS3yhpwWbIA6,Avicii,1989-09-08,79,"['dance pop', 'edm', 'pop', 'pop dance', 'pop rap']"
 3RNrq3jvMZxD9ZyoOZbQOD,Korn,,72,"['alternative metal', 'funk metal', 'nu metal', 'rap metal', 'rock']"
@@ -167,7 +167,7 @@ spotify_id,name,birthday,popularity,genres
 1iNqsUDUraNWrj00bqssQG,Dreamville,,67,"['hip hop', 'rap']"
 4tYSBptyGeVyZsk8JC4JHZ,Shoreline Mafia,,66,"['cali rap', 'trap', 'underground hip hop', 'viral rap']"
 1wxPItEzr7U7rGSMPqZ25r,Shiloh Dynasty,,73,"['lo-fi chill', 'sad rap']"
-46HzS7yz0c9udVwtbHk1sx,Cochise,,69,"['plugg', 'pluggnb', 'viral rap']"
+46HzS7yz0c9udVwtbHk1sx,Cochise,1998-05-29,69,"['plugg', 'pluggnb', 'viral rap']"
 26JloX1vHxGGrGUVeMItFJ,iamjakehill,,68,"['emo rap', 'pop rap', 'sad rap']"
 5Y5TRrQiqgUO4S36tzjIRZ,Timbaland,1972-03-10,75,"['dance pop', 'hip hop', 'hip pop', 'pop', 'pop rap', 'urban contemporary']"
 6z7xFFHxYkE9t8bwIF0Bvg,Boosie Badazz,1982-11-14,64,"['baton rouge rap', 'dirty south rap', 'gangster rap', 'hip hop', 'rap', 'southern hip hop', 'trap']"
@@ -179,7 +179,7 @@ spotify_id,name,birthday,popularity,genres
 3uL4UpqShC4p2x1dJutoRW,Ghostemane,1991-04-15,71,"['dark trap', 'florida rap']"
 0EeQBlQJFiAfJeVN2vT9s0,Nipsey Hussle,1985-08-15,66,"['conscious hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
 6bmlMHgSheBauioMgKv2tn,Powfu,1999-03-31,71,['sad rap']
-3Rx4PJ7SP6unkOk5elPUK7,Money Man,,67,"['memphis hip hop', 'rap', 'southern hip hop', 'trap']"
+3Rx4PJ7SP6unkOk5elPUK7,Money Man,1986-02-27,67,"['memphis hip hop', 'rap', 'southern hip hop', 'trap']"
 59wfkuBoNyhDMQGCljbUbA,Diddy,1969-11-04,72,"['dance pop', 'east coast hip hop', 'hip hop', 'hip pop', 'pop rap', 'r&b', 'rap']"
 2CmaKO2zEGJ1NWpS1yfVGz,Falling In Reverse,,69,"['metalcore', 'modern rock', 'pop punk', 'rap metal', 'rock']"
 6GMYJwaziB4ekv1Y6wCDWS,Soulja Boy,1990-07-28,69,"['atl hip hop', 'chicago bop', 'dance pop', 'dirty south rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']"
@@ -195,9 +195,9 @@ spotify_id,name,birthday,popularity,genres
 6vbY3hOaCAhC7VjucswgdS,Twista,1973-11-27,66,"['chicago rap', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'r&b', 'rap', 'trap', 'urban contemporary']"
 3KNIG74xSTc3dj0TRy7pGX,BLEU,1994-04-05,67,"['alabama rap', 'pop rap', 'r&b', 'trap']"
 1pPmIToKXyGdsCF6LmqLmI,Rich The Kid,1992-07-13,67,"['atl hip hop', 'hip hop', 'melodic rap', 'plugg', 'pop rap', 'rap', 'southern hip hop', 'trap', 'vapor trap', 'viral rap']"
-7FOQfJbC3e4GNoheojERnF,SleazyWorld Go,,65,['viral rap']
+7FOQfJbC3e4GNoheojERnF,SleazyWorld Go,1998-01-17,65,['viral rap']
 6DvlemMOlMH6VD9tB7BPRf,Tom MacDonald,1988-09-21,65,"['bc underground hip hop', 'country rap', 'maga rap']"
-2d0hyoQ5ynDBnkvAbJKORj,Rage Against The Machine,,71,"['alternative metal', 'alternative rock', 'conscious hip hop', 'funk metal', 'nu metal', 'political hip hop', 'rap metal', 'rap rock', 'rock']"
+2d0hyoQ5ynDBnkvAbJKORj,Rage Against The Machine,1992-11-11,71,"['alternative metal', 'alternative rock', 'conscious hip hop', 'funk metal', 'nu metal', 'political hip hop', 'rap metal', 'rap rock', 'rock']"
 2DlGxzQSjYe5N6G9nkYghR,Jennifer Lopez,1969-07-24,76,"['dance pop', 'pop', 'pop rap', 'urban contemporary']"
 5g63iWaMJ2UrkZMkCC8dMi,Lil Tracy,1995-10-03,69,"['dark trap', 'emo rap', 'melodic rap', 'underground hip hop', 'vapor trap']"
 7yntSJ6uojO3z6GFUVwhAW,CORPSE,1997-08-08,68,"['dream smp', 'viral rap']"
@@ -206,7 +206,7 @@ spotify_id,name,birthday,popularity,genres
 2oX42qP5ineK3hrhBECLmj,Andy Grammer,1983-12-03,70,"['dance pop', 'modern rock', 'neo mellow', 'pop', 'pop rap', 'pop rock']"
 4qBgvVog0wzW75IQ48mU7v,KYLE,1993-05-18,65,"['pop', 'pop rap', 'rap', 'viral rap']"
 3Gm5F95VdRxW3mqCn8RPBJ,Aminé,1994-04-18,69,"['hip hop', 'pop', 'portland hip hop', 'rap', 'underground hip hop']"
-3ZHU5AKrUmIPnCFfr82QER,1nonly,,70,['aesthetic rap']
+3ZHU5AKrUmIPnCFfr82QER,1nonly,2004-04-06,70,['aesthetic rap']
 085pc2PYOi8bGKj0PNjekA,will.i.am,1975-03-15,72,"['dance pop', 'pop', 'pop rap']"
 68DWke2VjdDmA75aJX5C57,Yelawolf,1979-12-30,65,"['alabama rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop']"
 4iDroUFo89Y7YBsdDTBmTD,Sueco,1997-01-28,65,"['cali rap', 'pop rap']"
@@ -217,9 +217,9 @@ spotify_id,name,birthday,popularity,genres
 50JJSqHUf2RQ9xsHs0KMHg,Jon Bellion,1990-12-26,67,['pop rap']
 0YWxKQj2Go9CGHCp77UOyy,Fabolous,1977-11-18,66,"['dance pop', 'gangster rap', 'hip hop', 'hip pop', 'pop rap', 'r&b', 'rap', 'trap', 'urban contemporary']"
 6X8WdFjrNhXATMDSs26aCc,Curren$y,1981-04-04,64,"['alternative hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'new orleans rap', 'pop rap', 'rap', 'southern hip hop', 'underground hip hop']"
-1Bl6wpkWCQ4KVgnASpvzzA,BROCKHAMPTON,,68,"['boy band', 'hip hop', 'rap']"
+1Bl6wpkWCQ4KVgnASpvzzA,BROCKHAMPTON,null,68,"['boy band', 'hip hop', 'rap']"
 2y246nnP9pQT0E6v3ZMMOO,Night Lovell,1997-05-29,69,"['aesthetic rap', 'canadian hip hop', 'canadian trap', 'dark trap', 'ottawa rap', 'underground hip hop']"
-03r4iKL2g2442PT9n2UKsx,Beastie Boys,,67,"['alternative rock', 'east coast hip hop', 'golden age hip hop', 'hip hop', 'old school hip hop', 'rap', 'rap rock']"
+03r4iKL2g2442PT9n2UKsx,Beastie Boys,null,67,"['alternative rock', 'east coast hip hop', 'golden age hip hop', 'hip hop', 'old school hip hop', 'rap', 'rap rock']"
 2rWCIhENZyPVDAeFC0ESWN,Josh A,,67,"['emo rap', 'pop rap', 'sad rap']"
 3Fl1V19tmjt57oBdxXKAjJ,Blueface,1997-01-20,67,"['cali rap', 'trap']"
 1YfEcTuGvBQ8xSD1f53UnK,Busta Rhymes,1972-05-20,70,"['east coast hip hop', 'hardcore hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap']"
@@ -227,7 +227,7 @@ spotify_id,name,birthday,popularity,genres
 68kEuyFKyqrdQQLLsmiatm,Vince Staples,1993-07-02,68,"['conscious hip hop', 'escape room', 'hip hop', 'rap', 'underground hip hop']"
 2jw70GZXlAI8QzWeY2bgRc,Nelly Furtado,1978-12-02,73,"['canadian latin', 'canadian pop', 'dance pop', 'pop', 'pop rap']"
 1ybINI1qPiFbwDXamRtwxD,Smino,1991-10-02,66,"['hip hop', 'rap', 'underground hip hop']"
-6i392l38cR3uBPF0DbNs7S,Quality Control,,64,"['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']"
+6i392l38cR3uBPF0DbNs7S,Quality Control,null,64,"['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']"
 220xv2aB3dsGxaJI1gGs7l,Hotboii,2000-06-13,63,"['florida rap', 'pop rap', 'trap']"
 08PvCOlef4xdOr20jFSTPd,Flo Milli,2000-01-09,66,"['dance pop', 'pop', 'viral rap']"
 6aaMZ3fcfLv4tEbmY7bjRM,Isaiah Rashad,1991-05-16,66,"['hip hop', 'rap', 'tennessee hip hop', 'underground hip hop']"
@@ -239,7 +239,7 @@ spotify_id,name,birthday,popularity,genres
 0xOeVMOz2fVg5BJY3N6akT,Jaden,1998-07-08,69,"['hip hop', 'pop', 'rap']"
 0FtsMKmZEq8fBWqdSOWtqp,03 Greedo,1987-07-26,64,"['cali rap', 'melodic rap', 'trap']"
 0p4ViyfJUTW0IT4SCBLexf,Drakeo the Ruler,1993-12-01,62,"['cali rap', 'viral rap']"
-0vRvGUQVUjytro0xpb26bs,Arizona Zervas,,66,"['pop rap', 'rhode island rap', 'viral rap']"
+0vRvGUQVUjytro0xpb26bs,Arizona Zervas,1995-04-19,66,"['pop rap', 'rhode island rap', 'viral rap']"
 6AMd49uBDJfhf30Ak2QR5s,Coi Leray,1997-05-11,65,"['new jersey underground rap', 'pop rap', 'r&b', 'trap queen', 'viral rap']"
 3EW0kQ1skZiK1NHg3Spt9J,Takeoff,1994-06-18,67,"['atl hip hop', 'rap', 'southern hip hop', 'trap']"
 3x3jSlhyv5CiCZDZlaTq0M,Pi’erre Bourne,1993-09-19,64,"['melodic rap', 'pluggnb', 'rap', 'trap', 'vapor trap']"
@@ -251,7 +251,7 @@ spotify_id,name,birthday,popularity,genres
 4fZ8AuVP6Y8mLmCoybfKpC,Adam Calhoun,1980-09-05,61,"['country rap', 'military rap', 'redneck']"
 5spEJXLwD1sKUdC2bnOHPg,Bone Thugs-N-Harmony,,63,"['gangster rap', 'hip hop', 'ohio hip hop', 'pop rap', 'rap', 'southern hip hop']"
 6FD0unjzGQhX3b6eMccMJe,Ghostface Killah,1970-05-09,67,"['alternative hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap', 'southern hip hop']"
-2rwALQ1SXdfUWPUd6WOfYS,Aaron May,,64,"['hip hop', 'rap']"
+2rwALQ1SXdfUWPUd6WOfYS,Aaron May,1977-12-25,64,"['hip hop', 'rap']"
 6rIaHuCIUu32uj2CjlEBN3,Mike Dimes,,63,['rap']
 3gGUMEwIX6XodWsYEvKSal,YBN Nahmir,1999-12-18,63,"['alabama rap', 'rap', 'trap', 'underground hip hop', 'vapor trap', 'viral rap']"
 3A5tHz1SfngyOZM2gItYKu,Earl Sweatshirt,1994-02-24,66,"['alternative hip hop', 'experimental hip hop', 'hip hop', 'rap', 'underground hip hop']"
@@ -273,10 +273,10 @@ spotify_id,name,birthday,popularity,genres
 0sKsReKseslDlhxmbN6wLk,BabyTron,,61,"['detroit hip hop', 'scam rap', 'vapor trap', 'viral rap']"
 1bhZt10yZVCJfp3HaNxJv8,Riovaz,,62,['aesthetic rap']
 7Hjbimq43OgxaBRpFXic4x,Saba,1994-07-17,63,"['chicago rap', 'hip hop', 'rap', 'underground hip hop']"
-34EP7KEpOjXcM2TCat1ISk,Wu-Tang Clan,,66,"['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']"
+34EP7KEpOjXcM2TCat1ISk,Wu-Tang Clan,null,66,"['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']"
 5BcAKTbp20cv7tC5VqPFoC,Macklemore & Ryan Lewis,1983-06-19,71,"['dance pop', 'pop', 'pop rap', 'seattle hip hop']"
 44vREmJC0OlVZjZaGLqVEd,Morray,1992-09-09,63,['pop rap']
-26s8LSolLfCIY88ysQbIuT,Three 6 Mafia,,62,"['crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']"
+26s8LSolLfCIY88ysQbIuT,Three 6 Mafia,null,62,"['crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']"
 5MbNzCW3qokGyoo9giHA3V,EARTHGANG,,65,"['atl hip hop', 'hip hop', 'psychedelic hip hop', 'rap', 'underground hip hop']"
 77AiFEVeAVj2ORpC85QVJs,Steve Aoki,1977-11-30,73,"['dance pop', 'edm', 'electro house', 'pop dance', 'pop rap', 'tropical house']"
 5OrB6Jhhrl9y2PK0pSV4VP,Young Money,,62,"['dance pop', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
@@ -411,7 +411,7 @@ spotify_id,name,birthday,popularity,genres
 3sgFRtyBnxXD5ESfmbK4dl,LMFAO,,66,"['dance pop', 'pop rap']"
 4v6XOdonnfpdTKTRJArG7v,Tink,1995-03-18,59,"['chicago rap', 'drill', 'pop', 'pop r&b', 'pop rap', 'r&b', 'trap queen', 'viral rap']"
 4Q6nIcaBED8qUel8bBx6Cr,Jax Jones,1987-07-25,76,"['dance pop', 'edm', 'house', 'pop', 'pop dance', 'pop rap', 'tropical house', 'uk dance', 'uk pop']"
-4EnEZVjo3w1cwcQYePccay,N.W.A.,,64,"['conscious hip hop', 'gangster rap', 'golden age hip hop', 'hardcore hip hop', 'hip hop', 'old school hip hop', 'rap', 'west coast rap']"
+4EnEZVjo3w1cwcQYePccay,N.W.A.,null,64,"['conscious hip hop', 'gangster rap', 'golden age hip hop', 'hardcore hip hop', 'hip hop', 'old school hip hop', 'rap', 'west coast rap']"
 0bfX8pF8kuHNCs57Ms4jZb,Roscoe Dash,1990-04-02,59,"['atl hip hop', 'dirty south rap', 'futuristic swag', 'pop rap', 'southern hip hop', 'trap']"
 3SEJQy90Vgg1aSnZ9b4AU9,Krizz Kaliko,1974-03-07,58,"['country rap', 'kansas city hip hop', 'pop rap', 'rap rock', 'southern hip hop']"
 1PDE2MIJ4M6uvFJDrslazf,Ryan Caraveo,1992-12-13,58,"['indie pop rap', 'pop rap', 'sad rap']"
@@ -456,7 +456,7 @@ spotify_id,name,birthday,popularity,genres
 2JSwnwAT1BupAQkhqcRCUw,Sada Baby,1992-11-17,58,"['detroit trap', 'scam rap', 'trap']"
 5uLkZ7FWMTBUg1corQqdkR,Lund,null,60,"['emo rap', 'pop rap', 'sad lo-fi', 'sad rap']"
 59HbaJ5E8ud7FNLGqUN1KH,Capella Grey,1995-08-02,62,['pop rap']
-6O2zJ0tId7g07yzHtX0yap,Mobb Deep,,65,"['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap']"
+6O2zJ0tId7g07yzHtX0yap,Mobb Deep,null,65,"['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap']"
 3s8alQfNnY0roAHaJh7Xxt,Dom Kennedy,1984-08-22,59,"['cali rap', 'hip hop', 'rap', 'southern hip hop', 'trap', 'underground hip hop', 'west coast trap']"
 5yy76ufVriyvidNSvXlRU1,Clever,,61,['alabama rap']
 5M0lbkGluOPXLeFjApw8r8,Shelley FKA DRAM,1988-08-03,61,"['pop rap', 'underground hip hop', 'virginia hip hop']"
@@ -468,7 +468,7 @@ spotify_id,name,birthday,popularity,genres
 0x7qiZJaal6j8qS7yCydFk,Savage Ga$p,,59,"['aesthetic rap', 'meme rap', 'viral rap']"
 0rJ0xlAQI0wLRucDRoQQbO,El Makabelico,,64,"['corrido', 'mexican hip hop', 'narco rap', 'nueva musica mexicana']"
 0dT2U2jUx6OmKlyeQOH8AK,ShooterGang Kony,,56,"['cali rap', 'detroit trap', 'viral rap']"
-2hPgGN4uhvXAxiXQBIXOmE,KIDS SEE GHOSTS,,60,"['hip hop', 'rap']"
+2hPgGN4uhvXAxiXQBIXOmE,KIDS SEE GHOSTS,null,60,"['hip hop', 'rap']"
 7iWiAD5LLKyiox2grgfmUT,Bullet For My Valentine,,66,"['alternative metal', 'melodic metalcore', 'metalcore', 'nu metal', 'rap rock', 'uk metalcore', 'welsh metal']"
 7Gz6VlTVwlNtBNMYV4OI3w,Shotgun Willy,,62,['meme rap']
 5XDJlfdfbGNJrOJJNxTcdq,Phora,1994-10-11,59,"['deep underground hip hop', 'oc rap', 'pop r&b', 'r&b']"
@@ -582,3 +582,6 @@ spotify_id,name,birthday,popularity,genres
 21E3waRsmPlU7jZsS13rcj,Ne-Yo,1979-10-18,77,"['dance pop', 'pop', 'r&b', 'urban contemporary']"
 0C8ZW7ezQVs4URX5aX7Kqx,Selena Gomez,1992-07-22,80,"['dance pop', 'pop', 'post-teen pop']"
 163tK9Wjr9P9DmM0AVK7lm,Lorde,1996-11-07,75,"['art pop', 'dance pop', 'electropop', 'metropopolis', 'nz pop', 'pop', 'uk pop']"
+1Mxqyy3pSjf8kZZL4QVxS0,Frank Sinatra,1915-12-12,86,"['adult standards', 'easy listening', 'lounge']"
+6ra4GIOgCZQZMOaUECftGN,Frank Zappa,1940-12-21,59,"['album rock', 'art rock', 'experimental', 'instrumental rock', 'jazz fusion', 'jazz rock', 'progressive rock', 'psychedelic rock', 'rock', 'symphonic rock', 'zolo']"
+4RbUYWWjEBb4umwqakOEd3,Dr. Peacock,,62,"['frenchcore', 'tekk', 'uptempo hardcore']"

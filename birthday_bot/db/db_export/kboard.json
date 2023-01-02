@@ -525,7 +525,7 @@
         "spotify_id": "3Rxm9TaXZGuQRw2B91Ap22"
     },
     {
-        "birthday": null,
+        "birthday": "1988-10-25",
         "genres": "['j-metal', 'k-rap', 'korean r&b']",
         "name": "Babylon",
         "popularity": 41,
@@ -609,7 +609,7 @@
         "spotify_id": "6v5cGuRCZKq08nLI4WXJuB"
     },
     {
-        "birthday": null,
+        "birthday": "1981-07-22",
         "genres": "['k-rap']",
         "name": "Yankie",
         "popularity": 42,
@@ -637,7 +637,7 @@
         "spotify_id": "2TTGZUWJg6LIOWsmCEgKCZ"
     },
     {
-        "birthday": null,
+        "birthday": "1994-03-28",
         "genres": "['k-rap', 'korean pop', 'korean underground rap']",
         "name": "PATEKO",
         "popularity": 40,
@@ -700,7 +700,7 @@
         "spotify_id": "4N2CbwZ7ekytt9Oi5dh4Vq"
     },
     {
-        "birthday": "1988-08-18",
+        "birthday": "null",
         "genres": "['k-pop', 'k-rap']",
         "name": "GD&TOP",
         "popularity": 40,
@@ -1139,5 +1139,719 @@
         "name": "Outsider",
         "popularity": 33,
         "spotify_id": "1i4Y4WlFFetQV14Z8UDdvr"
+    },
+    {
+        "birthday": "1995-07-21",
+        "genres": "['k-rap']",
+        "name": "Kim Ximya",
+        "popularity": 29,
+        "spotify_id": "2tB3jPHyyfcxvvor2flc1Q"
+    },
+    {
+        "birthday": "1992-11-10",
+        "genres": "['k-pop', 'korean r&b']",
+        "name": "DEAN",
+        "popularity": 63,
+        "spotify_id": "3eCd0TZrBPm2n9cDG6yWfF"
+    },
+    {
+        "birthday": "1992-11-27",
+        "genres": "['k-pop']",
+        "name": "CHANYEOL",
+        "popularity": 60,
+        "spotify_id": "6jV25rzTKQ2zMgrqHha1V5"
+    },
+    {
+        "birthday": "1993-01-01",
+        "genres": "['k-pop', 'korean r&b']",
+        "name": "DPR LIVE",
+        "popularity": 66,
+        "spotify_id": "0siBQaURCli5wn2lqv8WZg"
+    },
+    {
+        "birthday": "1992-05-03",
+        "genres": "['k-pop', 'korean r&b']",
+        "name": "Crush",
+        "popularity": 68,
+        "spotify_id": "6aLdhHUqgdKE86xbtNmY8g"
+    },
+    {
+        "birthday": "1998-04-20",
+        "genres": "['korean r&b']",
+        "name": "DeVita",
+        "popularity": 61,
+        "spotify_id": "5PS3ZZE5bBiZ3Ct9HiRG2B"
+    },
+    {
+        "birthday": "1998-09-27",
+        "genres": "['k-pop', 'korean r&b']",
+        "name": "BIBI",
+        "popularity": 72,
+        "spotify_id": "6UbmqUEgjLA6jAcXwbM1Z9"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean r&b']",
+        "name": "GEMINI",
+        "popularity": 59,
+        "spotify_id": "67IWlRdLy3UcfY3q968euj"
+    },
+    {
+        "birthday": "1998-04-29",
+        "genres": "['korean r&b']",
+        "name": "CAMO",
+        "popularity": 52,
+        "spotify_id": "2YkhzcYyxJvtl5W6pY0PuF"
+    },
+    {
+        "birthday": "1991-03-09",
+        "genres": "['korean r&b']",
+        "name": "Jooyoung",
+        "popularity": 48,
+        "spotify_id": "1vct46rBqLNRbE9wCibXUH"
+    },
+    {
+        "birthday": "null",
+        "genres": "['korean r&b']",
+        "name": "offonoff",
+        "popularity": 50,
+        "spotify_id": "0dTj3SqwE8kPnCzyzvYzhT"
+    },
+    {
+        "birthday": "1994-05-10",
+        "genres": "['chill r&b', 'korean r&b']",
+        "name": "Colde",
+        "popularity": 60,
+        "spotify_id": "3VQDqjQ4wJyw8PzpGdlZpB"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean r&b']",
+        "name": "Rheehab",
+        "popularity": 33,
+        "spotify_id": "4UzNlDOUkNSs0Alm2VdKhu"
+    },
+    {
+        "birthday": "1993-02-20",
+        "genres": "['chill r&b', 'k-indie', 'korean r&b']",
+        "name": "jeebanoff",
+        "popularity": 46,
+        "spotify_id": "6FK6uP46ntwU9gaQQxTlDV"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean underground rap']",
+        "name": "Spray",
+        "popularity": 30,
+        "spotify_id": "08yoNApAYvtzOK5P3qZKw8"
+    },
+    {
+        "birthday": "1998-12-05",
+        "genres": "['korean underground rap']",
+        "name": "Skyminhyuk",
+        "popularity": 28,
+        "spotify_id": "1SHIOlNm9pVZ7EzO9322AM"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean underground rap']",
+        "name": "DAKSHOOD",
+        "popularity": 11,
+        "spotify_id": "2jKQ4jDx4IYeDyTHGz1tkk"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean underground rap']",
+        "name": "Cloudybay",
+        "popularity": 27,
+        "spotify_id": "0FyGoy4Ek4dQGoMM65eZ0z"
+    },
+    {
+        "birthday": "2001-01-13",
+        "genres": "['k-rap']",
+        "name": "Untell",
+        "popularity": 29,
+        "spotify_id": "3A1b2Lg9tPuQyR7ab1xgp8"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean underground rap']",
+        "name": "Rakon",
+        "popularity": 26,
+        "spotify_id": "2RLCgVKRIUWY5Dz5azW6Tk"
+    },
+    {
+        "birthday": "1988-10-30",
+        "genres": "['k-rap', 'korean underground rap']",
+        "name": "Hwaji",
+        "popularity": 27,
+        "spotify_id": "1Azg0okIA7BY6CMwRBLmud"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean underground rap']",
+        "name": "furyfromguxxi",
+        "popularity": 19,
+        "spotify_id": "1YdXlK5f1tOeFoNAqiyKbV"
+    },
+    {
+        "birthday": "1991-11-11",
+        "genres": "['k-rap', 'korean underground rap']",
+        "name": "lobonabeat!",
+        "popularity": 35,
+        "spotify_id": "3gg70JN79TXhAqklizHOva"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean old school hip hop', 'korean underground rap']",
+        "name": "yankie",
+        "popularity": 31,
+        "spotify_id": "6a8KtGpAv3NHL713mcH08a"
+    },
+    {
+        "birthday": "2002-05-18",
+        "genres": "['korean trap']",
+        "name": "Yuzion",
+        "popularity": 33,
+        "spotify_id": "1vS1ZN2wrTyVdWHDgoZLVE"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean underground rap']",
+        "name": "oygli",
+        "popularity": 21,
+        "spotify_id": "1xOiGoYkm1zgqwXLsvQA90"
+    },
+    {
+        "birthday": "1993-12-17",
+        "genres": "['k-rap']",
+        "name": "Slom",
+        "popularity": 45,
+        "spotify_id": "0UswO8FFKS2tv6dzyNyJLD"
+    },
+    {
+        "birthday": "1989-06-01",
+        "genres": "['korean underground rap']",
+        "name": "BLNK",
+        "popularity": 15,
+        "spotify_id": "6mquRNZm8DYTOCbYoRh7A1"
+    },
+    {
+        "birthday": "1985-01-11",
+        "genres": "['k-rap', 'korean underground rap']",
+        "name": "J'Kyun",
+        "popularity": 38,
+        "spotify_id": "0WIKW2eVuPbK5vQ0AIDtMQ"
+    },
+    {
+        "birthday": "1990-05-25",
+        "genres": "['korean underground rap']",
+        "name": "kitsyojii",
+        "popularity": 21,
+        "spotify_id": "3X9mQSyCBKAV74OUSf7zLt"
+    },
+    {
+        "birthday": "1995-07-03",
+        "genres": "['korean trap']",
+        "name": "Munchman",
+        "popularity": 35,
+        "spotify_id": "7u2Nz7Bj2vbCps9AH5q6do"
+    },
+    {
+        "birthday": "1989-11-28",
+        "genres": "['korean underground rap']",
+        "name": "Jayho",
+        "popularity": 17,
+        "spotify_id": "2rNnRYi5Hq8Z47auJ9DtDS"
+    },
+    {
+        "birthday": null,
+        "genres": "['k-rap']",
+        "name": "Eluphant",
+        "popularity": 18,
+        "spotify_id": "59YukrTVTiGNpuhyw3v4dB"
+    },
+    {
+        "birthday": "1993-06-21",
+        "genres": "['korean trap']",
+        "name": "Jhnovr",
+        "popularity": 39,
+        "spotify_id": "4GqXWudNdgIhuDnYHFnQez"
+    },
+    {
+        "birthday": "1986-09-01",
+        "genres": "['k-rap', 'korean indie rock']",
+        "name": "Bassagong",
+        "popularity": 30,
+        "spotify_id": "7j1lNIjZY1E1drWIgJloMs"
+    },
+    {
+        "birthday": "null",
+        "genres": "['k-rap', 'k-rock', 'korean old school hip hop']",
+        "name": "BAECHIGI",
+        "popularity": 29,
+        "spotify_id": "1mKRJeL6KrSlwLG8gvwSQP"
+    },
+    {
+        "birthday": "1999-04-21",
+        "genres": "['korean trap']",
+        "name": "PULLIK",
+        "popularity": 21,
+        "spotify_id": "6vhLgVqFLRdTEilwzSs98z"
+    },
+    {
+        "birthday": "0000-06-23",
+        "genres": "['korean underground rap']",
+        "name": "HAIFHAIF",
+        "popularity": 25,
+        "spotify_id": "5r1cOycfowIRNcVOfRn0AR"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean underground rap']",
+        "name": "탐쓴(TOMSSON)",
+        "popularity": 2,
+        "spotify_id": "7joplsKhMptIcpQ2LKYAlI"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean trap', 'korean underground rap']",
+        "name": "RAUDI",
+        "popularity": 18,
+        "spotify_id": "1Tf52Yc65Ghgb3DDBRBL1K"
+    },
+    {
+        "birthday": "2002-10-21",
+        "genres": "['k-rap']",
+        "name": "Fleeky Bang",
+        "popularity": 42,
+        "spotify_id": "4whHCEnN1w4cexp2J7h4OC"
+    },
+    {
+        "birthday": "2004-11-15",
+        "genres": "['k-rap', 'korean trap']",
+        "name": "Polodared",
+        "popularity": 43,
+        "spotify_id": "1Ri5P0CfdNxdIkHX6es8Xd"
+    },
+    {
+        "birthday": "1993-12-25",
+        "genres": "['dark trap', 'korean trap', 'underground hip hop']",
+        "name": "Keith Ape",
+        "popularity": 51,
+        "spotify_id": "6f9bmfkqiYbhCtdAZsv7KI"
+    },
+    {
+        "birthday": "1990-09-04",
+        "genres": "['k-rap', 'korean trap']",
+        "name": "Mckdaddy",
+        "popularity": 46,
+        "spotify_id": "3jEfM7ePpwC5KcJHMseRqA"
+    },
+    {
+        "birthday": "null",
+        "genres": "[]",
+        "name": "曹承衍 & Flowsik",
+        "popularity": 8,
+        "spotify_id": "3gLT2QQuhzr9G0MbH9BjVX"
+    },
+    {
+        "birthday": null,
+        "genres": "[]",
+        "name": "MOBB",
+        "popularity": 31,
+        "spotify_id": "6r0hPI0NVDMIwJimnNps8c"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean r&b']",
+        "name": "Villain",
+        "popularity": 37,
+        "spotify_id": "72RrIlkfpO0LWZ7IC9XFxV"
+    },
+    {
+        "birthday": "1999-10-31",
+        "genres": "['k-rap', 'korean trap', 'korean underground rap']",
+        "name": "viceversa",
+        "popularity": 27,
+        "spotify_id": "5M6uaTVVZuyAkdr60oWKrJ"
+    },
+    {
+        "birthday": "1998-02-26",
+        "genres": "['k-rap', 'korean trap']",
+        "name": "Bryn",
+        "popularity": 28,
+        "spotify_id": "74r4YBm6qWOBKKF6MhVXVq"
+    },
+    {
+        "birthday": "1995-04-06",
+        "genres": "['korean trap']",
+        "name": "YUNHWAY",
+        "popularity": 42,
+        "spotify_id": "7nq2NwlzVsllu1h5qHPxIy"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean trap']",
+        "name": "Kash Bang",
+        "popularity": 24,
+        "spotify_id": "4Dg0FW3kt3GShHgwPbY1bj"
+    },
+    {
+        "birthday": "1999-12-20",
+        "genres": "['k-rap']",
+        "name": "Sleepy",
+        "popularity": 24,
+        "spotify_id": "5qp3vJC5OdDo1Zsrsl3sIR"
+    },
+    {
+        "birthday": null,
+        "genres": "['k-pop boy group', 'korean r&b']",
+        "name": "PLT",
+        "popularity": 33,
+        "spotify_id": "3vuWK4IKHt6AJnELinRiAE"
+    },
+    {
+        "birthday": "1995-08-11",
+        "genres": "['korean trap']",
+        "name": "TAKUWA",
+        "popularity": 20,
+        "spotify_id": "46gc3yx3R3HyZtpwV9s82V"
+    },
+    {
+        "birthday": "null",
+        "genres": "['k-rap', 'korean trap']",
+        "name": "MBA",
+        "popularity": 24,
+        "spotify_id": "0c6EF9zv5mQX7pkyrPawKS"
+    },
+    {
+        "birthday": "1995-12-07",
+        "genres": "['korean trap']",
+        "name": "Lil Cherry",
+        "popularity": 37,
+        "spotify_id": "523GImBnBoIvcq0n8BZIv4"
+    },
+    {
+        "birthday": "2005-04-19",
+        "genres": "['korean trap']",
+        "name": "Royal 44",
+        "popularity": 35,
+        "spotify_id": "6I5eyZiVUpuPwE8mTXp7hC"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean trap']",
+        "name": "Bla$e Kid",
+        "popularity": 16,
+        "spotify_id": "0Jy4xANFq1oRDNUrwQcsnA"
+    },
+    {
+        "birthday": "2002-09-25",
+        "genres": "['korean trap']",
+        "name": "PLUMA",
+        "popularity": 27,
+        "spotify_id": "4ZIFmwiUQnjWS2qtEbcH2V"
+    },
+    {
+        "birthday": "1989-02-10",
+        "genres": "['korean trap']",
+        "name": "Wutan",
+        "popularity": 24,
+        "spotify_id": "6X4GGufs8OhbUC1fy1xuUn"
+    },
+    {
+        "birthday": "1986-11-10",
+        "genres": "['korean trap']",
+        "name": "Geegooin",
+        "popularity": 38,
+        "spotify_id": "6i47wcSLvsZ9M01UO7zsua"
+    },
+    {
+        "birthday": null,
+        "genres": "[]",
+        "name": "PIRI",
+        "popularity": 32,
+        "spotify_id": "4Q8X2Au5XW0dex9cJ4r7cf"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean trap']",
+        "name": "SC4F",
+        "popularity": 20,
+        "spotify_id": "3fXOlqV4AdU7A1VCDrXeoY"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean trap']",
+        "name": "niahn",
+        "popularity": 24,
+        "spotify_id": "5AtReuDx8bB9pmlpqZe0tT"
+    },
+    {
+        "birthday": "1998-08-21",
+        "genres": "[]",
+        "name": "JAMBINO",
+        "popularity": 44,
+        "spotify_id": "1lcuNfp7bo4LCAHWrjAR9K"
+    },
+    {
+        "birthday": null,
+        "genres": "['korean r&b']",
+        "name": "Jiselle",
+        "popularity": 48,
+        "spotify_id": "6tjbcCaexKI8esvvEZPVnt"
+    },
+    {
+        "birthday": "1991-09-24",
+        "genres": "['korean trap']",
+        "name": "Nochang",
+        "popularity": 24,
+        "spotify_id": "7t9GBnoezuCQxIIoMaE8KO"
+    },
+    {
+        "birthday": "1995-05-03",
+        "genres": "['k-rap', 'korean hyperpop', 'korean trap']",
+        "name": "Futuristic Swaver",
+        "popularity": 36,
+        "spotify_id": "1IoxcWz8vPDGOJBQNCGEvF"
+    },
+    {
+        "birthday": "1965-12-27",
+        "genres": "[]",
+        "name": "KHAN",
+        "popularity": 48,
+        "spotify_id": "13jYpBHek9LD68d1ZwWmu5"
+    },
+    {
+        "birthday": "2004-01-10",
+        "genres": "['k-rap']",
+        "name": "NSW yoon",
+        "popularity": 44,
+        "spotify_id": "6xlIFpRmRNDoVuFUqzuMFE"
+    },
+    {
+        "birthday": "1988-05-18",
+        "genres": "['korean r&b']",
+        "name": "TAEYANG",
+        "popularity": 56,
+        "spotify_id": "6udveWUgX4vu75FF0DTrXV"
+    },
+    {
+        "birthday": "1991-02-18",
+        "genres": "['korean trap']",
+        "name": "kaogaii",
+        "popularity": 26,
+        "spotify_id": "6zxWD2e5UlhmkO99LB4MP2"
+    },
+    {
+        "birthday": null,
+        "genres": "['k-rap', 'korean underground rap']",
+        "name": "KOREAN",
+        "popularity": 28,
+        "spotify_id": "762fgqQ2gz5w7q1VkDOmja"
+    },
+    {
+        "birthday": null,
+        "genres": "['k-indie']",
+        "name": "dress",
+        "popularity": 41,
+        "spotify_id": "72b1XZ6SmDRgHEOB7ypw9z"
+    },
+    {
+        "birthday": "1998-12-30",
+        "genres": "['korean trap']",
+        "name": "LIL GIMCHI",
+        "popularity": 30,
+        "spotify_id": "6GlkZqxomTSlcJUh9WvVKQ"
+    },
+    {
+        "birthday": "1992-06-21",
+        "genres": "['korean trap']",
+        "name": "Leebido",
+        "popularity": 10,
+        "spotify_id": "3h0t67IoFBtIdIlu1olytq"
+    },
+    {
+        "birthday": "1991-12-09",
+        "genres": "['korean trap']",
+        "name": "Flavordash",
+        "popularity": 17,
+        "spotify_id": "0Kgi74qpkjvPaP3XoY3wS2"
+    },
+    {
+        "birthday": "1990-03-26",
+        "genres": "[]",
+        "name": "GOLDBUUDA",
+        "popularity": 32,
+        "spotify_id": "1C6mRx44pGqKBwZKotODDV"
+    },
+    {
+        "birthday": "1997-12-24",
+        "genres": "[]",
+        "name": "msftz",
+        "popularity": 37,
+        "spotify_id": "2v9xvjxXMMndxvLJ86Ice4"
+    },
+    {
+        "birthday": "1999-03-05",
+        "genres": "['korean trap']",
+        "name": "Yenjamin",
+        "popularity": 26,
+        "spotify_id": "6j0FljNxbnbwWqkboBHZH2"
+    },
+    {
+        "birthday": "1992-07-18",
+        "genres": "[]",
+        "name": "Dbo",
+        "popularity": 37,
+        "spotify_id": "7pMFAOPNBL5beBLW4Pohst"
+    },
+    {
+        "birthday": "2001-01-19",
+        "genres": "[]",
+        "name": "DUT2",
+        "popularity": 30,
+        "spotify_id": "4YCMBr9I1zesFyMMyoc4pX"
+    },
+    {
+        "birthday": "1982-04-11",
+        "genres": "['k-indie', 'korean experimental']",
+        "name": "250",
+        "popularity": 22,
+        "spotify_id": "0ePKWgwmESq5970Hq1c3yE"
+    },
+    {
+        "birthday": "2003-02-06",
+        "genres": "['k-rap']",
+        "name": "Roh Yun Ha",
+        "popularity": 46,
+        "spotify_id": "4F0KZ0SXe4z5xrgX6TXAPy"
+    },
+    {
+        "birthday": "1988-04-29",
+        "genres": "['k-pop', 'korean pop']",
+        "name": "Younha",
+        "popularity": 60,
+        "spotify_id": "6GwM5CHqhWXzG3l5kzRSAS"
+    },
+    {
+        "birthday": "1993-05-16",
+        "genres": "['k-pop']",
+        "name": "IU",
+        "popularity": 72,
+        "spotify_id": "3HqSLMAZ3g3d5poNaI7GOU"
+    },
+    {
+        "birthday": "null",
+        "genres": "[]",
+        "name": "IU&Kim Yuna",
+        "popularity": 11,
+        "spotify_id": "2u8OscJGEkF8CyyY3RBpXe"
+    },
+    {
+        "birthday": "1979-04-17",
+        "genres": "['k-pop', 'korean pop']",
+        "name": "Sung Si Kyung",
+        "popularity": 52,
+        "spotify_id": "7jFUYMpMUBDL4JQtMZ5ilc"
+    },
+    {
+        "birthday": "null",
+        "genres": "[]",
+        "name": "아이유브이",
+        "popularity": 0,
+        "spotify_id": "2bW3wRN2v8xGwnQnBWx9m4"
+    },
+    {
+        "birthday": "1989-03-09",
+        "genres": "['k-pop', 'pop']",
+        "name": "TAEYEON",
+        "popularity": 68,
+        "spotify_id": "3qNVuliS40BLgXGxhdBdqu"
+    },
+    {
+        "birthday": null,
+        "genres": "['k-indie', 'korean r&b']",
+        "name": "OuiOui",
+        "popularity": 43,
+        "spotify_id": "11BHuhJ2jEMPNJ3WpwZVT8"
+    },
+    {
+        "birthday": "null",
+        "genres": "[]",
+        "name": "Sung Si KyungI.U",
+        "popularity": 0,
+        "spotify_id": "5VxRb9n9oNi4reIgtoES9T"
+    },
+    {
+        "birthday": "null",
+        "genres": "['k-pop']",
+        "name": "BOL4",
+        "popularity": 64,
+        "spotify_id": "4k5fFEYgkWYrYvtOK3zVBl"
+    },
+    {
+        "birthday": "null",
+        "genres": "['k-pop', 'korean pop']",
+        "name": "AKMU",
+        "popularity": 59,
+        "spotify_id": "6OwKE9Ez6ALxpTaKcT5ayv"
+    },
+    {
+        "birthday": "1997-06-26",
+        "genres": "['k-pop', 'korean pop']",
+        "name": "Yerin Baek",
+        "popularity": 59,
+        "spotify_id": "6dhfy4ByARPJdPtMyrUYJK"
+    },
+    {
+        "birthday": "1976-03-25",
+        "genres": "['k-pop', 'korean pop']",
+        "name": "Baek Ji Young",
+        "popularity": 48,
+        "spotify_id": "3l0MJ9LCiBlMyOMaz485Q5"
+    },
+    {
+        "birthday": null,
+        "genres": "['k-indie']",
+        "name": "The Volunteers",
+        "popularity": 36,
+        "spotify_id": "2jLHrOkh1M5rLJgnrgfQf1"
+    },
+    {
+        "birthday": "1992-05-06",
+        "genres": "['k-pop']",
+        "name": "BAEKHYUN",
+        "popularity": 64,
+        "spotify_id": "4ufh0WuMZh6y4Dmdnklvdl"
+    },
+    {
+        "birthday": "1982-12-05",
+        "genres": "['k-indie', 'k-rock', 'korean dream pop', 'korean indie rock']",
+        "name": "The Black Skirts",
+        "popularity": 58,
+        "spotify_id": "6WeDO4GynFmK4OxwkBzMW8"
+    },
+    {
+        "birthday": "1993-03-11",
+        "genres": "['k-pop', 'korean pop']",
+        "name": "Baek A Yeon",
+        "popularity": 45,
+        "spotify_id": "5UKoKVlU7EDN4UgDuVRAbX"
+    },
+    {
+        "birthday": null,
+        "genres": "['k-indie']",
+        "name": "Ku One Chan",
+        "popularity": 35,
+        "spotify_id": "6ClAFFqc8VEOKSGTrvy8V5"
+    },
+    {
+        "birthday": "1993-02-19",
+        "genres": "['k-pop', 'korean pop']",
+        "name": "Punch",
+        "popularity": 64,
+        "spotify_id": "2FgZrgTMX6Sk0VNcOsEPmm"
     }
 ]

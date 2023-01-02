@@ -4,8 +4,9 @@ import database
 import json
 
 k_genre = ["k-rap", "korean r&b", "korean trap", "k-pop", "k-indie", "korean pop", "korean underground rap",
-           "korean hyperpop"]
+           "korean hyperpop", 'korean electronic']
 
+other_genre = ['japanese trap']
 
 # 참조
 # https://developer.spotify.com/documentation/web-api/reference/#/operations/search
@@ -33,6 +34,10 @@ def search_and_insert(q: str, offset: int, limit: int):
         # 국내래퍼는 kboard 테이블로
         for k in range(len(k_genre)):
             if k_genre[k] in artists["artists"]["items"][i]["genres"]:
+                k_bool = True
+            if artists["artists"]["items"][i]["genres"]:
+                pass
+            else:
                 k_bool = True
 
         if k_bool:
@@ -67,4 +72,4 @@ def search_and_insert(q: str, offset: int, limit: int):
 
 
 if __name__ == '__main__':
-    search_and_insert("아웃사이더", 0, 1)
+    search_and_insert("genre:pop", 210, 10)

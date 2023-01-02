@@ -74,7 +74,7 @@ spotify_id,name,birthday,popularity,genres
 3S79khDmqHqH3SudDjO6dV,NO:EL,2000-05-30,41,['k-rap']
 4CYjITN8Au3K5CWFeex7fU,Tabber,1994-12-10,42,['korean underground rap']
 3Rxm9TaXZGuQRw2B91Ap22,BOYCOLD,1995-06-21,41,['k-rap']
-3P16F9giedxmc5238b66bo,Babylon,,41,"['j-metal', 'k-rap', 'korean r&b']"
+3P16F9giedxmc5238b66bo,Babylon,1988-10-25,41,"['j-metal', 'k-rap', 'korean r&b']"
 4bjcB3ZKiHgPzJvY2S2FLN,Jvcki Wai,1996-07-05,41,"['k-rap', 'korean r&b']"
 6F5tPDq3TIduDv2ki6O1Oq,Swings,1986-10-14,41,['k-rap']
 75OcDAFGCzj0qehe1mADeM,Way Ched,1997-05-20,40,"['k-rap', 'korean r&b']"
@@ -86,11 +86,11 @@ spotify_id,name,birthday,popularity,genres
 0YE7929Kw8hXmap9LKxUiC,Swervy,2001-12-25,42,"['k-rap', 'korean underground rap']"
 31VffPWiL2AAwNIMODB9qZ,Kim Seungmin,2000-09-22,42,"['k-rap', 'korean pop', 'korean r&b', 'korean trap']"
 6v5cGuRCZKq08nLI4WXJuB,Nucksal,1987-03-24,41,['k-rap']
-3EuteIwWAP4mLq0kvLML99,Yankie,,42,['k-rap']
+3EuteIwWAP4mLq0kvLML99,Yankie,1981-07-22,42,['k-rap']
 2UaheMCNCnN1CrrnZnmh3j,D.Ark,2004-07-15,39,"['k-rap', 'korean trap']"
 4T6xiCykTP9rCNaEPU7D4q,VINXEN,2000-04-20,39,"['k-rap', 'korean r&b']"
 2TTGZUWJg6LIOWsmCEgKCZ,Layone,2001-11-13,40,['k-rap']
-0J372uvAXbRjLFSoAVE2lp,PATEKO,,40,"['k-rap', 'korean pop', 'korean underground rap']"
+0J372uvAXbRjLFSoAVE2lp,PATEKO,1994-03-28,40,"['k-rap', 'korean pop', 'korean underground rap']"
 0yHrFzi7dWriMWhB5XA99P,Han Yo Han,1991-12-03,41,"['k-rap', 'korean pop']"
 0seDu6vvqbUnPUk6s6a616,SINCE,1992-12-28,39,['k-rap']
 4ph6JucAkc6pnPPad0uiJT,Ted Park,1994-12-04,36,"['k-rap', 'korean r&b']"
@@ -99,7 +99,7 @@ spotify_id,name,birthday,popularity,genres
 61MMiylth1injW39oZBuYB,San E,1985-01-23,40,"['k-pop', 'k-rap', 'korean pop']"
 7C0lSOS41UnTbnF7bMSEWN,WOOGIE,1989-09-01,37,"['k-rap', 'korean r&b']"
 4N2CbwZ7ekytt9Oi5dh4Vq,Flowsik,1985-04-05,37,['k-rap']
-3e3oLJehq4vQl2H0FAJnvn,GD&TOP,1988-08-18,40,"['k-pop', 'k-rap']"
+3e3oLJehq4vQl2H0FAJnvn,GD&TOP,null,40,"['k-pop', 'k-rap']"
 11S00dFcvNvJahis8MTGMD,Tiger JK,1974-07-29,42,['k-rap']
 6gEWl778wJTkq4Uk5eBvgD,MC MONG,1979-09-04,39,"['k-rap', 'korean pop']"
 3YRGcoHMIvWleQfa0qa1D1,Ourealgoat,1996-06-09,37,"['k-rap', 'korean underground rap']"
@@ -162,3 +162,105 @@ spotify_id,name,birthday,popularity,genres
 40VHZeuDf846LWMOWS8tzp,KWON KI BAEK,2006-05-09,11,['korean underground rap']
 6iBjPtCEGarFwpdJUc39P9,ksmartboi,2004-06-20,10,['korean hyperpop']
 1i4Y4WlFFetQV14Z8UDdvr,Outsider,1983-03-21,33,"['k-pop', 'k-rap', 'korean old school hip hop']"
+2tB3jPHyyfcxvvor2flc1Q,Kim Ximya,1995-07-21,29,['k-rap']
+3eCd0TZrBPm2n9cDG6yWfF,DEAN,1992-11-10,63,"['k-pop', 'korean r&b']"
+6jV25rzTKQ2zMgrqHha1V5,CHANYEOL,1992-11-27,60,['k-pop']
+0siBQaURCli5wn2lqv8WZg,DPR LIVE,1993-01-01,66,"['k-pop', 'korean r&b']"
+6aLdhHUqgdKE86xbtNmY8g,Crush,1992-05-03,68,"['k-pop', 'korean r&b']"
+5PS3ZZE5bBiZ3Ct9HiRG2B,DeVita,1998-04-20,61,['korean r&b']
+6UbmqUEgjLA6jAcXwbM1Z9,BIBI,1998-09-27,72,"['k-pop', 'korean r&b']"
+67IWlRdLy3UcfY3q968euj,GEMINI,,59,['korean r&b']
+2YkhzcYyxJvtl5W6pY0PuF,CAMO,1998-04-29,52,['korean r&b']
+1vct46rBqLNRbE9wCibXUH,Jooyoung,1991-03-09,48,['korean r&b']
+0dTj3SqwE8kPnCzyzvYzhT,offonoff,null,50,['korean r&b']
+3VQDqjQ4wJyw8PzpGdlZpB,Colde,1994-05-10,60,"['chill r&b', 'korean r&b']"
+4UzNlDOUkNSs0Alm2VdKhu,Rheehab,,33,['korean r&b']
+6FK6uP46ntwU9gaQQxTlDV,jeebanoff,1993-02-20,46,"['chill r&b', 'k-indie', 'korean r&b']"
+08yoNApAYvtzOK5P3qZKw8,Spray,,30,['korean underground rap']
+1SHIOlNm9pVZ7EzO9322AM,Skyminhyuk,1998-12-05,28,['korean underground rap']
+2jKQ4jDx4IYeDyTHGz1tkk,DAKSHOOD,,11,['korean underground rap']
+0FyGoy4Ek4dQGoMM65eZ0z,Cloudybay,,27,['korean underground rap']
+3A1b2Lg9tPuQyR7ab1xgp8,Untell,2001-01-13,29,['k-rap']
+2RLCgVKRIUWY5Dz5azW6Tk,Rakon,,26,['korean underground rap']
+1Azg0okIA7BY6CMwRBLmud,Hwaji,1988-10-30,27,"['k-rap', 'korean underground rap']"
+1YdXlK5f1tOeFoNAqiyKbV,furyfromguxxi,,19,['korean underground rap']
+3gg70JN79TXhAqklizHOva,lobonabeat!,1991-11-11,35,"['k-rap', 'korean underground rap']"
+6a8KtGpAv3NHL713mcH08a,yankie,,31,"['korean old school hip hop', 'korean underground rap']"
+1vS1ZN2wrTyVdWHDgoZLVE,Yuzion,2002-05-18,33,['korean trap']
+1xOiGoYkm1zgqwXLsvQA90,oygli,,21,['korean underground rap']
+0UswO8FFKS2tv6dzyNyJLD,Slom,1993-12-17,45,['k-rap']
+6mquRNZm8DYTOCbYoRh7A1,BLNK,1989-06-01,15,['korean underground rap']
+0WIKW2eVuPbK5vQ0AIDtMQ,J'Kyun,1985-01-11,38,"['k-rap', 'korean underground rap']"
+3X9mQSyCBKAV74OUSf7zLt,kitsyojii,1990-05-25,21,['korean underground rap']
+7u2Nz7Bj2vbCps9AH5q6do,Munchman,1995-07-03,35,['korean trap']
+2rNnRYi5Hq8Z47auJ9DtDS,Jayho,1989-11-28,17,['korean underground rap']
+59YukrTVTiGNpuhyw3v4dB,Eluphant,,18,['k-rap']
+4GqXWudNdgIhuDnYHFnQez,Jhnovr,1993-06-21,39,['korean trap']
+7j1lNIjZY1E1drWIgJloMs,Bassagong,1986-09-01,30,"['k-rap', 'korean indie rock']"
+1mKRJeL6KrSlwLG8gvwSQP,BAECHIGI,null,29,"['k-rap', 'k-rock', 'korean old school hip hop']"
+6vhLgVqFLRdTEilwzSs98z,PULLIK,1999-04-21,21,['korean trap']
+5r1cOycfowIRNcVOfRn0AR,HAIFHAIF,0000-06-23,25,['korean underground rap']
+7joplsKhMptIcpQ2LKYAlI,탐쓴(TOMSSON),,2,['korean underground rap']
+1Tf52Yc65Ghgb3DDBRBL1K,RAUDI,,18,"['korean trap', 'korean underground rap']"
+4whHCEnN1w4cexp2J7h4OC,Fleeky Bang,2002-10-21,42,['k-rap']
+1Ri5P0CfdNxdIkHX6es8Xd,Polodared,2004-11-15,43,"['k-rap', 'korean trap']"
+6f9bmfkqiYbhCtdAZsv7KI,Keith Ape,1993-12-25,51,"['dark trap', 'korean trap', 'underground hip hop']"
+3jEfM7ePpwC5KcJHMseRqA,Mckdaddy,1990-09-04,46,"['k-rap', 'korean trap']"
+3gLT2QQuhzr9G0MbH9BjVX,曹承衍 & Flowsik,null,8,[]
+6r0hPI0NVDMIwJimnNps8c,MOBB,,31,[]
+72RrIlkfpO0LWZ7IC9XFxV,Villain,,37,['korean r&b']
+5M6uaTVVZuyAkdr60oWKrJ,viceversa,1999-10-31,27,"['k-rap', 'korean trap', 'korean underground rap']"
+74r4YBm6qWOBKKF6MhVXVq,Bryn,1998-02-26,28,"['k-rap', 'korean trap']"
+7nq2NwlzVsllu1h5qHPxIy,YUNHWAY,1995-04-06,42,['korean trap']
+4Dg0FW3kt3GShHgwPbY1bj,Kash Bang,,24,['korean trap']
+5qp3vJC5OdDo1Zsrsl3sIR,Sleepy,1999-12-20,24,['k-rap']
+3vuWK4IKHt6AJnELinRiAE,PLT,,33,"['k-pop boy group', 'korean r&b']"
+46gc3yx3R3HyZtpwV9s82V,TAKUWA,1995-08-11,20,['korean trap']
+0c6EF9zv5mQX7pkyrPawKS,MBA,null,24,"['k-rap', 'korean trap']"
+523GImBnBoIvcq0n8BZIv4,Lil Cherry,1995-12-07,37,['korean trap']
+6I5eyZiVUpuPwE8mTXp7hC,Royal 44,2005-04-19,35,['korean trap']
+0Jy4xANFq1oRDNUrwQcsnA,Bla$e Kid,,16,['korean trap']
+4ZIFmwiUQnjWS2qtEbcH2V,PLUMA,2002-09-25,27,['korean trap']
+6X4GGufs8OhbUC1fy1xuUn,Wutan,1989-02-10,24,['korean trap']
+6i47wcSLvsZ9M01UO7zsua,Geegooin,1986-11-10,38,['korean trap']
+4Q8X2Au5XW0dex9cJ4r7cf,PIRI,,32,[]
+3fXOlqV4AdU7A1VCDrXeoY,SC4F,,20,['korean trap']
+5AtReuDx8bB9pmlpqZe0tT,niahn,,24,['korean trap']
+1lcuNfp7bo4LCAHWrjAR9K,JAMBINO,1998-08-21,44,[]
+6tjbcCaexKI8esvvEZPVnt,Jiselle,,48,['korean r&b']
+7t9GBnoezuCQxIIoMaE8KO,Nochang,1991-09-24,24,['korean trap']
+1IoxcWz8vPDGOJBQNCGEvF,Futuristic Swaver,1995-05-03,36,"['k-rap', 'korean hyperpop', 'korean trap']"
+13jYpBHek9LD68d1ZwWmu5,KHAN,1965-12-27,48,[]
+6xlIFpRmRNDoVuFUqzuMFE,NSW yoon,2004-01-10,44,['k-rap']
+6udveWUgX4vu75FF0DTrXV,TAEYANG,1988-05-18,56,['korean r&b']
+6zxWD2e5UlhmkO99LB4MP2,kaogaii,1991-02-18,26,['korean trap']
+762fgqQ2gz5w7q1VkDOmja,KOREAN,,28,"['k-rap', 'korean underground rap']"
+72b1XZ6SmDRgHEOB7ypw9z,dress,,41,['k-indie']
+6GlkZqxomTSlcJUh9WvVKQ,LIL GIMCHI,1998-12-30,30,['korean trap']
+3h0t67IoFBtIdIlu1olytq,Leebido,1992-06-21,10,['korean trap']
+0Kgi74qpkjvPaP3XoY3wS2,Flavordash,1991-12-09,17,['korean trap']
+1C6mRx44pGqKBwZKotODDV,GOLDBUUDA,1990-03-26,32,[]
+2v9xvjxXMMndxvLJ86Ice4,msftz,1997-12-24,37,[]
+6j0FljNxbnbwWqkboBHZH2,Yenjamin,1999-03-05,26,['korean trap']
+7pMFAOPNBL5beBLW4Pohst,Dbo,1992-07-18,37,[]
+4YCMBr9I1zesFyMMyoc4pX,DUT2,2001-01-19,30,[]
+0ePKWgwmESq5970Hq1c3yE,250,1982-04-11,22,"['k-indie', 'korean experimental']"
+4F0KZ0SXe4z5xrgX6TXAPy,Roh Yun Ha,2003-02-06,46,['k-rap']
+6GwM5CHqhWXzG3l5kzRSAS,Younha,1988-04-29,60,"['k-pop', 'korean pop']"
+3HqSLMAZ3g3d5poNaI7GOU,IU,1993-05-16,72,['k-pop']
+2u8OscJGEkF8CyyY3RBpXe,IU&Kim Yuna,null,11,[]
+7jFUYMpMUBDL4JQtMZ5ilc,Sung Si Kyung,1979-04-17,52,"['k-pop', 'korean pop']"
+2bW3wRN2v8xGwnQnBWx9m4,아이유브이,null,0,[]
+3qNVuliS40BLgXGxhdBdqu,TAEYEON,1989-03-09,68,"['k-pop', 'pop']"
+11BHuhJ2jEMPNJ3WpwZVT8,OuiOui,,43,"['k-indie', 'korean r&b']"
+5VxRb9n9oNi4reIgtoES9T,Sung Si KyungI.U,null,0,[]
+4k5fFEYgkWYrYvtOK3zVBl,BOL4,null,64,['k-pop']
+6OwKE9Ez6ALxpTaKcT5ayv,AKMU,null,59,"['k-pop', 'korean pop']"
+6dhfy4ByARPJdPtMyrUYJK,Yerin Baek,1997-06-26,59,"['k-pop', 'korean pop']"
+3l0MJ9LCiBlMyOMaz485Q5,Baek Ji Young,1976-03-25,48,"['k-pop', 'korean pop']"
+2jLHrOkh1M5rLJgnrgfQf1,The Volunteers,,36,['k-indie']
+4ufh0WuMZh6y4Dmdnklvdl,BAEKHYUN,1992-05-06,64,['k-pop']
+6WeDO4GynFmK4OxwkBzMW8,The Black Skirts,1982-12-05,58,"['k-indie', 'k-rock', 'korean dream pop', 'korean indie rock']"
+5UKoKVlU7EDN4UgDuVRAbX,Baek A Yeon,1993-03-11,45,"['k-pop', 'korean pop']"
+6ClAFFqc8VEOKSGTrvy8V5,Ku One Chan,,35,['k-indie']
+2FgZrgTMX6Sk0VNcOsEPmm,Punch,1993-02-19,64,"['k-pop', 'korean pop']"

@@ -1071,7 +1071,7 @@
         "spotify_id": "28ExwzUQsvgJooOI0X1mr3"
     },
     {
-        "birthday": null,
+        "birthday": "1997-09-19",
         "genres": "['aesthetic rap', 'phonk']",
         "name": "Freddie Dredd",
         "popularity": 71,
@@ -1176,7 +1176,7 @@
         "spotify_id": "1wxPItEzr7U7rGSMPqZ25r"
     },
     {
-        "birthday": null,
+        "birthday": "1998-05-29",
         "genres": "['plugg', 'pluggnb', 'viral rap']",
         "name": "Cochise",
         "popularity": 69,
@@ -1260,7 +1260,7 @@
         "spotify_id": "6bmlMHgSheBauioMgKv2tn"
     },
     {
-        "birthday": null,
+        "birthday": "1986-02-27",
         "genres": "['memphis hip hop', 'rap', 'southern hip hop', 'trap']",
         "name": "Money Man",
         "popularity": 67,
@@ -1372,7 +1372,7 @@
         "spotify_id": "1pPmIToKXyGdsCF6LmqLmI"
     },
     {
-        "birthday": null,
+        "birthday": "1998-01-17",
         "genres": "['viral rap']",
         "name": "SleazyWorld Go",
         "popularity": 65,
@@ -1386,7 +1386,7 @@
         "spotify_id": "6DvlemMOlMH6VD9tB7BPRf"
     },
     {
-        "birthday": null,
+        "birthday": "1992-11-11",
         "genres": "['alternative metal', 'alternative rock', 'conscious hip hop', 'funk metal', 'nu metal', 'political hip hop', 'rap metal', 'rap rock', 'rock']",
         "name": "Rage Against The Machine",
         "popularity": 71,
@@ -1449,7 +1449,7 @@
         "spotify_id": "3Gm5F95VdRxW3mqCn8RPBJ"
     },
     {
-        "birthday": null,
+        "birthday": "2004-04-06",
         "genres": "['aesthetic rap']",
         "name": "1nonly",
         "popularity": 70,
@@ -1526,7 +1526,7 @@
         "spotify_id": "6X8WdFjrNhXATMDSs26aCc"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['boy band', 'hip hop', 'rap']",
         "name": "BROCKHAMPTON",
         "popularity": 68,
@@ -1540,7 +1540,7 @@
         "spotify_id": "2y246nnP9pQT0E6v3ZMMOO"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['alternative rock', 'east coast hip hop', 'golden age hip hop', 'hip hop', 'old school hip hop', 'rap', 'rap rock']",
         "name": "Beastie Boys",
         "popularity": 67,
@@ -1596,7 +1596,7 @@
         "spotify_id": "1ybINI1qPiFbwDXamRtwxD"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap', 'viral rap']",
         "name": "Quality Control",
         "popularity": 64,
@@ -1680,7 +1680,7 @@
         "spotify_id": "0p4ViyfJUTW0IT4SCBLexf"
     },
     {
-        "birthday": null,
+        "birthday": "1995-04-19",
         "genres": "['pop rap', 'rhode island rap', 'viral rap']",
         "name": "Arizona Zervas",
         "popularity": 66,
@@ -1764,7 +1764,7 @@
         "spotify_id": "6FD0unjzGQhX3b6eMccMJe"
     },
     {
-        "birthday": null,
+        "birthday": "1977-12-25",
         "genres": "['hip hop', 'rap']",
         "name": "Aaron May",
         "popularity": 64,
@@ -1918,7 +1918,7 @@
         "spotify_id": "7Hjbimq43OgxaBRpFXic4x"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap']",
         "name": "Wu-Tang Clan",
         "popularity": 66,
@@ -1939,7 +1939,7 @@
         "spotify_id": "44vREmJC0OlVZjZaGLqVEd"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['crunk', 'dirty south rap', 'gangster rap', 'hip hop', 'memphis hip hop', 'pop rap', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap']",
         "name": "Three 6 Mafia",
         "popularity": 62,
@@ -2884,7 +2884,7 @@
         "spotify_id": "4Q6nIcaBED8qUel8bBx6Cr"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['conscious hip hop', 'gangster rap', 'golden age hip hop', 'hardcore hip hop', 'hip hop', 'old school hip hop', 'rap', 'west coast rap']",
         "name": "N.W.A.",
         "popularity": 64,
@@ -3199,7 +3199,7 @@
         "spotify_id": "59HbaJ5E8ud7FNLGqUN1KH"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap']",
         "name": "Mobb Deep",
         "popularity": 65,
@@ -3283,7 +3283,7 @@
         "spotify_id": "0dT2U2jUx6OmKlyeQOH8AK"
     },
     {
-        "birthday": null,
+        "birthday": "null",
         "genres": "['hip hop', 'rap']",
         "name": "KIDS SEE GHOSTS",
         "popularity": 60,
@@ -4079,5 +4079,26 @@
         "name": "Lorde",
         "popularity": 75,
         "spotify_id": "163tK9Wjr9P9DmM0AVK7lm"
+    },
+    {
+        "birthday": "1915-12-12",
+        "genres": "['adult standards', 'easy listening', 'lounge']",
+        "name": "Frank Sinatra",
+        "popularity": 86,
+        "spotify_id": "1Mxqyy3pSjf8kZZL4QVxS0"
+    },
+    {
+        "birthday": "1940-12-21",
+        "genres": "['album rock', 'art rock', 'experimental', 'instrumental rock', 'jazz fusion', 'jazz rock', 'progressive rock', 'psychedelic rock', 'rock', 'symphonic rock', 'zolo']",
+        "name": "Frank Zappa",
+        "popularity": 59,
+        "spotify_id": "6ra4GIOgCZQZMOaUECftGN"
+    },
+    {
+        "birthday": null,
+        "genres": "['frenchcore', 'tekk', 'uptempo hardcore']",
+        "name": "Dr. Peacock",
+        "popularity": 62,
+        "spotify_id": "4RbUYWWjEBb4umwqakOEd3"
     }
 ]

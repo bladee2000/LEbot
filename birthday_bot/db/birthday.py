@@ -94,5 +94,5 @@ def update_database(board, limit=0):
 
 
 if __name__ == '__main__':
-    update_database("kboard",50)
+    update_database("kboard", 10)
 
