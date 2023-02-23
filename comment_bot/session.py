@@ -70,14 +70,16 @@ class create_post_session:
                 self.login()
 
             if postlogin.status_code == 200:
-                gettokenhtml = postlogin.text
-                csrf_token = gettokenhtml[297:313]
+                login_html = BeautifulSoup(postlogin.text, 'html.parser')
+                csrf_token = login_html.select_one('meta[name="csrf-token"]')['content']
+                print(csrf_token)
 
-                assert csrf_token[0] != '"', "잘못된 아이디 혹은 비밀번호입니다..."
+                assert csrf_token != '', "잘못된 아이디 혹은 비밀번호입니다..."
 
                 # 닉네임 추출
                 bs_nickname = BeautifulSoup(postlogin.text, 'html.parser')
-                nick = bs_nickname.select_one("#profile > h2").get_text()
+                nick = bs_nickname.select_one("#nc_container > ul > li.nc_profile.fLeft > strong").get_text()
+                print(nick)
                 self.my_nickname = nick
                 self.csrf_token = csrf_token
 
